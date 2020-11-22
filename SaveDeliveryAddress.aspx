@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="SaveDeliveryAddress.aspx.vb" Inherits="SaveDeliveryAddress" %>
+﻿<%@ page language="VB" autoeventwireup="false" inherits="SaveDeliveryAddress, App_Web_izrmdfet" %>
 
 <!DOCTYPE html>
 
@@ -140,7 +140,7 @@
                  </tr>
             <tr>
                    <td>
-                       <asp:Label runat="server" ID="lblcount" Text="Country:"></asp:Label>
+                       <asp:Label runat="server" ID="lblcount" Text="Country*:"></asp:Label>
                    </td>
                      <td>
                   
@@ -156,7 +156,7 @@
                  </tr>
             <tr>
                   <td>
-                    <asp:label runat="server" ID="Label2" Text="Pincode" ></asp:label>
+                    <asp:label runat="server" ID="Label2" Text="Pincode*:" ></asp:label>
                 </td>
                 <td>
                     <asp:Textbox runat="server" ID="txtpin"></asp:Textbox>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Login.aspx.vb" Inherits="Login" %>
+﻿<%@ page language="VB" autoeventwireup="false" inherits="Login, App_Web_izrmdfet" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -206,7 +206,7 @@
         <center>
             <div class="row" id="registration" style="margin-left:35px; margin-top:50px;width:80%;background-color:darkgrey;border-radius:25px;display:none;">
                
-            <h3>Registration</h3>
+            <h1>Registration</h1>
         <table class="tableContent">            
             <tr>
                 <td>

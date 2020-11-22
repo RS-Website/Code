@@ -40,7 +40,7 @@
                                 <ul class="nav nav-tabs">
                                     <li role="presentation" class="active" style="cursor: pointer"><a targetDiv="HomePage">Home Page</a></li>
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="Importantdates">Calendar</a></li>
-<!--                                    <li role="presentation" style="cursor: pointer"><a targetDiv="BiCent"><u style="color: #922B21;">Bi-Centenary</u></a></li>-->
+                                    <li role="presentation" style="cursor: pointer"><a targetDiv="BiCent"><u style="color: #922B21;">Bi-Centenary</u></a></li>
 <!--                                    <li role="presentation" style="cursor: pointer"><a targetDiv="conduct">Guidelines</a></li>-->
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="SantSatGuru">Sant Sat Guru</a></li>
                                     <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#media" role="button" aria-haspopup="true" aria-expanded="false">Library&nbsp;&nbsp;<span class="caret"></span></a>
@@ -231,8 +231,8 @@
                                             <div class="col-md-12  " style="text-align: justify;">
                                                 <h3>FESTIVALS & SATSANGS</h3>
                                                 You can find the dates of the festivals of Radhasoami Faith, daily Satsang timings and the link to listen to the live Satsang.
-                                                <h4>IMPORTANT DATES - 2020</h4>
-                                                    Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2020.
+                                                <h4>IMPORTANT DATES - 2018</h4>
+                                                    Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2018.
                                                     <div class="row" >
                                                         <div class="col-md-12" style="text-align: justify;">
                                                             <br/>
@@ -243,53 +243,121 @@
                                                                     <th style="width: 200px">FESTIVAL</th>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>1<sup>st</sup> January 2020</td>
-                                                                    <td>Wednesday</td>
+                                                                    <td>1<sup>st</sup> January 2018</td>
+                                                                    <td>Monday</td>
                                                                     <td>New Year (Nutan Varsh)</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>30<sup>th</sup> January 2020</td>
-                                                                    <td>Thursday</td>
-                                                                    <td>Basant Panchami<br/>(Establishment of Radhasoami Satsang in 1861 on this day)</td>
+                                                                    <td>22<sup>nd</sup> January 2018</td>
+                                                                    <td>Monday</td>
+                                                                    <td>Basant Panchami</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>10<sup>th</sup> March 2020</td>
-                                                                    <td>Tuesday</td>
+                                                                    <td>2<sup>nd</sup> March 2018</td>
+                                                                    <td>Friday</td>
                                                                     <td>Holi Satsang</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>7<sup>th</sup> May 2020</td>
-                                                                    <td>Thursday</td>
+                                                                    <td>30<sup>th</sup> April 2018</td>
+                                                                    <td>Monday</td>
                                                                     <td>Bhandara Buaji Maharaj</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>6<sup>th</sup> June 2020</td>
-                                                                    <td>Saturday</td>
+                                                                    <td>29<sup>th</sup> June 2018</td>
+                                                                    <td>Friday</td>
                                                                     <td>Asadh Badi Padiwa<br/>(Day of departure of Soamiji Maharaj)</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>5<sup>th</sup> July 2020</td>
-                                                                    <td>Sunday</td>
+                                                                    <td>22<sup>nd</sup> July 2018</td>
+                                                                    <td>Friday</td>
                                                                     <td>Guru Poornima</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>11<sup>th</sup> August 2020</td>
-                                                                    <td>Tuesday</td>
+                                                                    <td>3<sup>rd</sup> September 2018</td>
+                                                                    <td>Monday</td>
                                                                     <td>Bhandara Soamiji Maharaj</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>24<sup>th</sup> October 2020</td>
-                                                                    <td>Saturday</td>
+                                                                    <td>18<sup>th</sup> October 2018</td>
+                                                                    <td>Thursday</td>
                                                                     <td>Bhandara Maharaj Saheb</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>15<sup>th</sup> November 2020</td>
-                                                                    <td>Sunday</td>
+                                                                    <td>8<sup>th</sup> November 2018</td>
+                                                                    <td>Thursday</td>
                                                                     <td>Bhandara Babuji Maharaj</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>25<sup>th</sup> December 2020</td>
+                                                                    <td>25<sup>th</sup> December 2018</td>
+                                                                    <td>Thursday</td>
+                                                                    <td>Bhandara Huzur Maharaj</td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <br/>
+                                                    </div>
+                                                
+                                                    <br />
+                                                <div >
+                                                    <h4>IMPORTANT DATES - 2019</h4>
+                                                    Given below are the dates of festivals as per Radhasoami Faith in calendar year 2019.
+                                                    <div class="row" >
+                                                        <div class="col-md-12" style="text-align: justify;">
+                                                            <br/>
+                                                            <table>
+                                                                <tr>
+                                                                    <th style="width: 150px">DATE</th>
+                                                                    <th style="width: 100px">DAY</th>
+                                                                    <th style="width: 200px">FESTIVAL</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>1<sup>st</sup> January 2019</td>
+                                                                    <td>Tuesday</td>
+                                                                    <td>New Year (Nutan Varsh)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>10<sup>th</sup> February 2019</td>
+                                                                    <td>Sunday</td>
+                                                                    <td>Basant Panchami</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>21<sup>st</sup> March 2019</td>
+                                                                    <td>Thursday</td>
+                                                                    <td>Holi Satsang</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>18<sup>th</sup> May 2019</td>
+                                                                    <td>Saturday</td>
+                                                                    <td>Bhandara Buaji Saheba</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>18<sup>th</sup> June 2019</td>
+                                                                    <td>Tuesday</td>
+                                                                    <td>Asadh Badi Padiwa<br/>(Day of departure of Soamiji Maharaj)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>16<sup>th</sup> July 2019</td>
+                                                                    <td>Tuesday</td>
+                                                                    <td>Guru Purnima</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>23<sup>rd</sup> August 2019</td>
                                                                     <td>Friday</td>
+                                                                    <td>Bhandara Soamiji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>7<sup>th</sup> October 2019</td>
+                                                                    <td>Monday</td>
+                                                                    <td>Bhandara Maharaj Saheb</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>28<sup>th</sup> October 2019</td>
+                                                                    <td>Monday</td>
+                                                                    <td>Bhandara Babuji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>25<sup>th</sup> December 2019</td>
+                                                                    <td>Wednesday</td>
                                                                     <td>Bhandara Huzur Maharaj</td>
                                                                 </tr>
                                                             </table>
@@ -345,7 +413,7 @@
                                                                     <br/>08:30 AM - 09:30 AM
                                                                 </td>
                                                                 <td>
-                                                                    On 20<sup>th</sup> and 5<sup>th</sup> of every month except Summer months
+                                                                    On 20<sup>th</sup> of every month except Summer months
                                                                     <br/>Summer months only
                                                                 </td>
                                                             </tr>
@@ -376,7 +444,7 @@
                             
 
                             <!-- Container (Bi-Centenary. This is temporary and will be deleted in September 2018) -->
-<!--                            <div id="BiCent" class="row" divType="pageContent"> -->
+<!--                            <div id="BiCent" class="row" divType="pageContent">-->
                                     <!--<div class="col-md-2  "></div>-->
 <!--                                    <div class="col-md-10 " style="height: auto;">
                                         <div class="row">
@@ -1554,7 +1622,7 @@
                                                 
                                             <asp:Panel ID="Panel5" runat="server" ScrollBars="Auto" Width="100%">
                                                 <asp:GridView  ID="GVBook" runat="server" Width="100%" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
-                                                    PageSize="10" AllowSorting="True" GridLines="None">
+                                                    PageSize="1000" AllowSorting="True" GridLines="None">
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Book Name">
                                                             <ItemTemplate>

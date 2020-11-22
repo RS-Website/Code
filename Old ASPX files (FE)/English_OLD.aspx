@@ -7,14 +7,10 @@
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link href="Content/bootstrap.min.css" rel="stylesheet" />
             <link href="Content/site.css" rel="stylesheet" />
-            <link href="Content/playliststyle.css" rel="stylesheet" />
             <script src="Scripts/jquery-3.3.1.min.js"></script>
             <script src="Scripts/bootstrap.min.js"></script>
-            <script src="Scripts/customplaylist.js"></script>
             <script src="Scripts/siteFeatures.js"></script>
-            <script src="Scripts/bootstrap-notify.min.js"></script>
             <script src="Scripts/playlist.js"></script>
-           
         </head>
 
         <body style ="overflow-x:hidden ;" >
@@ -40,7 +36,7 @@
                                 <ul class="nav nav-tabs">
                                     <li role="presentation" class="active" style="cursor: pointer"><a targetDiv="HomePage">Home Page</a></li>
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="Importantdates">Calendar</a></li>
-<!--                                    <li role="presentation" style="cursor: pointer"><a targetDiv="BiCent"><u style="color: #922B21;">Bi-Centenary</u></a></li>-->
+                                    <li role="presentation" style="cursor: pointer"><a targetDiv="BiCent"><u style="color: #922B21;">Bi-Centenary</u></a></li>
 <!--                                    <li role="presentation" style="cursor: pointer"><a targetDiv="conduct">Guidelines</a></li>-->
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="SantSatGuru">Sant Sat Guru</a></li>
                                     <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#media" role="button" aria-haspopup="true" aria-expanded="false">Library&nbsp;&nbsp;<span class="caret"></span></a>
@@ -73,7 +69,7 @@
                 </div>--%>
                         <!-- Sidebar Holder -->
             <nav id="sidebarplaylist" style ="margin-top:180px;margin-left:10px;display:none;width:400px;background-color:blue;" class="active">
-                                <div class="sidebar-header" style="display:none;">
+                                <div class="sidebar-header">
                                     <div class="row">
                                         <div class="col-xs-8">
                                             <h3">PLAYLIST</h3>
@@ -85,7 +81,7 @@
                                 </div>
 
                                 <!-- Playlist -->
-                                <div class="playlist-container" style="display:none;">
+                                <div class="playlist-container">
                                     <div class="playlist-container column add-bottom">
                                         <div id="mainwrap">
                                             <div id="nowPlay">
@@ -231,8 +227,77 @@
                                             <div class="col-md-12  " style="text-align: justify;">
                                                 <h3>FESTIVALS & SATSANGS</h3>
                                                 You can find the dates of the festivals of Radhasoami Faith, daily Satsang timings and the link to listen to the live Satsang.
-                                                <h4>IMPORTANT DATES - 2020</h4>
-                                                    Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2020.
+                                                <div >
+
+                                                        <h4>IMPORTANT DATES - 2018</h4>
+                                                        Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2018.
+                                                        <div class="row" >
+                                                            <div class="col-md-12" style="text-align: justify;">
+                                                                <br/>
+                                                                <table>
+                                                                    <tr>
+                                                                        <th style="width: 150px">DATE</th>
+                                                                        <th style="width: 100px">DAY</th>
+                                                                        <th style="width: 200px">FESTIVAL</th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>1<sup>st</sup> January 2018</td>
+                                                                        <td>Monday</td>
+                                                                        <td>New Year (Nutan Varsh)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>22<sup>nd</sup> January 2018</td>
+                                                                        <td>Monday</td>
+                                                                        <td>Basant Panchami</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>2<sup>nd</sup> March 2018</td>
+                                                                        <td>Friday</td>
+                                                                        <td>Holi Satsang</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>30<sup>th</sup> April 2018</td>
+                                                                        <td>Monday</td>
+                                                                        <td>Bhandara Buaji Maharaj</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>29<sup>th</sup> June 2018</td>
+                                                                        <td>Friday</td>
+                                                                        <td>Asadh Badi Padiwa<br/>(Day of departure of Soamiji Maharaj)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>22<sup>nd</sup> July 2018</td>
+                                                                        <td>Friday</td>
+                                                                        <td>Guru Poornima</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3<sup>rd</sup> September 2018</td>
+                                                                        <td>Monday</td>
+                                                                        <td>Bhandara Soamiji Maharaj</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>18<sup>th</sup> October 2018</td>
+                                                                        <td>Thursday</td>
+                                                                        <td>Bhandara Maharaj Saheb</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>8<sup>th</sup> November 2018</td>
+                                                                        <td>Thursday</td>
+                                                                        <td>Bhandara Babuji Maharaj</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>25<sup>th</sup> December 2018</td>
+                                                                        <td>Thursday</td>
+                                                                        <td>Bhandara Huzur Maharaj</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                            <br/>
+                                                        </div>
+
+                                                            <br />
+                                                    <h4>IMPORTANT DATES - 2019</h4>
+                                                    Given below are the dates of festivals as per Radhasoami Faith in calendar year 2019.
                                                     <div class="row" >
                                                         <div class="col-md-12" style="text-align: justify;">
                                                             <br/>
@@ -243,53 +308,53 @@
                                                                     <th style="width: 200px">FESTIVAL</th>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>1<sup>st</sup> January 2020</td>
-                                                                    <td>Wednesday</td>
+                                                                    <td>1<sup>st</sup> January 2019</td>
+                                                                    <td>Tuesday</td>
                                                                     <td>New Year (Nutan Varsh)</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>30<sup>th</sup> January 2020</td>
-                                                                    <td>Thursday</td>
-                                                                    <td>Basant Panchami<br/>(Establishment of Radhasoami Satsang in 1861 on this day)</td>
+                                                                    <td>10<sup>th</sup> February 2019</td>
+                                                                    <td>Sunday</td>
+                                                                    <td>Basant Panchami</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>10<sup>th</sup> March 2020</td>
-                                                                    <td>Tuesday</td>
+                                                                    <td>21<sup>st</sup> March 2019</td>
+                                                                    <td>Thursday</td>
                                                                     <td>Holi Satsang</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>7<sup>th</sup> May 2020</td>
-                                                                    <td>Thursday</td>
-                                                                    <td>Bhandara Buaji Maharaj</td>
+                                                                    <td>18<sup>th</sup> May 2019</td>
+                                                                    <td>Saturday</td>
+                                                                    <td>Bhandara Buaji Saheba</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>6<sup>th</sup> June 2020</td>
-                                                                    <td>Saturday</td>
+                                                                    <td>18<sup>th</sup> June 2019</td>
+                                                                    <td>Tuesday</td>
                                                                     <td>Asadh Badi Padiwa<br/>(Day of departure of Soamiji Maharaj)</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>5<sup>th</sup> July 2020</td>
-                                                                    <td>Sunday</td>
-                                                                    <td>Guru Poornima</td>
+                                                                    <td>16<sup>th</sup> July 2019</td>
+                                                                    <td>Tuesday</td>
+                                                                    <td>Guru Purnima</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>11<sup>th</sup> August 2020</td>
-                                                                    <td>Tuesday</td>
+                                                                    <td>23<sup>rd</sup> August 2019</td>
+                                                                    <td>Friday</td>
                                                                     <td>Bhandara Soamiji Maharaj</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>24<sup>th</sup> October 2020</td>
-                                                                    <td>Saturday</td>
+                                                                    <td>7<sup>th</sup> October 2019</td>
+                                                                    <td>Monday</td>
                                                                     <td>Bhandara Maharaj Saheb</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>15<sup>th</sup> November 2020</td>
-                                                                    <td>Sunday</td>
+                                                                    <td>28<sup>th</sup> October 2019</td>
+                                                                    <td>Monday</td>
                                                                     <td>Bhandara Babuji Maharaj</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>25<sup>th</sup> December 2020</td>
-                                                                    <td>Friday</td>
+                                                                    <td>25<sup>th</sup> December 2019</td>
+                                                                    <td>Wednesday</td>
                                                                     <td>Bhandara Huzur Maharaj</td>
                                                                 </tr>
                                                             </table>
@@ -345,7 +410,7 @@
                                                                     <br/>08:30 AM - 09:30 AM
                                                                 </td>
                                                                 <td>
-                                                                    On 20<sup>th</sup> and 5<sup>th</sup> of every month except Summer months
+                                                                    On 20<sup>th</sup> of every month except Summer months
                                                                     <br/>Summer months only
                                                                 </td>
                                                             </tr>
@@ -376,9 +441,9 @@
                             
 
                             <!-- Container (Bi-Centenary. This is temporary and will be deleted in September 2018) -->
-<!--                            <div id="BiCent" class="row" divType="pageContent"> -->
+                            <div id="BiCent" class="row" divType="pageContent">
                                     <!--<div class="col-md-2  "></div>-->
-<!--                                    <div class="col-md-10 " style="height: auto;">
+                                    <div class="col-md-10 " style="height: auto;">
                                         <div class="row">
                                             <div class="row" style="text-align: justify;">
                                                 <div class="col-md-12  " style="text-align: justify;">
@@ -408,7 +473,7 @@
                                         </div>
                                     </div>
                                 </div>
--->
+
                             <!-- Container (GUIDELINES) -->
 <!--                            <div id="conduct" class="row BorderDiv" divType="pageContent">
                                 <div class="col-md-12" style="text-align: justify;">
@@ -1633,7 +1698,8 @@
 -->                                                
                                                 <h4>PROSE</h4>
                                                 In the table below, you can listen to the audio rendetions (by Satsangis) of Discourses of all Sant Sat Gurus of Radhasoami
-                                                Faith. The rendetions are in Hindi language. 
+                                                Faith. The rendetions are in Hindi language. Login is required for downloading the
+                                                audio files.
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                            
                                     <br />
@@ -1698,8 +1764,8 @@
                                                                  <br />
                                                                  <a href='<%#Eval("Link")%>' style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a>
                                                                      <!-- <a onclick ="downcheck('<%#Eval("Link")%>')" style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> -->
-                                                                <button class="btn btn-success addToPlaylist" added="false" sname='<%#Eval("plHeader") %>'
-                                                                    audiourl='<%#Eval("Link")%>' onclick="addToPlaylist('<%#Eval("Link")%>'); return false;" duration='<%#Eval("Duration") %>'>Add to playlist</button>
+                                                                <div class="btn btn-success" added="false" sname='<%#Eval("plHeader") %>'
+                                                                    audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</div>
                                                             </ItemTemplate>
                                                         </asp:TemplateField>
                                                     </Columns>
@@ -1718,7 +1784,7 @@
                                             <br/>
                                                 <h4>POETRY - RADHASOAMI FAITH</h4>
                                                 In the table below, you can listen to the audio rendetions (by Satsangis) of Poetry of Sants of Radhasoami Faith. The rendetions
-                                                are in Hindi language. 
+                                                are in Hindi language. Login is required for downloading the audio files.
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <br/>
                                     <asp:UpdatePanel ID="UpdatePanel2" runat="server">
@@ -1792,7 +1858,7 @@
                                                                  <br />
                                                                  <a href='<%#Eval("Link")%>' style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> 
                                                                 <!-- <a onclick ="downcheck('<%#Eval("Link")%>')" style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> -->
-                                                                <button class="btn btn-success addToPlaylist" added="false" sname='<%#Eval("Shabd_Name_Eng") %>' onclick="addToPlaylist('<%#Eval("Link")%>'); return false;" audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</button>
+                                                                <div class="btn btn-success" added="false" sname='<%#Eval("Shabd_Name_Eng") %>' audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</div>
                                                             </ItemTemplate>
                                                         </asp:TemplateField>
                                                     </Columns>
@@ -1810,7 +1876,7 @@
                                                 <br/>
                                                 <h4>SANT BANI</h4>
                                                 In the table below, you can listen to the audio rendetions (by Satsangis) of Poetry of Sants of other Faith. The rendetions
-                                                are in Hindi language. 
+                                                are in Hindi language. Login is required for downloading the audio files.
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <br/>
                                     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
@@ -1869,7 +1935,7 @@
                                                                 <br />
                                                                 <a href='<%#Eval("Link")%>' style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a>
                                                                 <!-- <a onclick ="downcheck('<%#Eval("Link")%>')" style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> -->
-                                                                <button class="btn btn-success addToPlaylist" id ="btnlist"  added="false" sname='<%#Eval("ShabdName_English") %>'  onclick="addToPlaylist('<%#Eval("Link")%>'); return false;" audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</button>
+                                                                <div class="btn btn-success" id ="btnlist"  added="false" sname='<%#Eval("ShabdName_English") %>' audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</div>
                                                             </ItemTemplate>
                                                         </asp:TemplateField>
                                                     </Columns>
@@ -2192,7 +2258,7 @@
                                         <br/>
                                         <h4>HOLY SAMADH, SOAMIJI MAHARAJ
                                             <span>
-                                                <a target="_blank " href="https://goo.gl/maps/fwi3yorCFAM2" id="map1" >
+                                                <a target="_blank " href="https://www.google.co.in/maps/place/Soamibagh,+Dayal+Bagh,+Agra,+Uttar+Pradesh+282005/@27.2211484,78.0054925,16z/data=!4m5!3m4!1s0x397479fd2d86d455:0x6aa0c1ed56929d09!8m2!3d27.2204956!4d78.0074086?hl=en" id="map1" >
                                                 <img src="../images/location.jpg " style="outline:none; " height="25 " width="25 " alt="bottle " class="thumbnails " />
                                                 </a>
                                             </span>
@@ -2293,7 +2359,7 @@
                                     <div class="col-md-10 " id="Bagh " style="text-align: justify;outline:none " tabindex="1">
                                         <h4>RADHA BAGH, AGRA
                                             <span>
-                                                <a target="_blank" href="https://goo.gl/maps/Ci8zGY52xKD2"
+                                                <a target="_blank" href="https://www.google.co.in/maps/place/Pipal+Mandi,+Mantola,+Agra,+Uttar+Pradesh/@27.1863205,78.0191912,16z/data=!3m1!4b1!4m5!3m4!1s0x397470d2a848a697:0xfbb463a76343c271!8m2!3d27.1856562!4d78.0231062?hl=en"
                                                     id="map4">
                                                     <img src="../images/location.jpg" style="outline:none;" height="25" width="25" alt="bottle" class="thumbnails" />
                                                 </a>
@@ -2326,7 +2392,7 @@
                                     <div class="col-md-10 " id="Gali" style="text-align: justify;outline:none" tabindex="1">
                                         <h4>GURUDWARA, PANNI GALI, AGRA</h4>
                                             <span>
-                                                <a target="_blank " href="https://goo.gl/maps/ofJNGwZKVpJ2" id="map5 "  >
+                                                <a target="_blank " href="https://www.google.co.in/maps/place/Pipal+Mandi,+Mantola,+Agra,+Uttar+Pradesh/@27.1863205,78.0191912,16z/data=!3m1!4b1!4m5!3m4!1s0x397470d2a848a697:0xfbb463a76343c271!8m2!3d27.1856562!4d78.0231062?hl=en" id="map5 "  >
                                                     <img src="../images/location.jpg " style="outline:none; " height="25 " width="25 " alt="bottle " class="thumbnails " />
                                                 </a>
                                             </span>
@@ -2366,7 +2432,7 @@
                                     <div class="col-md-10 " id="Agra " style="text-align: justify;outline:none " tabindex="1">
                                         <h4>PIPAL MANDI, AGRA
                                             <span>
-                                                <a target="_blank" href="https://goo.gl/maps/LDnityCEEvA2"
+                                                <a target="_blank" href="https://www.google.co.in/maps/place/Dayal+Bagh,+Agra,+Uttar+Pradesh/@27.2312344,77.9850598,14z/data=!3m1!4b1!4m5!3m4!1s0x397479fd9e5fa36f:0x14ea925ce11fcc36!8m2!3d27.2293254!4d78.0026245?hl=en"
                                                     id="map6">
                                                     <img src="../images/location.jpg" style="outline:none;" height="25" width="25" alt="bottle" class="thumbnails" />
                                                 </a>
@@ -2677,49 +2743,6 @@
                                     </div>  
                                </div>                     
                           
-                              
-                               <nav class="navbar fixed-bottom navbar-light bg-info" id="divMediaPlayer" style="display:none;">
-                                <div>
-                                    <label class="lead bg-primary" style="width:100%;padding:10px;margin-left:-10px;margin-right:-10px;">Playlist</label>
-                                    <span id="mediaPlayerSpan"></span>
-                                    <br />
-                                    <audio controls id="audioMediaPlayer">
-                                    </audio>
-                                    <br />
-                                
-                                    <button id="prevAnchor" class="btn border playlistButton" style="margin-left:2px;">Previous</button>
-                                    &nbsp;
-                                    <button id="nextAnchor" class="btn border playlistButton">Next</button>
-                                
-                                
-                                    <button id="btnShowPlaylist" class="btn border playlistButton" style="float:right;" state="off">Show Playlist</button>
-                                    
-                                
-                                    <ul class="list-group" id="lstPlaylist" style="margin-top:5px;">
-                                      
-                                    </ul>
-                                </div>
-                                </nav>
-                                
-                                <div data-notify="container" class="col-xs-11 col-sm-3 alert alert-{0}" style="display:none;" role="alert">
-                                    <button type="button" aria-hidden="true" class="close" data-notify="dismiss">×</button>
-                                    <span data-notify="icon"></span>
-                                    <span data-notify="title">{1}</span>
-                                    <span data-notify="message">{2}</span>
-                                    <div class="progress" data-notify="progressbar">
-                                        <div class="progress-bar progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
-                                    </div>
-                                    <a href="{3}" target="{4}" data-notify="url"></a>
-                                </div>
-
-                                <div id="Playlist" class="row " divType="pageContent">
-                                    <div id="divEmptyPlaylist" class="alert alert-danger" style="display:none;">
-                                        There are no items in playlist! 
-                                    </div>
-                                </div>
-
-
-
                             <div id="snackbar">This song is already added</div>
                             <div>
                             </div>

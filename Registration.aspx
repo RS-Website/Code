@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Registration.aspx.vb" Inherits="Registration" %>
+﻿<%@ page language="VB" autoeventwireup="false" inherits="Registration, App_Web_izrmdfet" %>
 
 <!DOCTYPE html>
 
