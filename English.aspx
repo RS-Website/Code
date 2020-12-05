@@ -1,4 +1,4 @@
-﻿<%@ page language="VB" autoeventwireup="false" inherits="_Default, App_Web_izrmdfet" %>
+<%@ page language="VB" autoeventwireup="false" inherits="_Default, App_Web_izrmdfet" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
         <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -58,7 +58,9 @@
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="GenInfo">General Information</a></li>
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="BookOrdering">Book Ordering</a></li>
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="ContactUs">Contact Us</a></li>
-                                       <li role="presentation" style="cursor: pointer"><a targetDiv="Playlist" id="sidebarCollapse">Playlist</a></li>
+                                    <li role="presentation" style="cursor: pointer"><a targetDiv="Playlist" id="sidebarCollapse">Playlist</a></li>
+                                    <li role="presentation" style="cursor: pointer"><a href="ImageGallery.html" id="sidebarCollapse">Image Gallery</a></li>
+                                    
                                    
                                          <%--<li role="presentation" style="cursor: pointer"><a href="Login.aspx">Login</a></li>--%>
                                 </ul>
@@ -113,7 +115,7 @@
                             <div id="HomePage" class="row BorderDiv" divType="pageContent">
                                 <!--<div class="col-md-2  "></div>-->
                                 <div class="col-md-12" style ="font-size:15px;"  >
-                                   
+                                   <center style="background-color:yellow;padding:6px;"><h4>** Check the newly added <u><a href="ImageGallery.html">Image Gallery</a></u>. Option to access in menu as well. **</h4></center>
                                                 <h3>INTRODUCTION</h3>
                                                 &emsp;&emsp;Finding the Jivas in acute distress and delusion, and that they have deviated considerably from true Parmarth
                                                 and are totally incapable of releasing themselves from the bondages of birth and death, the
