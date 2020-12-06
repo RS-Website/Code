@@ -301,6 +301,77 @@
                                                     </ol>
                                                 </ol>
                                                 
+                                                <br />
+                                                <h3>Recommendations - Hindi Books (हिंदी किताबें)</h3>
+                                                <ol>
+                                                    <li>प्रारंभिक.</li> 
+                                                    <ol>
+                                                    <li> राधास्वामी मत प्रकाश - हुजूर महाराज. Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Prakash.pdf">here</a>.</li> 
+                                                    <li> सार बचन बार्तिक - स्वामीजी महाराज. Read <a href="Books/Trust/Hindi/Sar_Bachan_Bartik.pdf">here</a></li> 
+                                                    <li> राधास्वामी मात दिगदर्शन. Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Digdarshan.pdf">here</a></li> 
+                                                    <li> हुज़ूरी चित्तियाँ भाग 4. Read <a href="Books/NE10/Hindi/Huzuri_Chithiyan_Part-4.pdf">here</a></li> 
+                                                    </ol>
+                                                    <li>वैज्ञानिक रीति से वैख्या. (To be uploaded)</li> 
+                                                    <ol>
+                                                    <li>राधास्वामी मत पर प्रवचन - महाराज साहब. Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Par_Pravachan.pdf">here</a></li> 
+                                                    </ol>
+                                                    <li>पद्य</li> 
+                                                    <ol>
+                                                    <li> सार बचन Chand band - 2 भाग.</li> 
+                                                    <ol>
+                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Sar_Bachan_Chhand_Band_Part-1.pdf">here</a></li>
+                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Sar_Bachan_Chhand_Band_Part-2.pdf">here</a></li>
+                                                    </ol>
+                                                    <li> प्रेम बानी - 4 भाग. Read <a href="">here</a></li> 
+                                                    <ol>
+                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-1.pdf">here</a></li>
+                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-2.pdf">here</a></li>
+                                                        <li>भाग 3 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-3.pdf">here</a></li>
+                                                        <li>भाग 4 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-4.pdf">here</a></li>
+                                                    </ol>
+                                                    </ol>
+                                                    <li>बचन</li> 
+                                                    <ol>
+                                                    <li> सार बचन Bartik - स्वामीजी महाराज. Read <a href="Books/Trust/Hindi/Sar_Bachan_Bartik.pdf">here</a></li> 
+                                                    <li> प्रेम पत्र - 6 भाग - हुजूर महाराज.</li> 
+                                                    <ol>
+                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-1.pdf">here</a></li>
+                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-2.pdf">here</a></li>
+                                                        <li>भाग 3 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-3.pdf">here</a></li>
+                                                        <li>भाग 4 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-4.pdf">here</a></li>
+                                                        <li>भाग 5 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-5.pdf">here</a></li>
+                                                        <li>भाग 6 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-6.pdf">here</a></li>
+                                                    </ol>
+                                                    <li> बचन महाराज साहब - 1 भाग. Read <a href="Books/Trust/Hindi/Bachan_Maharaj_Saheb.pdf">here</a></li> 
+                                                    <li> बचन बाबूजी महाराज</li>
+                                                    <ol>
+                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-1.pdf">here</a></li>
+                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-2.pdf">here</a></li>
+                                                        <li>भाग 3 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-3.pdf">here</a></li>
+                                                        <li>भाग 4 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-4.pdf">here</a></li>
+                                                        <li>भाग 5 - Read <a href="Books/NE10/Hindi/Bachan_Babuji_Maharaj_Part-5.pdf">here</a></li>
+                                                        <li>भाग 6 - Read <a href="Books/NE10/Hindi/Bachan_Babuji_Maharaj_Part-6.pdf">here</a></li>
+                                                    </ol>
+                                                    <li>जीवन चरित्र.</li> 
+                                                    <ol>
+                                                    <li> जीवन चरित्र स्वामीजी महाराज. Read <a href="Books/Trust/Hindi/Jeevan_Charitra_Soamiji_Maharaj.pdf">here</a></li> 
+                                                    <li> जीवन चरित्र राधाजी महाराज. Read <a href="Books/NE10/Hindi/Jeevan_Charitra_Radhaji_Maharaj.pdf">here</a></li>
+                                                    <li> जीवन चरित्र हुजूर महाराज. Read <a href="Books/Trust/Hindi/Jeevan_Charitra_Huzur_Maharaj.pdf">here</a></li> 
+                                                    <li> जीवन चरित्र महाराज साहब. Read <a href="Books/NE10/Hindi/Jeevan_Charitra_Maharaj_Saheb.pdf">here</a></li> 
+                                                    <li> जीवन चरित्र बुआजी साहब. Read <a href="Books/NE10/Hindi/Jeevan_Charitra_Buaji_Maharaj.pdf">here</a></li> 
+                                                    <li> जीवन चरित्र बाबूजी महाराज. Read <a href="Books/Trust/Hindi/Jeevan_Charitra_Babuji_Maharaj.pdf">here</a></li> 
+                                                    <li> संतदास जी. Read <a href="Books/NE10/Hindi/Sant_Das_Ji.pdf">here</a></li> 
+                                                    </ol>
+                                                    <li>सत्संगी एवं संत, साध व महात्माओं के जीवन चरित्र.</li> 
+                                                    <ol>
+                                                    <li> नूतन भक्तमाल. Read <a href="Books/NE10/Hindi/Nutan_Bhaktmal.pdf">here</a></li> 
+                                                    <li> राधास्वामी मत ki भक्तमाल. . Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Ki_Bhaktmal.pdf">here</a></li> 
+                                                    </ol>
+                                                    <li>शब्दकोश.</li> 
+                                                    <ol>
+                                                    <li>शब्दकोश संत मत बानी. (to be uploaded)</li> 
+                                                    </ol>
+                                                </ol>
                                                 <br/>
 <!--                                                &emsp;&emsp;An important TV talk on Radhasoami Faith by Sant Das Maheshwari ji was telecast in June 1978, on the occasion of Soamiji Maharaj's Centenary. You can listen to the audio version of the English & Hindi audio below.
                                                 <table border="1" bgcolor="#FFFFFF" offset="50px">
