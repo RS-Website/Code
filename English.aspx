@@ -233,6 +233,71 @@
                                             <div class="col-md-12  " style="text-align: justify;">
                                                 <h3>FESTIVALS & SATSANGS</h3>
                                                 You can find the dates of the festivals of Radhasoami Faith, daily Satsang timings and the link to listen to the live Satsang.
+                                                <h4>IMPORTANT DATES - 2021</h4>
+                                                    Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2021.
+                                                    <div class="row">
+                                                        <div class="col-md-12" style="text-align: justify;">
+                                                            <br>
+                                                            <table>
+                                                                <tbody><tr>
+                                                                    <th style="width: 150px">DATE</th>
+                                                                    <th style="width: 100px">DAY</th>
+                                                                    <th style="width: 200px">FESTIVAL</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">1<sup>st</sup> January 2021</td>
+                                                                    <td nowrap="">Friday</td>
+                                                                    <td nowrap="">New Year (Nutan Varsh)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">16<sup>th</sup> February 2021</td>
+                                                                    <td nowrap="">Tuesday</td>
+                                                                    <td nowrap="">Basant Panchami<br>(Establishment of Radhasoami Satsang in 1861 on this day)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">29<sup>th</sup> March 2021</td>
+                                                                    <td nowrap="">Monday</td>
+                                                                    <td nowrap="">Holi Satsang</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">26<sup>th</sup> May 2021</td>
+                                                                    <td nowrap="">Wednesday</td>
+                                                                    <td nowrap="">Bhandara Buaji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">25<sup>th</sup> June 2021</td>
+                                                                    <td nowrap="">Friday</td>
+                                                                    <td nowrap="">Asadh Badi Padiwa<br>(Day of departure of Soamiji Maharaj)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">24<sup>th</sup> July 2021</td>
+                                                                    <td nowrap="">Saturday</td>
+                                                                    <td nowrap="">Guru Purnima</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">30<sup>th</sup> August 2021</td>
+                                                                    <td nowrap="">Monday</td>
+                                                                    <td nowrap="">Bhandara Soamiji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">14<sup>th</sup> October 2021</td>
+                                                                    <td nowrap="">Thursday</td>
+                                                                    <td nowrap="">Bhandara Maharaj Saheb</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">05<sup>th</sup> November 2021</td>
+                                                                    <td nowrap="">Friday</td>
+                                                                    <td nowrap="">Bhandara Babuji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td nowrap="">25<sup>th</sup> December 2021</td>
+                                                                    <td nowrap="">Saturday</td>
+                                                                    <td nowrap="">Bhandara Huzur Maharaj</td>
+                                                                </tr>
+                                                            </tbody></table>
+                                                        </div>
+                                                    </div>
+                                                    <br />
                                                 <h4>IMPORTANT DATES - 2020</h4>
                                                     Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2020.
                                                     <div class="row" >
