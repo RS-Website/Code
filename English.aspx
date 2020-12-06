@@ -197,7 +197,111 @@
                                                 the fulfilment of worldly desires of Jivas. The practice of Radhasoami Faith (Surat Shabd
                                                 Abhyas) can be performed in the human frame alone. As such it is also necessary to maintain
                                                 the human body.
-                                                <br/><br/>
+                                                <br/>
+                                                <br/>
+                                                <h3>Recommendations - English Books</h3>
+                                                <ol>
+                                                    <li>Initial reading for newcomers</li>
+                                                    <ol>
+                                                        <li> Radhasoami Faith History and Tenets by S.D Maheshwari. Read <a href="Books/NE10/English/Radhasoami_Faith-History_&_Tenets.pdf">here</a></li>
+                                                        <li> Phelp's notes (Notes of discourses delivered by Babuji Maharaj). Read <a href="Books/Trust/English/Phelps_Notes.pdf">here</a></li>
+                                                        <li> Radhasoami Mat Prakash by Huzur Maharaj. Read <a href="Books/Trust/English/Radhasoami_Mat_Prakash.pdf">here</a></li>
+                                                        <li> Sar Bachan Prose by Soamiji Maharaj. Read <a href="Books/NE10/English/Sar_Bachan_Prose.pdf">here</a></li>
+                                                        <li> Correspondence with certain Americans (6 Volumes)</li>
+                                                        <ol>
+                                                            <li>Volume 1. Read <a href="Books/NE10/English/RS_Correspondence_Part-1.pdf">here</a></li>
+                                                            <li>Volume 2. Read <a href="Books/NE10/English/RS_Correspondence_Part-2.pdf">here</a></li>
+                                                            <li>Volume 3. Read <a href="Books/NE10/English/RS_Correspondence_Part-3.pdf">here</a></li>
+                                                            <li>Volume 4. Read <a href="Books/NE10/English/RS_Correspondence_Part-4.pdf">here</a></li>
+                                                            <li>Volume 5. Read <a href="Books/NE10/English/RS_Correspondence_Part-5.pdf">here</a></li>
+                                                            <li>Volume 6. Read <a href="Books/NE10/English/RS_Correspondence_Part-6.pdf">here</a></li>
+                                                        </ol>
+                                                    </ol>
+
+
+
+                                                    <li>Information on dissentient groups.</li>
+                                                    <ol>
+                                                        <li> Truth Unvarnished - Parts 1 and 2.</li>
+                                                        <ol>
+                                                            <li>Part 1. Read <a href="Books/NE10/English/Truth_Unvarnished_Part-1.pdf">here</a></li>
+                                                            <li>Part 2. To be uploaded.</li>
+                                                        </ol>
+                                                    </ol>
+
+
+
+                                                    <li>Religion explained on scientific lines.</li>
+                                                    <ol>
+                                                        <li> Discourses on Radhasoami Faith by Maharaj Saheb. Read <a href="Books/NE10/English/Discourses_Maharaj_Saheb.pdf">here</a></li>
+                                                    </ol>
+
+                                                    <li>Poetry.</li>
+                                                    <ol>
+                                                        <li> Sar Bachan Radhasoami Poetry by Soamiji Maharaj (2 Volumes)</li>
+                                                        <ol>
+                                                            <li>Volume 1. Read <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-1.pdf">here</a></li>
+                                                            <li>Volume 2. Read <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-2.pdf">here</a></li>
+                                                        </ol>
+                                                        <li> Prem Bani by Huzur Maharaj (6 Volumes)</li>
+                                                        <ol>
+                                                            <li>Volume 1. Read <a href="Books/NE10/English/Prem_Bani_Part-1.pdf">here</a></li>
+                                                            <li>Volume 2. Read <a href="Books/NE10/English/Prem_Bani_Part-2.pdf">here</a></li>
+                                                            <li>Volume 3. Read <a href="Books/NE10/English/Prem_Bani_Part-3.pdf">here</a></li>
+                                                            <li>Volume 4. Read <a href="Books/Trust/Hindi/Prem_Bani_Part-4.pdf">here</a></li>
+                                                        </ol>
+                                                    </ol>
+                                                    <li>Discourses of Sant Sat Gurus.</li>
+                                                    <ol>
+                                                        <li> Sar Bachan Prose by Soamiji Maharaj( 1 volume in two parts). Read <a href="Books/NE10/English/Sar_Bachan_Prose.pdf">here</a></li>
+                                                        <li> Prem Patras (6 Volumes) by Huzur Maharaj.</li>
+                                                        <ol>
+                                                            <li>Volume 1. Read <a href="Books/NE10/English/Prem_Patra_Part-1.pdf">here</a></li>
+                                                            <li>Volume 2. Read <a href="Books/NE10/English/Prem_Patra_Part-2.pdf">here</a></li>
+                                                            <li>Volume 3. Read <a href="Books/NE10/English/Prem_Patra_Part-3.pdf">here</a></li>
+                                                            <li>Volume 4. Read <a href="Books/NE10/English/Prem_Patra_Part-4.pdf">here</a></li>
+                                                            <li>Volume 5. Read <a href="Books/NE10/English/Prem_Patra_Part-5.pdf">here</a></li>
+                                                            <li>Volume 6. Read <a href="Books/NE10/English/Prem_Patra_Part-6.pdf">here</a></li>
+                                                        </ol>
+                                                        <li> Discourses of Maharaj Saheb (1 Volume). Read <a href="Books/NE10/English/Discourses_Maharaj_Saheb.pdf">here</a></li>
+                                                        <li> Discourses of Babuji Maharaj (6 Volumes)</li>
+                                                        <ol>
+                                                            <li>Volume 1. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-1.pdf">here</a></li>
+                                                            <li>Volume 2. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-2.pdf">here</a></li>
+                                                            <li>Volume 3. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-3.pdf">here</a></li>
+                                                            <li>Volume 4. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-4.pdf">here</a></li>
+                                                            <li>Volume 5. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-5.pdf">here</a></li>
+                                                            <li>Volume 6. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-6.pdf">here</a></li>
+                                                        </ol>
+                                                    </ol>
+                                                    <li>Biographies.</li>
+                                                    <ol>
+                                                        <li>Soamiji Maharaj. Read <a href="Books/NE10/English/Biography_Soamiji_Maharaj.pdf">here</a></li>
+                                                        <li>Radhaji Maharaj. Read <a href="Books/NE10/English/Biography_Radhaji_Maharaj.pdf">here</a></li>
+                                                        <li>Huzur Maharaj. Read <a href="Books/NE10/English/Biography_Huzur_Maharaj.pdf">here</a></li>
+                                                        <li>Maharaj Saheb. Read <a href="Books/NE10/English/Biography_Maharaj_Saheb.pdf">here</a></li>
+                                                        <li>Buaji Saheba. Read <a href="Books/NE10/English/Biography_Buaji_Maharaj.pdf">here</a></li>
+                                                        <li>Babuji Maharaj. Read <a href="Books/NE10/English/Biography_Babuji_Maharaj.pdf">here</a></li>
+                                                        <li>Santdas ji. Read <a href="Books/NE10/English/Biography_Sant_Das_Ji.pdf">here</a></li>
+                                                    </ol>
+                                                        <li>Life sketches of devotees of R.S Faith and other sages. (To be uploaded))</li>
+                                                    <ol>
+                                                        <li> Bhaktmal of the Radhasoami Faith by S.D.Maheshwari. Read <a href="Books/NE10/English/Bhaktmal_Radhasoami_Faith.pdf">here</a></li>
+                                                        <li> Sants, Sadhs, Mahatmas and devotees of the past by S.D.Maheshwari. Read <a href="Books/NE10/English/Sants_Sadhs_Mahatmas.pdf">here</a></li>
+                                                    </ol>
+                                                    
+                                                    <li>Singing Hymns in English (Roman letters)</li>
+                                                    <ol>
+                                                        <li> Artiyan. Read <a href="Books/NE10/English/Aartiyan.pdf">here</a></li>
+                                                        <li> Niyamawali - For daily recitation. Read <a href="Books/NE10/English/Niyamawali.pdf">here</a></li>
+                                                    </ol>
+                                                    <li>Dictionary of spiritual words.</li>
+                                                    <ol>
+                                                        <li> Glossary. (To be uploaded)</li>
+                                                    </ol>
+                                                </ol>
+                                                
+                                                <br/>
 <!--                                                &emsp;&emsp;An important TV talk on Radhasoami Faith by Sant Das Maheshwari ji was telecast in June 1978, on the occasion of Soamiji Maharaj's Centenary. You can listen to the audio version of the English & Hindi audio below.
                                                 <table border="1" bgcolor="#FFFFFF" offset="50px">
                                                     <tr>
