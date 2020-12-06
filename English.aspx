@@ -1736,7 +1736,9 @@
                             <div id="Books" class="row " divType="pageContent">
                                 <div class="col-md-12">
                                                 <h3>BOOKS</h3>
-                                                You can explore the complete collection of books in available languages here. <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
+                                                You can explore the complete collection of books in available languages here. <br />
+                                                <h4>Book descriptions - <a href="Books/RS_Faith_Book_Descriptions.pdf">here</a></h4>
+                                                <br /><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <asp:Panel ID="Panel10" runat="server" ScrollBars="Auto" Width="100%">
                                                 <asp:GridView  ID="GridView1"  runat="server" Width="100%" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
                                                     PageSize="10" AllowSorting="True" GridLines="None">
