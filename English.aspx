@@ -17,7 +17,7 @@
            
         </head>
 
-        <body style ="overflow-x:hidden ;" >
+        <body style ="overflow-x:hidden ;text-align:justify;" >
             <form id="form" runat="server" class="container-fluid">
                 <asp:ScriptManager runat="server" ID="script"></asp:ScriptManager>
                 <!-- Container (Header) -->
@@ -49,6 +49,7 @@
                                             <li><a targetDiv="Audio" style="cursor: pointer">Prose</a></li>
                                             <li><a targetDiv="Shabd" style="cursor: pointer">Poetry - RS Faith </a></li>
                                             <li><a targetDiv="SantBani" style="cursor: pointer">Sant Bani</a></li>
+                                            <li><a targetDiv="Relics" style="cursor: pointer">Relics</a></li>
                                             <li><a targetDiv="Videoclips" style="cursor: pointer">Video Clips</a></li>
                                             <li><a targetDiv="Videopoetry" style="cursor: pointer">Video Poetry</a></li>
                                             <li><a targetDiv="ClassSatsang" style="cursor: pointer">Old Satsangs (1970s/Centenary)</a></li>
@@ -2125,6 +2126,189 @@
                                     </asp:UpdatePanel>
                                        </div>
                                 </div>
+
+
+                            <!-- Container (Relics) -->
+                            <div id="Relics" class="row" divType="pageContent">
+                                <div class="col-md-12">
+                                <br/>
+                                <h4>RELICS</h4>
+                                    In the table below, you can see the the short video clips of various objects/things used by or belonging to Sant SatGurus. These are called as Relics. 
+                                <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
+                                 <br/> <br/>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <b>Soamiji Maharaj</b>
+                                            </td>
+                                            <td>
+                                                <b>Huzur Maharaj</b>
+                                            </td>
+                                            <td>
+                                                <b>Maharaj Saheb</b>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <ol>
+                                                    <li>
+                                                        Walking Stick of Soamiji Maharaj - <a href="Video\Relics\B1_SJM_Walking_Stick.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Soamiji Maharaj's Chanwar - <a href="Video\Relics\B2_SJM_Chanwar.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Soamiji Maharaj's Spitoon - <a href="Video\Relics\B2_SJM_Spitoon.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Pieces from Achkan (Long Coat) of Soamiji Maharaj & Huzur Maharaj - <a href="Video\Relics\WBC_IB2_SJM_HM_Achkan(Long_Coat)_Pieces.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Hair of Soamiji Maharaj's Beard - <a href="Video\Relics\B1_SJM_Beard_Hair.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Shawl Piece of Soamiji Maharaj - <a href="Video\Relics\B1_SJM_Shawl_Piece.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Piece of Shawl spead over Soamiji Maharaj - <a href="Video\Relics\WBC_IB2_Shawl_Piece_Spread_Over_SJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Cloth piece sanctified by Soamiji Maharaj & Taveez string of Babuji Maharaj - <a href="Video\Relics\WB2A_IB2_SJM_Sanctified_Cloth_Piece_BJM_Taveez_String.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Piece of cloth spread on Soamiji Maharaj and Huzur Maharaj - <a href="Video\Relics\WB2B_IB2_CLoth_Piece_Spread_On_SJM_HM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td>
+                                                <ol>
+                                                    <li>
+                                                        Huzur Maharaj's Cap 1 - <a href="Video\Relics\B2_HM_Cap1.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Cap 2 - <a href="Video\Relics\B2_HM_Cap2.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Shirt - <a href="Video\Relics\B2_HM_Shirt.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Zari Coat - <a href="Video\Relics\B2_HM_Zari_Coat.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Hair - <a href="Video\Relics\B1_HM_Hair.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Sock, Handkerchief and Shirt - <a href="Video\Relics\B2_HM_Sock_Hankie_Shirt.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Cardamom Seeds & Charnamrit of Huzur Maharaj - <a href="Video\Relics\WBC_IB2_Cardamom_Seeds_HM_Charnamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Mukhamrit - <a href="Video\Relics\WB2A_IB2_HM_Mukhamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's letter in Urdu - <a href="Video\Relics\B2_HM_Urdu_Letter.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td valign="top">
+                                                <ol>
+                                                    <li>
+                                                        Maharaj Saheb's Cap - <a href="Video\Relics\B1_MS_Cap.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Kurta - <a href="Video\Relics\B1_MS_Kurta.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Hair & Nails 1 - <a href="Video\Relics\B1_MS_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Hair & Nails 2 - <a href="Video\Relics\WB2B_IB2_MS_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Letter to Babuji Maharaj - <a href="Video\Relics\B1_MS_Letter_To_BJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Gulaal sanctified by Maharaj Saheb - <a href="Video\Relics\WB2A_IB2_MS_Sanctified_Gulaal.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        </tr>
+                                        <tr>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <b>Babuji Maharaj</b>
+                                            </td>
+                                            <td>
+                                                <b>Miscellenous</b>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <ol>
+                                                    <li>
+                                                        Slippers of Babuji Maharaj - <a href="Video\Relics\B1_BJM_Slippers.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Morchhal - <a href="Video\Relics\B2_BJM_Morchhal.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babujii Maharaj's Cap - <a href="Video\Relics\WB2A_IB2_BJM_Cap.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Tongue Cleaner - <a href="Video\Relics\B1_BJM_Tongue_Cleaner.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Hair and Nails - <a href="Video\Relics\B1_BJM_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Mukhamrit - <a href="Video\Relics\WB2A_IB2_BJM_Mukhamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Taveez string used by Babuji Maharaj - <a href="Video\Relics\WB2B_IB2_BJM_Taveez_String.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Hair - <a href="Video\Relics\WB2B_IB2_BJM_Hair.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Flowers spread on Babuji Maharaj - <a href="Video\Relics\WB2B_IB2_Flowers_Spread_on_BJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Piece of cloth spread on Babuji Maharaj - <a href="Video\Relics\WB2B_IB2_Cloth_Piece_Spread_On_BJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td valign="top">
+                                                <ol>
+                                                    <li>
+                                                        Masks - <a href="Video\Relics\WBC_IB2_Masks.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Hair and Nails - <a href="Video\Relics\B1_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Charnamrit - <a href="Video\Relics\WB2A_IB2_Charnamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Mukhamrit - <a href="Video\Relics\WB2A_IB2_Mukhamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Sanctified Gulaal - <a href="Video\Relics\WB2A_IB2_Sanctified Gulaal.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                               </div>
+                            </div>
+
 
                             <!-- Container (Video Clips) -->
                             <div id="Videoclips" class="row" divType="pageContent">
