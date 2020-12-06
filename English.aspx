@@ -1,4 +1,4 @@
-<%@ page language="VB" autoeventwireup="false" inherits="_Default, App_Web_izrmdfet" %>
+﻿<%@ page language="VB" autoeventwireup="false" inherits="_Default" CodeFile="English.aspx.vb" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
         <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -17,7 +17,7 @@
            
         </head>
 
-        <body style ="overflow-x:hidden ;" >
+        <body style ="overflow-x:hidden ;text-align:justify;" >
             <form id="form" runat="server" class="container-fluid">
                 <asp:ScriptManager runat="server" ID="script"></asp:ScriptManager>
                 <!-- Container (Header) -->
@@ -36,8 +36,8 @@
                                 <a class="navbar-brand" href="#"></a>
                             </div>
                             <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div role="navigation" class="row collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="z-index:-1;padding:-5px;">
-                                <ul class="nav nav-tabs">
+                            <div role="navigation" class="row collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="z-index:-1;padding:-5px;max-height:600px !important;">
+                                <ul class="nav nav-tabs menuLevel1">
                                     <li role="presentation" class="active" style="cursor: pointer"><a targetDiv="HomePage">Home Page</a></li>
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="Importantdates">Calendar</a></li>
 <!--                                    <li role="presentation" style="cursor: pointer"><a targetDiv="BiCent"><u style="color: #922B21;">Bi-Centenary</u></a></li>-->
@@ -49,6 +49,7 @@
                                             <li><a targetDiv="Audio" style="cursor: pointer">Prose</a></li>
                                             <li><a targetDiv="Shabd" style="cursor: pointer">Poetry - RS Faith </a></li>
                                             <li><a targetDiv="SantBani" style="cursor: pointer">Sant Bani</a></li>
+                                            <li><a targetDiv="Relics" style="cursor: pointer">Relics</a></li>
                                             <li><a targetDiv="Videoclips" style="cursor: pointer">Video Clips</a></li>
                                             <li><a targetDiv="Videopoetry" style="cursor: pointer">Video Poetry</a></li>
                                             <li><a targetDiv="ClassSatsang" style="cursor: pointer">Old Satsangs (1970s/Centenary)</a></li>
@@ -56,11 +57,11 @@
                                     </li>
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="HolyPlaces">Holy Places</a></li>
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="GenInfo">General Information</a></li>
+<!--
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="BookOrdering">Book Ordering</a></li>
+                                -->
                                     <li role="presentation" style="cursor: pointer"><a targetDiv="ContactUs">Contact Us</a></li>
-                                    <li role="presentation" style="cursor: pointer"><a targetDiv="Playlist" id="sidebarCollapse">Playlist</a></li>
-                                    <li role="presentation" style="cursor: pointer"><a href="ImageGallery.html" id="sidebarCollapse">Image Gallery</a></li>
-                                    
+                                       <li role="presentation" style="cursor: pointer"><a targetDiv="Playlist" id="sidebarCollapse">Playlist</a></li>
                                    
                                          <%--<li role="presentation" style="cursor: pointer"><a href="Login.aspx">Login</a></li>--%>
                                 </ul>
@@ -114,8 +115,14 @@
                             <!-- Container (Home Page) -->
                             <div id="HomePage" class="row BorderDiv" divType="pageContent">
                                 <!--<div class="col-md-2  "></div>-->
-                                <div class="col-md-12" style ="font-size:15px;"  >
-                                   <center style="background-color:#FFF7EB;padding:6px;"><h4>** Check the newly added <u><a href="ImageGallery.html">Image Gallery</a></u>. Option to access in menu as well. **</h4></center>
+                                <div class="col-md-12" style ="font-size:15px;padding:25px;padding-top:0px;"  >
+                                   <!--<h5 align=center><mark>New: Information regarding Bhent (offering) is added. For details, please visit the "<b><u>General Information</b></u>" tab from the top menu.</mark></h5>-->
+                                   
+
+                                   <h5 align=center><mark>New: Video Shabds are now added. To experience it and know more, please visit the "<b><u>Video Poetry</b></u>" section from the "<b><u>Library</b></u>" tab in the top menu.</mark></h5>
+                                   <h5 align=center><mark>New: English and Hindi book recommendations added. Please scroll down to view.</mark></h5>
+                                   <h5 align=center><mark>New: Please visit <u>Calendar</u> section to view Bhandara and Tithi dates of 2021</mark></h5>
+                                   <h5 align=center><mark>New: Relics videos are now added. To view, please visit the "<b><u>Relics</b></u>" section from the "<b><u>Library</b></u>" tab in the top menu.</mark></h5>
                                                 <h3>INTRODUCTION</h3>
                                                 &emsp;&emsp;Finding the Jivas in acute distress and delusion, and that they have deviated considerably from true Parmarth
                                                 and are totally incapable of releasing themselves from the bondages of birth and death, the
@@ -197,182 +204,275 @@
                                                 the fulfilment of worldly desires of Jivas. The practice of Radhasoami Faith (Surat Shabd
                                                 Abhyas) can be performed in the human frame alone. As such it is also necessary to maintain
                                                 the human body.
-                                                <br/>
-                                                <br/>
-                                                <h3>Recommendations - English Books</h3>
-                                                <ol>
-                                                    <li>Initial reading for newcomers</li>
-                                                    <ol>
-                                                        <li> Radhasoami Faith History and Tenets by S.D Maheshwari. Read <a href="Books/NE10/English/Radhasoami_Faith-History_&_Tenets.pdf">here</a></li>
-                                                        <li> Phelp's notes (Notes of discourses delivered by Babuji Maharaj). Read <a href="Books/Trust/English/Phelps_Notes.pdf">here</a></li>
-                                                        <li> Radhasoami Mat Prakash by Huzur Maharaj. Read <a href="Books/Trust/English/Radhasoami_Mat_Prakash.pdf">here</a></li>
-                                                        <li> Sar Bachan Prose by Soamiji Maharaj. Read <a href="Books/NE10/English/Sar_Bachan_Prose.pdf">here</a></li>
-                                                        <li> Correspondence with certain Americans (6 Volumes)</li>
+                                                <br/><br/><hr>
+                                                <div style="text-align:left;">
+                                                        <h3>Book Recommendations for beginners/explorers</h3>
+                                                        Having selected the book to read, please visit <u>Library</u> -> <u>Books</u> section to view and download.<br/>
+                                                        <br/>
+                                                        
+                                                        <h4>English Books</h4>
+                                                        <h5>Initial reading for new comers</h5>
                                                         <ol>
-                                                            <li>Volume 1. Read <a href="Books/NE10/English/RS_Correspondence_Part-1.pdf">here</a></li>
-                                                            <li>Volume 2. Read <a href="Books/NE10/English/RS_Correspondence_Part-2.pdf">here</a></li>
-                                                            <li>Volume 3. Read <a href="Books/NE10/English/RS_Correspondence_Part-3.pdf">here</a></li>
-                                                            <li>Volume 4. Read <a href="Books/NE10/English/RS_Correspondence_Part-4.pdf">here</a></li>
-                                                            <li>Volume 5. Read <a href="Books/NE10/English/RS_Correspondence_Part-5.pdf">here</a></li>
-                                                            <li>Volume 6. Read <a href="Books/NE10/English/RS_Correspondence_Part-6.pdf">here</a></li>
+                                                            <li>
+                                                                Radhasoami Faith History and Tenets by Shri S.D. Maheshwari - 
+                                                                <a href="Books/NE10/English/Radhasoami_Faith-History_&amp;_Tenets.pdf" target="_blank" style="cursor:pointer;">Read Online</a>
+                                                            </li>
+                                                            <li>
+                                                                Phelp's notes (Notes of discourses delivered by Babuji Maharaj) -
+                                                                <a href="Books/Trust/English/Phelps_Notes.pdf" target="_blank" style="cursor:pointer;">Read Online</a>
+                                                            </li>
+                                                            <li>
+                                                                Radhasoami Mat Prakash by Huzur Maharaj -
+                                                                <a href="Books/Trust/English/Radhasoami_Mat_Prakash.pdf" target="_blank" style="cursor:pointer;">Read Online</a>
+                                                            </li>
+                                                            <li>
+                                                                Sar Bachan Prose by Soamiji Maharaj - 
+                                                                <a href="Books/Trust/Hindi/Sar_Bachan_Bartik.pdf" target="_blank" style="cursor:pointer;">Read Online</a>
+                                                            </li>
+                                                            <li>
+                                                                Correspondence with certain Americans 6 volumes
+                                                                <ul>
+                                                                    <li>Volume 1 - <a href="Books/NE10/English/RS_Correspondence_Part-1.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 2 - <a href="Books/NE10/English/RS_Correspondence_Part-2.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 3 - <a href="Books/NE10/English/RS_Correspondence_Part-3.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 4 - <a href="Books/NE10/English/RS_Correspondence_Part-4.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 5 - <a href="Books/NE10/English/RS_Correspondence_Part-5.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 6 - <a href="Books/NE10/English/RS_Correspondence_Part-6.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                </ul>
+                                                            </li>
                                                         </ol>
-                                                    </ol>
-
-
-
-                                                    <li>Information on dissentient groups.</li>
-                                                    <ol>
-                                                        <li> Truth Unvarnished - Parts 1 and 2.</li>
+                                                        <br />
+                                                        <h5>Information on dissentient groups</h5>
                                                         <ol>
-                                                            <li>Part 1. Read <a href="Books/NE10/English/Truth_Unvarnished_Part-1.pdf">here</a></li>
-                                                            <li>Part 2. To be uploaded.</li>
+                                                            <li>Truth Unvarnished - Parts 1 & 2
+                                                                <ul>
+                                                                    <li>Part 1 - <a href="Books/NE10/English/Truth_Unvarnished_Part-1.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Part 2 - <a href="Books/NE10/English/Truth_Unvarnished_Part_2.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                </ul>
+        
+                                                            </li>
+        
                                                         </ol>
-                                                    </ol>
-
-
-
-                                                    <li>Religion explained on scientific lines.</li>
-                                                    <ol>
-                                                        <li> Discourses on Radhasoami Faith by Maharaj Saheb. Read <a href="Books/NE10/English/Discourses_Maharaj_Saheb.pdf">here</a></li>
-                                                    </ol>
-
-                                                    <li>Poetry.</li>
-                                                    <ol>
-                                                        <li> Sar Bachan Radhasoami Poetry by Soamiji Maharaj (2 Volumes)</li>
+                                                        <br />
+                                                        <h5>Poetry</h5>
                                                         <ol>
-                                                            <li>Volume 1. Read <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-1.pdf">here</a></li>
-                                                            <li>Volume 2. Read <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-2.pdf">here</a></li>
+                                                            <li>Sar Bachan Radhasoami Poetry by Soamiji Maharaj (2 Volumes)
+                                                                <ul>
+                                                                    <li>Volume 1 - <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-1.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 2 - <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-2.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>Prem Bani by Huzur Maharaj (4 Volumes)
+                                                                <ul>
+                                                                    <li>Volume 1 - <a href="Books/NE10/English/Prem_Bani_Part-1.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 2 - <a href="Books/NE10/English/Prem_Bani_Part-2.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 3 - <a href="Books/NE10/English/Prem_Bani_Part-3.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 4 - <a href="Books/NE10/English/Prem_Bani_Part-4.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    
+        
+                                                                </ul>
+                                                            </li>
                                                         </ol>
-                                                        <li> Prem Bani by Huzur Maharaj (6 Volumes)</li>
+                                                        <br />
+                                                        <h5>Discourses of Sant Sat Gurus</h5>
                                                         <ol>
-                                                            <li>Volume 1. Read <a href="Books/NE10/English/Prem_Bani_Part-1.pdf">here</a></li>
-                                                            <li>Volume 2. Read <a href="Books/NE10/English/Prem_Bani_Part-2.pdf">here</a></li>
-                                                            <li>Volume 3. Read <a href="Books/NE10/English/Prem_Bani_Part-3.pdf">here</a></li>
-                                                            <li>Volume 4. Read <a href="Books/Trust/Hindi/Prem_Bani_Part-4.pdf">here</a></li>
+                                                            <li>Sar Bachan Prose by Soamiji Maharaj(2 volumes in 1 book) - <a href="Books/NE10/English/Sar_Bachan_Prose.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Prem Patras (6 Volumes) by Huzur Maharaj.
+                                                                <ul>
+                                                                    <li>Volume 1 - <a href="Books/NE10/English/Prem_Patra_Part-1.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 2 - <a href="Books/NE10/English/Prem_Patra_Part-2.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 3 - <a href="Books/NE10/English/Prem_Patra_Part-3.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 4 - <a href="Books/NE10/English/Prem_Patra_Part-4.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 5 - <a href="Books/NE10/English/Prem_Patra_Part-5.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 6 - <a href="Books/NE10/English/Prem_Patra_Part-6.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+        
+                                                                </ul>
+                                                            </li>
+                                                            <li>Discourses of Maharaj Saheb (1 Volume) - <a href="Books/NE10/English/Discourses_Maharaj_Saheb.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Discourses of Babuji Maharaj (6 Volumes)
+                                                                <ul>
+                                                                    <li>Volume 1 - <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-1.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 2 - <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-2.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 3 - <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-3.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 4 - <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-4.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 5 - <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-5.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                    <li>Volume 6 - <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-6.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                                </ul>
+                                                            </li>
                                                         </ol>
-                                                    </ol>
-                                                    <li>Discourses of Sant Sat Gurus.</li>
-                                                    <ol>
-                                                        <li> Sar Bachan Prose by Soamiji Maharaj( 1 volume in two parts). Read <a href="Books/NE10/English/Sar_Bachan_Prose.pdf">here</a></li>
-                                                        <li> Prem Patras (6 Volumes) by Huzur Maharaj.</li>
+                                                        <br />
+                                                        <h5>Biographies</h5>
                                                         <ol>
-                                                            <li>Volume 1. Read <a href="Books/NE10/English/Prem_Patra_Part-1.pdf">here</a></li>
-                                                            <li>Volume 2. Read <a href="Books/NE10/English/Prem_Patra_Part-2.pdf">here</a></li>
-                                                            <li>Volume 3. Read <a href="Books/NE10/English/Prem_Patra_Part-3.pdf">here</a></li>
-                                                            <li>Volume 4. Read <a href="Books/NE10/English/Prem_Patra_Part-4.pdf">here</a></li>
-                                                            <li>Volume 5. Read <a href="Books/NE10/English/Prem_Patra_Part-5.pdf">here</a></li>
-                                                            <li>Volume 6. Read <a href="Books/NE10/English/Prem_Patra_Part-6.pdf">here</a></li>
+                                                            <li>Soamiji Maharaj - <a href="Books/NE10/English/Biography_Soamiji_Maharaj.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Radhaji Maharaj - <a href="Books/NE10/English/Biography_Radhaji_Maharaj.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Huzur Maharaj - <a href="Books/NE10/English/Biography_Huzur_Maharaj.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Maharaj Saheb - <a href="Books/NE10/English/Biography_Maharaj_Saheb.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Buaji Maharaj - <a href="Books/NE10/English/Biography_Buaji_Maharaj.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Babuji Maharaj - <a href="Books/NE10/English/Biography_Babuji_Maharaj.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Sant Das Ji - <a href="Books/NE10/English/Biography_Sant_Das_Ji.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
                                                         </ol>
-                                                        <li> Discourses of Maharaj Saheb (1 Volume). Read <a href="Books/NE10/English/Discourses_Maharaj_Saheb.pdf">here</a></li>
-                                                        <li> Discourses of Babuji Maharaj (6 Volumes)</li>
+                                                        <br />
+                                                        <h5>Life sketches of devotees of Radhasoami Faith and other sages</h5>
                                                         <ol>
-                                                            <li>Volume 1. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-1.pdf">here</a></li>
-                                                            <li>Volume 2. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-2.pdf">here</a></li>
-                                                            <li>Volume 3. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-3.pdf">here</a></li>
-                                                            <li>Volume 4. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-4.pdf">here</a></li>
-                                                            <li>Volume 5. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-5.pdf">here</a></li>
-                                                            <li>Volume 6. Read <a href="Books/NE10/English/Discourses_Babuji_Maharaj_Part-6.pdf">here</a></li>
+                                                            <li>Bhaktmal of the Radhasoami Faith by Shri S.D.Maheshwari - <a href="Books/NE10/English/Bhaktmal_Radhasoami_Faith.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Sants, Sadhs, Mahatmas and devotees of the past by Shri S.D.Maheshwari - <a href="Books/NE10/English/Sants_Sadhs_Mahatmas.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
                                                         </ol>
-                                                    </ol>
-                                                    <li>Biographies.</li>
-                                                    <ol>
-                                                        <li>Soamiji Maharaj. Read <a href="Books/NE10/English/Biography_Soamiji_Maharaj.pdf">here</a></li>
-                                                        <li>Radhaji Maharaj. Read <a href="Books/NE10/English/Biography_Radhaji_Maharaj.pdf">here</a></li>
-                                                        <li>Huzur Maharaj. Read <a href="Books/NE10/English/Biography_Huzur_Maharaj.pdf">here</a></li>
-                                                        <li>Maharaj Saheb. Read <a href="Books/NE10/English/Biography_Maharaj_Saheb.pdf">here</a></li>
-                                                        <li>Buaji Saheba. Read <a href="Books/NE10/English/Biography_Buaji_Maharaj.pdf">here</a></li>
-                                                        <li>Babuji Maharaj. Read <a href="Books/NE10/English/Biography_Babuji_Maharaj.pdf">here</a></li>
-                                                        <li>Santdas ji. Read <a href="Books/NE10/English/Biography_Sant_Das_Ji.pdf">here</a></li>
-                                                    </ol>
-                                                        <li>Life sketches of devotees of R.S Faith and other sages. (To be uploaded))</li>
-                                                    <ol>
-                                                        <li> Bhaktmal of the Radhasoami Faith by S.D.Maheshwari. Read <a href="Books/NE10/English/Bhaktmal_Radhasoami_Faith.pdf">here</a></li>
-                                                        <li> Sants, Sadhs, Mahatmas and devotees of the past by S.D.Maheshwari. Read <a href="Books/NE10/English/Sants_Sadhs_Mahatmas.pdf">here</a></li>
-                                                    </ol>
-                                                    
-                                                    <li>Singing Hymns in English (Roman letters)</li>
-                                                    <ol>
-                                                        <li> Artiyan. Read <a href="Books/NE10/English/Aartiyan.pdf">here</a></li>
-                                                        <li> Niyamawali - For daily recitation. Read <a href="Books/NE10/English/Niyamawali.pdf">here</a></li>
-                                                    </ol>
-                                                    <li>Dictionary of spiritual words.</li>
-                                                    <ol>
-                                                        <li> Glossary. (To be uploaded)</li>
-                                                    </ol>
-                                                </ol>
-                                                
-                                                <br />
-                                                <h3>Recommendations - Hindi Books (हिंदी किताबें)</h3>
-                                                <ol>
-                                                    <li>प्रारंभिक.</li> 
-                                                    <ol>
-                                                    <li> राधास्वामी मत प्रकाश - हुजूर महाराज. Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Prakash.pdf">here</a>.</li> 
-                                                    <li> सार बचन बार्तिक - स्वामीजी महाराज. Read <a href="Books/Trust/Hindi/Sar_Bachan_Bartik.pdf">here</a></li> 
-                                                    <li> राधास्वामी मात दिगदर्शन. Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Digdarshan.pdf">here</a></li> 
-                                                    <li> हुज़ूरी चित्तियाँ भाग 4. Read <a href="Books/NE10/Hindi/Huzuri_Chithiyan_Part-4.pdf">here</a></li> 
-                                                    </ol>
-                                                    <li>वैज्ञानिक रीति से वैख्या. (To be uploaded)</li> 
-                                                    <ol>
-                                                    <li>राधास्वामी मत पर प्रवचन - महाराज साहब. Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Par_Pravachan.pdf">here</a></li> 
-                                                    </ol>
-                                                    <li>पद्य</li> 
-                                                    <ol>
-                                                    <li> सार बचन Chand band - 2 भाग.</li> 
-                                                    <ol>
-                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Sar_Bachan_Chhand_Band_Part-1.pdf">here</a></li>
-                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Sar_Bachan_Chhand_Band_Part-2.pdf">here</a></li>
-                                                    </ol>
-                                                    <li> प्रेम बानी - 4 भाग. Read <a href="">here</a></li> 
-                                                    <ol>
-                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-1.pdf">here</a></li>
-                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-2.pdf">here</a></li>
-                                                        <li>भाग 3 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-3.pdf">here</a></li>
-                                                        <li>भाग 4 - Read <a href="Books/Trust/Hindi/Prem_Bani_Part-4.pdf">here</a></li>
-                                                    </ol>
-                                                    </ol>
-                                                    <li>बचन</li> 
-                                                    <ol>
-                                                    <li> सार बचन Bartik - स्वामीजी महाराज. Read <a href="Books/Trust/Hindi/Sar_Bachan_Bartik.pdf">here</a></li> 
-                                                    <li> प्रेम पत्र - 6 भाग - हुजूर महाराज.</li> 
-                                                    <ol>
-                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-1.pdf">here</a></li>
-                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-2.pdf">here</a></li>
-                                                        <li>भाग 3 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-3.pdf">here</a></li>
-                                                        <li>भाग 4 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-4.pdf">here</a></li>
-                                                        <li>भाग 5 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-5.pdf">here</a></li>
-                                                        <li>भाग 6 - Read <a href="Books/Trust/Hindi/Prem_Patra_Part-6.pdf">here</a></li>
-                                                    </ol>
-                                                    <li> बचन महाराज साहब - 1 भाग. Read <a href="Books/Trust/Hindi/Bachan_Maharaj_Saheb.pdf">here</a></li> 
-                                                    <li> बचन बाबूजी महाराज</li>
-                                                    <ol>
-                                                        <li>भाग 1 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-1.pdf">here</a></li>
-                                                        <li>भाग 2 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-2.pdf">here</a></li>
-                                                        <li>भाग 3 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-3.pdf">here</a></li>
-                                                        <li>भाग 4 - Read <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-4.pdf">here</a></li>
-                                                        <li>भाग 5 - Read <a href="Books/NE10/Hindi/Bachan_Babuji_Maharaj_Part-5.pdf">here</a></li>
-                                                        <li>भाग 6 - Read <a href="Books/NE10/Hindi/Bachan_Babuji_Maharaj_Part-6.pdf">here</a></li>
-                                                    </ol>
-                                                    <li>जीवन चरित्र.</li> 
-                                                    <ol>
-                                                    <li> जीवन चरित्र स्वामीजी महाराज. Read <a href="Books/Trust/Hindi/Jeevan_Charitra_Soamiji_Maharaj.pdf">here</a></li> 
-                                                    <li> जीवन चरित्र राधाजी महाराज. Read <a href="Books/NE10/Hindi/Jeevan_Charitra_Radhaji_Maharaj.pdf">here</a></li>
-                                                    <li> जीवन चरित्र हुजूर महाराज. Read <a href="Books/Trust/Hindi/Jeevan_Charitra_Huzur_Maharaj.pdf">here</a></li> 
-                                                    <li> जीवन चरित्र महाराज साहब. Read <a href="Books/NE10/Hindi/Jeevan_Charitra_Maharaj_Saheb.pdf">here</a></li> 
-                                                    <li> जीवन चरित्र बुआजी साहब. Read <a href="Books/NE10/Hindi/Jeevan_Charitra_Buaji_Maharaj.pdf">here</a></li> 
-                                                    <li> जीवन चरित्र बाबूजी महाराज. Read <a href="Books/Trust/Hindi/Jeevan_Charitra_Babuji_Maharaj.pdf">here</a></li> 
-                                                    <li> संतदास जी. Read <a href="Books/NE10/Hindi/Sant_Das_Ji.pdf">here</a></li> 
-                                                    </ol>
-                                                    <li>सत्संगी एवं संत, साध व महात्माओं के जीवन चरित्र.</li> 
-                                                    <ol>
-                                                    <li> नूतन भक्तमाल. Read <a href="Books/NE10/Hindi/Nutan_Bhaktmal.pdf">here</a></li> 
-                                                    <li> राधास्वामी मत ki भक्तमाल. . Read <a href="Books/NE10/Hindi/Radhasoami_Mat_Ki_Bhaktmal.pdf">here</a></li> 
-                                                    </ol>
-                                                    <li>शब्दकोश.</li> 
-                                                    <ol>
-                                                    <li>शब्दकोश संत मत बानी. (to be uploaded)</li> 
-                                                    </ol>
-                                                </ol>
-                                                <br/>
+                                                        <br />
+                                                        <h5>Singing Hymns in English (Roman letters)</h5>
+                                                        <ol>
+                                                            <li>Artiyan - <a href="Books/NE10/English/Aartiyan.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                            <li>Niyamawali - for daily recitation - <a href="Books/NE10/English/Niyamawali.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                        </ol>
+                                                        <br />
+                                                        <h5>Dictionary of spiritual words</h5>
+                                                        <ol>
+                                                            <li>Glossary - <a href="Books/NE10/English/Glossary_Of_Radhasoami_Faith.pdf" target="_blank" style="cursor:pointer;">Read Online</a></li>
+                                                        </ol>
+                                                        <br />
+                                                        <hr>
+                                                        <br/>
+                                                        <h4>हिंदी पुस्तकें</h4>
+                                                        
+                                                        <br />
+                                                        <h5>प्रारंभिक</h5>
+                                                        <ol>
+                                                            <li>
+                                                                राधास्वामी मत प्रकाश - हुजूर महाराज - 
+                                                                <a href="Books/NE10/Hindi/Radhasoami_Mat_Prakash.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                            </li>
+                                                            <li>
+                                                                सार बचन बार्तिक - स्वामीजी महाराज - 
+                                                                <a href="Books/Trust/Hindi/Sar_Bachan_Bartik.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                            </li>
+                                                            <li>
+                                                                राधास्वामी मत दिगदर्शन - <a href="Books/NE10/Hindi/Radhasoami_Mat_Digdarshan.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                            </li>
+                                                            <li>
+                                                                हुज़ूरी चिट्ठियां भाग 4 - <a href="Books/NE10/Hindi/Huzuri_Chithiyan_Part-4.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                            </li>
+                                                        </ol>
+                                                        <br />
+                                                        <h5>वैज्ञानिक रीति से व्याख्या</h5>
+                                                        <ol>
+                                                            <li>   
+                                                                राधास्वामी मत पर प्रवचन - महाराज साहेब  - <a href="Books/NE10/Hindi/Radhasoami_Mat_Par_Pravachan.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                            </li>
+                                                        </ol>
+                                                        <br />
+                                                        <h5>पद्य</h5>
+                                                        <ol>
+                                                            <li>
+                                                                    सर बचन छंद बंद - 2 भाग
+                                                                    <ol>
+                                                                        <li>
+                                                                            भाग 1 - <a href="Books/Trust/Hindi/Sar_Bachan_Chhand_Band_Part-1.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            भाग 2 - <a href="Books/Trust/Hindi/Sar_Bachan_Chhand_Band_Part-2.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                        </li>
+        
+                                                                    </ol>
+                                                            </li>
+                                                            <li>
+                                                                    प्रेम बानी - 4 भाग
+                                                                    <ol>
+                                                                            <li>
+                                                                                    भाग 1 - <a href="Books/Trust/Hindi/Prem_Bani_Part-1.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 2 - <a href="Books/Trust/Hindi/Prem_Bani_Part-2.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                    भाग 3 - <a href="Books/Trust/Hindi/Prem_Bani_Part-3.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 4 -<a href="Books/Trust/Hindi/Prem_Bani_Part-4.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                    </ol>
+                                                            </li>
+                                                        </ol>
+                                                        <br />
+                                                        <h5>बचन</h5>
+                                                        <ol>
+                                                            <li>
+                                                                सर बचन बार्तिक  - स्वामीजी महाराज - <a href="Books/Trust/Hindi/Sar_Bachan_Bartik.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                            </li>
+                                                            <li>
+                                                                    प्रेम पत्र - हुजूर महाराज
+                                                                    <ol>
+                                                                            <li>
+                                                                                    भाग 1 - <a href="Books/Trust/Hindi/Prem_Patra_Part-1.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 2 - <a href="Books/Trust/Hindi/Prem_Patra_Part-2.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                    भाग 3 - <a href="Books/Trust/Hindi/Prem_Patra_Part-3.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 4 - <a href="Books/Trust/Hindi/Prem_Patra_Part-4.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                    भाग 5 - <a href="Books/Trust/Hindi/Prem_Patra_Part-5.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 6 - <a href="Books/Trust/Hindi/Prem_Patra_Part-6.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                    </ol>
+        
+                                                            </li>
+                                                            <li>
+                                                                    बचन महाराज साहेब - <a href="Books/Trust/Hindi/Bachan_Maharaj_Saheb.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                            </li>
+                                                            <li>
+                                                                    बचन बाबूजी महाराज
+                                                                    <ol>
+                                                                            <li>
+                                                                                    भाग 1 - <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-1.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 2 - <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-2.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                    भाग 3 - <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-3.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 4 - <a href="Books/Trust/Hindi/Bachan_Babuji_Maharaj_Part-4.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                    भाग 5 - <a href="Books/NE10/Hindi/Bachan_Babuji_Maharaj_Part-5.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                भाग 6 - <a href="Books/NE10/Hindi/Bachan_Babuji_Maharaj_Part-6.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                                            </li>
+                                                                    </ol>
+                                                            </li>
+                                                        </ol>
+                                                        <br />
+                                                        <h5>जीवन चरित्र</h5>
+                                                        <ol>
+                                                        <li>जीवन चरित्र स्वामीजी महाराज - <a href="Books/Trust/Hindi/Jeevan_Charitra_Soamiji_Maharaj.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a>
+                                                        </li>
+                                                        <li>जीवन चरित्र राधाजी महाराज - <a href="Books/NE10/Hindi/Jeevan_Charitra_Radhaji_Maharaj.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                        <li>जीवन चरित्र हुजूर महाराज - <a href="Books/Trust/Hindi/Jeevan_Charitra_Huzur_Maharaj.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                        <li>जीवन चरित्र महाराज साहब - <a href="Books/NE10/Hindi/Jeevan_Charitra_Maharaj_Saheb.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                        <li>जीवन चरित्र बुआजी महाराज - <a href="Books/NE10/Hindi/Jeevan_Charitra_Buaji_Maharaj.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                        <li>जीवन चरित्र बाबूजी महाराज - <a href="Books/Trust/Hindi/Jeevan_Charitra_Babuji_Maharaj.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                        <li>संतदास जी - <a href="Books/NE10/Hindi/Sant_Das_Ji_After_Shatabdi.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                        </ol>
+                                                        <br />
+                                                        <h5>सतसंगियों एवं साध व महात्माओं का जीवन चरित्र</h5>
+                                                        <ol>
+                                                            <li>नूतन भक्तमल - <a href="Books/NE10/Hindi/Nutan_Bhaktmal.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                            <li>राधास्वामी मत की भक्तमाल - <a href="Books/NE10/Hindi/Radhasoami_Mat_Ki_Bhaktmal.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                        </ol>
+                                                        <br />
+                                                        <h5>शब्दकोश</h5>
+                                                        <ol>
+                                                            <li>शबदकोश - <a href="Books/Trust/Hindi/Shabd_Kosh_Sant_Mat_Bani.pdf" target="_blank" style="cursor:pointer;">ऑनलाइन पढ़ें</a></li>
+                                                            </ol>
+                                                            <br />
+                                                        </div>
 <!--                                                &emsp;&emsp;An important TV talk on Radhasoami Faith by Sant Das Maheshwari ji was telecast in June 1978, on the occasion of Soamiji Maharaj's Centenary. You can listen to the audio version of the English & Hindi audio below.
                                                 <table border="1" bgcolor="#FFFFFF" offset="50px">
                                                     <tr>
@@ -408,71 +508,6 @@
                                             <div class="col-md-12  " style="text-align: justify;">
                                                 <h3>FESTIVALS & SATSANGS</h3>
                                                 You can find the dates of the festivals of Radhasoami Faith, daily Satsang timings and the link to listen to the live Satsang.
-                                                <h4>IMPORTANT DATES - 2021</h4>
-                                                    Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2021.
-                                                    <div class="row">
-                                                        <div class="col-md-12" style="text-align: justify;">
-                                                            <br>
-                                                            <table>
-                                                                <tbody><tr>
-                                                                    <th style="width: 150px">DATE</th>
-                                                                    <th style="width: 100px">DAY</th>
-                                                                    <th style="width: 200px">FESTIVAL</th>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">1<sup>st</sup> January 2021</td>
-                                                                    <td nowrap="">Friday</td>
-                                                                    <td nowrap="">New Year (Nutan Varsh)</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">16<sup>th</sup> February 2021</td>
-                                                                    <td nowrap="">Tuesday</td>
-                                                                    <td nowrap="">Basant Panchami<br>(Establishment of Radhasoami Satsang in 1861 on this day)</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">29<sup>th</sup> March 2021</td>
-                                                                    <td nowrap="">Monday</td>
-                                                                    <td nowrap="">Holi Satsang</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">26<sup>th</sup> May 2021</td>
-                                                                    <td nowrap="">Wednesday</td>
-                                                                    <td nowrap="">Bhandara Buaji Maharaj</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">25<sup>th</sup> June 2021</td>
-                                                                    <td nowrap="">Friday</td>
-                                                                    <td nowrap="">Asadh Badi Padiwa<br>(Day of departure of Soamiji Maharaj)</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">24<sup>th</sup> July 2021</td>
-                                                                    <td nowrap="">Saturday</td>
-                                                                    <td nowrap="">Guru Purnima</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">30<sup>th</sup> August 2021</td>
-                                                                    <td nowrap="">Monday</td>
-                                                                    <td nowrap="">Bhandara Soamiji Maharaj</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">14<sup>th</sup> October 2021</td>
-                                                                    <td nowrap="">Thursday</td>
-                                                                    <td nowrap="">Bhandara Maharaj Saheb</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">05<sup>th</sup> November 2021</td>
-                                                                    <td nowrap="">Friday</td>
-                                                                    <td nowrap="">Bhandara Babuji Maharaj</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td nowrap="">25<sup>th</sup> December 2021</td>
-                                                                    <td nowrap="">Saturday</td>
-                                                                    <td nowrap="">Bhandara Huzur Maharaj</td>
-                                                                </tr>
-                                                            </tbody></table>
-                                                        </div>
-                                                    </div>
-                                                    <br />
                                                 <h4>IMPORTANT DATES - 2020</h4>
                                                     Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2020.
                                                     <div class="row" >
@@ -532,6 +567,72 @@
                                                                 <tr>
                                                                     <td>25<sup>th</sup> December 2020</td>
                                                                     <td>Friday</td>
+                                                                    <td>Bhandara Huzur Maharaj</td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <br/>
+                                                    </div>
+                                                    <br />
+                                                    <h4>IMPORTANT DATES - 2021</h4>
+                                                    Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2021.
+                                                    <div class="row" >
+                                                        <div class="col-md-12" style="text-align: justify;">
+                                                            <br/>
+                                                            <table>
+                                                                <tr>
+                                                                    <th style="width: 150px">DATE</th>
+                                                                    <th style="width: 100px">DAY</th>
+                                                                    <th style="width: 200px">FESTIVAL</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>1<sup>st</sup> January 2021</td>
+                                                                    <td>Friday</td>
+                                                                    <td>New Year (Nutan Varsh)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>16<sup>th</sup> February 2021</td>
+                                                                    <td>Tuesday</td>
+                                                                    <td>Basant Panchami<br/>(Establishment of Radhasoami Satsang in 1861 on this day)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>29<sup>th</sup> March 2021</td>
+                                                                    <td>Monday</td>
+                                                                    <td>Holi Satsang</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>26<sup>th</sup> May 2021</td>
+                                                                    <td>Wednesday</td>
+                                                                    <td>Bhandara Buaji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>25<sup>th</sup> June 2021</td>
+                                                                    <td>Friday</td>
+                                                                    <td>Asadh Badi Padiwa<br/>(Day of departure of Soamiji Maharaj)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>24<sup>th</sup> July 2021</td>
+                                                                    <td>Saturday</td>
+                                                                    <td>Guru Poornima</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>30<sup>th</sup> August 2021</td>
+                                                                    <td>Monday</td>
+                                                                    <td>Bhandara Soamiji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>14<sup>th</sup> October 2021</td>
+                                                                    <td>Thursday</td>
+                                                                    <td>Bhandara Maharaj Saheb</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>5<sup>th</sup> November 2021</td>
+                                                                    <td>Friday</td>
+                                                                    <td>Bhandara Babuji Maharaj</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>25<sup>th</sup> December 2021</td>
+                                                                    <td>Saturday</td>
                                                                     <td>Bhandara Huzur Maharaj</td>
                                                                 </tr>
                                                             </table>
@@ -950,7 +1051,7 @@
                                         <u>Read Less..</u>
                                     </a>
                                 </div>
-                                <br/></br>© 2018 MAHESHWARIs, Soami Bagh, Agra, UP, India
+                                <br/><br/>© 2018 MAHESHWARIs, Soami Bagh, Agra, UP, India
                                 <br/
                             </div>-->
                             
@@ -1713,7 +1814,7 @@
                                         discourses so that they may also begin to progress on the path of salvation. It, however, behoves all Parmarthis 
                                         to engender an intense longing for visiting Satsang, and to do all they can to achieve this.”
                                     </div>
-                                    <br/></br>© 2018 MAHESHWARIs, Soami Bagh, Agra, UP, India
+                                    <br/><br/>© 2018 MAHESHWARIs, Soami Bagh, Agra, UP, India
                                     <br/>
                                 </div>
                                       </div>
@@ -1726,7 +1827,7 @@
                                                 <h3>PHOTOGRAPHS</h3>
                                                 <!--You can explore the complete collection of photgraphs of Radhasoami Faith here.-->
                                                 <h4 style=" font-weight: bold; color: gray; text-align: center">Photographs would be available soon</h4>
-                                                <br/></br>© 2018 MAHESHWARIs, Soami Bagh, Agra, UP, India
+                                                <br/><br/>© 2018 MAHESHWARIs, Soami Bagh, Agra, UP, India
                                                 <br/>
                                             </div>
                                        
@@ -1737,8 +1838,10 @@
                                 <div class="col-md-12">
                                                 <h3>BOOKS</h3>
                                                 You can explore the complete collection of books in available languages here. 
-                                                <br/>
-                                                <h4>Description of books - <u><a href="Books/RS_Faith_Book_Descriptions.pdf">here</a></u></h4>
+                                                
+                                                <br />
+                                                <h4>** Summary/description of a few English and Hindi books are available <u><a href="Books/Books_Summary.pdf">here (click to read online)</a></u> **</h4>
+                                                
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <asp:Panel ID="Panel10" runat="server" ScrollBars="Auto" Width="100%">
                                                 <asp:GridView  ID="GridView1"  runat="server" Width="100%" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
@@ -1786,12 +1889,13 @@
                                            </tr>
                                                 </table>
                                             <br>
-                                            </br>
+                                            <br/>
                                             <asp:TextBox ID="textbooksearch" AutoPostBack="false" runat="server" />
                                             <span style="margin-left:5px">
-                                            <b><asp:Button runat="server" ID="btn_book" Text="SEARCH" Causevalidater="true"  /></b>&emsp;<u style=" color: #337ab7;">Note:</u> Set all search criteria to blank, keep the search box blank and click Search button to reset the table.
+                                            <b><asp:Button runat="server" ID="btn_book" Text="SEARCH" Causevalidater="true"  /></b>&emsp;<br/><u style=" color: #337ab7;">Note:</u> Set all search criteria to blank, keep the search box blank and click Search button to reset the table.
                                            
                                                  <br />
+                                                 Languages Supported: English, Hindi (हिंदी).
                                             <br />
                                             <div id="snackbarBook">
                                                 <h4 style="color: black; padding-left: 15px">No matches found. Please try again...</h4>
@@ -1882,6 +1986,7 @@
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                            
                                     <br />
+                                    <br />
                                     <asp:UpdatePanel ID="UpdatePanel4" runat="server">
                                         <ContentTemplate>
                                             <%--<asp:Label runat="server" ID="Label2" Text="Discourse of Sant Sat Guru:"></asp:Label>--%>
@@ -1892,7 +1997,7 @@
                                             <asp:TextBox ID="txtproseSearch" AutoPostBack="false" runat="server" />
                                             <span style="margin-left:5px">
                                             <asp:Button runat="server" ID="btn_bachan" Text="SEARCH" />
-                                            <br />
+                                            &nbsp;&nbsp;Languages supported: English, Hindi (हिंदी).
                                             <br />
                                             <div id="snackbarBachan">
                                                 <h4 style="color: black; padding-left: 15px">No matches found. Please try again...</h4>
@@ -1975,11 +2080,13 @@
                                             <asp:Label runat="server" ID="Label1" Text="Special Occassion:"></asp:Label>
                                             <asp:DropDownList ID="ddlspl" runat="server" Width="228px" Height="25px" AutoPostBack="true" AppendDataBoundItems="true">
                                                 <asp:ListItem Value="0" Text="ALL"></asp:ListItem>
-                                            </asp:DropDownList>--%>
+                                            </asp:DropDownList>--%> <br />
                                               Search:
                                             <asp:TextBox ID="txtshabdsearch" AutoPostBack="false" runat="server" />
+                                            
                                             <span style="margin-left:5px">
                                             <asp:Button runat="server" ID="btn_shabd" Text="SEARCH" />
+                                            &nbsp; &nbsp; Languages supported: English, Hindi (हिंदी).
                                             <br />
                                             <br />
                                                 <asp:Label style="color: black; padding-left: 15px;font-size:20px;" Font-Bold="true"  runat ="server" id="shabderror" Visible="false" Text ="No matches found. Please try again..." ></asp:Label>
@@ -1990,43 +2097,43 @@
                                                 <asp:GridView Style="overflow:auto"  ID="GVShabd" Width="100%" runat="server" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
                                                     PageSize="10" AllowSorting="True" GridLines="None">
                                                     <Columns>
-                                                        <asp:TemplateField HeaderText="Shabd Name">
+                                                        <asp:TemplateField HeaderText="Shabd Name" HeaderStyle-Width="10%">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="Shabd_Name_Eng" runat="server" Text='<%# Bind("Shabd_Name_Eng") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Book Name">
+                                                        <asp:TemplateField HeaderText="Book Name" HeaderStyle-Width="10%">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="Book_Name_Eng" runat="server" Text='<%# Bind("Book_Name_Eng") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Bachan">
+                                                        <asp:TemplateField HeaderText="Bachan" HeaderStyle-Width="5%">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="Bachan" runat="server" Text='<%# Bind("Bachan") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Shabd">
+                                                        <asp:TemplateField HeaderText="Shabd" HeaderStyle-Width="5%">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="Shabd" runat="server" Text='<%# Bind("Shabd") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Special Occasion">
+                                                        <asp:TemplateField HeaderText="Special Occasion" HeaderStyle-Width="10%">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="SplOccasion_Eng" runat="server" Text='<%# Bind("SplOccasion_Eng") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Duration">
+                                                        <asp:TemplateField HeaderText="Duration" HeaderStyle-Width="5%">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="Duration" runat="server" Text='<%# Bind("Duration", "{0:hh:mm}") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Options">
+                                                        <asp:TemplateField HeaderText="Options" HeaderStyle-Width="50%">
                                                             <ItemTemplate>
                                                                <%-- <audio controls="controls" class="tableAudio">
                                                                     <source src='<%#Eval("Link")%>' type="audio/mp3">
@@ -2035,9 +2142,10 @@
                                                                     <source src='<%#Eval("Link")%>')'  type="audio/mp3">
                                                                 </audio> </div> 
                                                                  <br />
-                                                                 <a href='<%#Eval("Link")%>' style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> 
+                                                                 <a href='<%#Eval("Link")%>' style ="cursor:pointer;width:20%;" class="btn btn-primary" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> 
+
                                                                 <!-- <a onclick ="downcheck('<%#Eval("Link")%>')" style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> -->
-                                                                <button class="btn btn-success addToPlaylist" added="false" sname='<%#Eval("Shabd_Name_Eng") %>' onclick="addToPlaylist('<%#Eval("Link")%>'); return false;" audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</button>
+                                                                <button class="btn btn-success addToPlaylist" style="width:80%;align:right;" added="false" sname='<%#Eval("Shabd_Name_Eng") %>' onclick="addToPlaylist('<%#Eval("Link")%>'); return false;" audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</button>
                                                             </ItemTemplate>
                                                         </asp:TemplateField>
                                                     </Columns>
@@ -2057,20 +2165,23 @@
                                                 In the table below, you can listen to the audio rendetions (by Satsangis) of Poetry of Sants of other Faith. The rendetions
                                                 are in Hindi language. 
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
-                                    <br/>
+                                    <br/> <br />
                                     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                                         <ContentTemplate>
                                          
                                                 Search:
                                             <asp:TextBox ID="txtsantbani" AutoPostBack="false" runat="server" />
+                                            
                                             <span style="margin-left:5px"></span>
                                             <asp:Button runat="server" ID="btn_santbani" Text="SEARCH" />
+                                            &nbsp; &nbsp;Languages supported: English, Hindi (हिंदी).
                                             <br />
                                             <br />
                                             <div id="snackbarSant">
                                                 <h4 style="color: black; padding-left: 15px">No matches found. Please try again...</h4>
                                             </div>
                                             <asp:Panel ID="GVPanel" runat="server" ScrollBars="Auto" Width="100%">
+                                                    
                                                 <asp:GridView Style="overflow:auto" ID="GVSantBani"  Width="100%" runat="server" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
                                                     PageSize="10" AllowSorting="True" GridLines="None">
                                                     <Columns>
@@ -2086,19 +2197,19 @@
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Category">
+                                                        <asp:TemplateField HeaderText="Category" ItemStyle-CssClass="Hide-Mobile-View">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="category_English" runat="server" Text='<%# Bind("category_English") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Part of Sankalan">
+                                                        <asp:TemplateField HeaderText="Part of Sankalan" ItemStyle-CssClass="Hide-Mobile-View">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="PartOfSankalan" runat="server" Text='<%# Bind("PartOfSankalan") %>'></asp:Label>
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Duration">
+                                                        <asp:TemplateField HeaderText="Duration" ItemStyle-CssClass="Hide-Mobile-View">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="Duration" runat="server" Text='<%# Bind("Duration", "{0:hh:mm}") %>'></asp:Label>
                                                             </ItemTemplate>
@@ -2120,11 +2231,275 @@
                                                     </Columns>
                                                     <PagerStyle HorizontalAlign="Right" CssClass="GridPager" />
                                                 </asp:GridView>
+                                            
                                             </asp:Panel>
                                         </ContentTemplate>
                                     </asp:UpdatePanel>
                                        </div>
                                 </div>
+
+                                                            <!-- Container (Sant Bani) -->
+                            <div id="SantBani" class="row " divType="pageContent">
+                                   <div class="col-md-12">
+                                                <br/>
+                                                <h4>SANT BANI</h4>
+                                                In the table below, you can listen to the audio rendetions (by Satsangis) of Poetry of Sants of other Faith. The rendetions
+                                                are in Hindi language. 
+                                                <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
+                                    <br/> <br />
+                                    <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+                                        <ContentTemplate>
+                                         
+                                                Search:
+                                            <asp:TextBox ID="TextBox1" AutoPostBack="false" runat="server" />
+                                            
+                                            <span style="margin-left:5px"></span>
+                                            <asp:Button runat="server" ID="Button1" Text="SEARCH" />
+                                            &nbsp; &nbsp;Languages supported: English, Hindi (हिंदी).
+                                            <br />
+                                            <br />
+                                            <div id="snackbarSant">
+                                                <h4 style="color: black; padding-left: 15px">No matches found. Please try again...</h4>
+                                            </div>
+                                            <asp:Panel ID="Panel2" runat="server" ScrollBars="Auto" Width="100%">
+                                                    
+                                                <asp:GridView Style="overflow:auto" ID="GridView2"  Width="100%" runat="server" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
+                                                    PageSize="10" AllowSorting="True" GridLines="None">
+                                                    <Columns>
+                                                        <asp:TemplateField HeaderText="Shabd Name">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="ShabdName" runat="server" Text='<%# Bind("ShabdName_English") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                            <ItemStyle Wrap="true" />
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Author">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="AuthorEnglish" runat="server" Text='<%# Bind("Author_English") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                            <ItemStyle Wrap="true" />
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Category" ItemStyle-CssClass="Hide-Mobile-View">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="category_English" runat="server" Text='<%# Bind("category_English") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                            <ItemStyle Wrap="true" />
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Part of Sankalan" ItemStyle-CssClass="Hide-Mobile-View">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="PartOfSankalan" runat="server" Text='<%# Bind("PartOfSankalan") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                            <ItemStyle Wrap="true" />
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Duration" ItemStyle-CssClass="Hide-Mobile-View">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="Duration" runat="server" Text='<%# Bind("Duration", "{0:hh:mm}") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                            <ItemStyle Wrap="true" />
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Options">
+                                                            <ItemTemplate>
+                                                                <div>
+                                                                    <audio controlsList="nodownload"  controls="controls" class="tableAudio">
+                                                                        <source src='<%#Eval("Link")%>')'  type="audio/mp3">
+                                                                    </audio>
+                                                                </div> 
+                                                                <br />
+                                                                <a href='<%#Eval("Link")%>' style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a>
+                                                                <!-- <a onclick ="downcheck('<%#Eval("Link")%>')" style ="cursor:pointer;" data-toggle="tooltip" title="Download" download><span class="glyphicon glyphicon-save"></a> -->
+                                                                <button class="btn btn-success addToPlaylist" id ="btnlist"  added="false" sname='<%#Eval("ShabdName_English") %>'  onclick="addToPlaylist('<%#Eval("Link")%>'); return false;" audiourl='<%#Eval("Link")%>' duration='<%#Eval("Duration") %>'>Add to playlist</button>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                    </Columns>
+                                                    <PagerStyle HorizontalAlign="Right" CssClass="GridPager" />
+                                                </asp:GridView>
+                                            
+                                            </asp:Panel>
+                                        </ContentTemplate>
+                                    </asp:UpdatePanel>
+                                       </div>
+                                </div>
+
+
+                            <!-- Container (Relics) -->
+                            <div id="Relics" class="row" divType="pageContent">
+                                <div class="col-md-12">
+                                <br/>
+                                <h4>RELICS</h4>
+                                    In the table below, you can see the the short video clips of various objects/things used by or belonging to Sant SatGurus. These are called as Relics. 
+                                <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
+                                 <br/> <br/>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <b>Soamiji Maharaj</b>
+                                            </td>
+                                            <td>
+                                                <b>Huzur Maharaj</b>
+                                            </td>
+                                            <td>
+                                                <b>Maharaj Saheb</b>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <ol>
+                                                    <li>
+                                                        Walking Stick of Soamiji Maharaj - <a href="Video\Relics\B1_SJM_Walking_Stick.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Soamiji Maharaj's Chanwar - <a href="Video\Relics\B2_SJM_Chanwar.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Soamiji Maharaj's Spitoon - <a href="Video\Relics\B2_SJM_Spitoon.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Pieces from Achkan (Long Coat) of Soamiji Maharaj & Huzur Maharaj - <a href="Video\Relics\WBC_IB2_SJM_HM_Achkan(Long_Coat)_Pieces.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Hair of Soamiji Maharaj's Beard - <a href="Video\Relics\B1_SJM_Beard_Hair.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Shawl Piece of Soamiji Maharaj - <a href="Video\Relics\B1_SJM_Shawl_Piece.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Piece of Shawl spead over Soamiji Maharaj - <a href="Video\Relics\WBC_IB2_Shawl_Piece_Spread_Over_SJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Cloth piece sanctified by Soamiji Maharaj & Taveez string of Babuji Maharaj - <a href="Video\Relics\WB2A_IB2_SJM_Sanctified_Cloth_Piece_BJM_Taveez_String.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Piece of cloth spread on Soamiji Maharaj and Huzur Maharaj - <a href="Video\Relics\WB2B_IB2_CLoth_Piece_Spread_On_SJM_HM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td>
+                                                <ol>
+                                                    <li>
+                                                        Huzur Maharaj's Cap 1 - <a href="Video\Relics\B2_HM_Cap1.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Cap 2 - <a href="Video\Relics\B2_HM_Cap2.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Shirt - <a href="Video\Relics\B2_HM_Shirt.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Zari Coat - <a href="Video\Relics\B2_HM_Zari_Coat.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Hair - <a href="Video\Relics\B1_HM_Hair.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Sock, Handkerchief and Shirt - <a href="Video\Relics\B2_HM_Sock_Hankie_Shirt.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Cardamom Seeds & Charnamrit of Huzur Maharaj - <a href="Video\Relics\WBC_IB2_Cardamom_Seeds_HM_Charnamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's Mukhamrit - <a href="Video\Relics\WB2A_IB2_HM_Mukhamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Huzur Maharaj's letter in Urdu - <a href="Video\Relics\B2_HM_Urdu_Letter.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td valign="top">
+                                                <ol>
+                                                    <li>
+                                                        Maharaj Saheb's Cap - <a href="Video\Relics\B1_MS_Cap.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Kurta - <a href="Video\Relics\B1_MS_Kurta.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Hair & Nails 1 - <a href="Video\Relics\B1_MS_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Hair & Nails 2 - <a href="Video\Relics\WB2B_IB2_MS_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Maharaj Saheb's Letter to Babuji Maharaj - <a href="Video\Relics\B1_MS_Letter_To_BJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Gulaal sanctified by Maharaj Saheb - <a href="Video\Relics\WB2A_IB2_MS_Sanctified_Gulaal.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        </tr>
+                                        <tr>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <b>Babuji Maharaj</b>
+                                            </td>
+                                            <td>
+                                                <b>Miscellenous</b>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <ol>
+                                                    <li>
+                                                        Slippers of Babuji Maharaj - <a href="Video\Relics\B1_BJM_Slippers.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Morchhal - <a href="Video\Relics\B2_BJM_Morchhal.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babujii Maharaj's Cap - <a href="Video\Relics\WB2A_IB2_BJM_Cap.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Tongue Cleaner - <a href="Video\Relics\B1_BJM_Tongue_Cleaner.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Hair and Nails - <a href="Video\Relics\B1_BJM_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Mukhamrit - <a href="Video\Relics\WB2A_IB2_BJM_Mukhamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Taveez string used by Babuji Maharaj - <a href="Video\Relics\WB2B_IB2_BJM_Taveez_String.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Babuji Maharaj's Hair - <a href="Video\Relics\WB2B_IB2_BJM_Hair.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Flowers spread on Babuji Maharaj - <a href="Video\Relics\WB2B_IB2_Flowers_Spread_on_BJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Piece of cloth spread on Babuji Maharaj - <a href="Video\Relics\WB2B_IB2_Cloth_Piece_Spread_On_BJM.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td valign="top">
+                                                <ol>
+                                                    <li>
+                                                        Masks - <a href="Video\Relics\WBC_IB2_Masks.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Hair and Nails - <a href="Video\Relics\B1_Hair_Nails.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Charnamrit - <a href="Video\Relics\WB2A_IB2_Charnamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Mukhamrit - <a href="Video\Relics\WB2A_IB2_Mukhamrit.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                    <li>
+                                                        Sanctified Gulaal - <a href="Video\Relics\WB2A_IB2_Sanctified Gulaal.mp4" target="_blank" style="cursor:pointer;">View Online</a>
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                               </div>
+                            </div>
 
                             <!-- Container (Video Clips) -->
                             <div id="Videoclips" class="row" divType="pageContent">
@@ -2133,19 +2508,20 @@
                                             <h4>VIDEO CLIPS</h4>
                                                 You can explore the video clips related to Sant Sat Gurus and the various events of Radhasoami Faith.
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
-                                    <br />
-                                    <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+                                    <br /> <br />
+                                    <asp:UpdatePanel ID="UpdatePanel5" runat="server">
                                         <ContentTemplate>
                                             Search:
                                             <asp:TextBox ID="txtvideocSearch" AutoPostBack="false" runat="server" />
                                             <span style="margin-left:5px">
                                             <asp:Button runat="server" ID="btn_videoc" Text="SEARCH" />
+                                            &nbsp; &nbsp;Languages supported: English, Hindi (हिंदी).
                                             <br />
                                             <br />
                                             <div id="snackbarVideoC">
                                                 <h4 style="color: black; padding-left: 15px">No matches found. Please try again...</h4>
                                             </div>
-                                            <asp:Panel ID="Panel2" runat="server" ScrollBars="Auto" Width="100%">
+                                            <asp:Panel ID="Panel4" runat="server" ScrollBars="Auto" Width="100%">
                                                 <asp:GridView Style="overflow:auto" ID="GVVideoC" Width="100%" runat="server" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
                                                     PageSize="10" AllowSorting="True" GridLines="None">
                                                     <Columns>
@@ -2204,19 +2580,20 @@
                                                     <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                                     <!--<h4 style=" font-weight: bold; color: gray; text-align: center ">Content will be available soon</h4>-->
                                             
-                                    <br />
-                                    <asp:UpdatePanel ID="UpdatePanel5" runat="server">
+                                    <br /> <br />
+                                    <asp:UpdatePanel ID="UpdatePanel7" runat="server">
                                         <ContentTemplate>
                                               Search:
                                             <asp:TextBox ID="txtvpoetrysearch" AutoPostBack="false" runat="server" />
                                             <span style="margin-left:5px">
                                             <asp:Button runat="server" ID="btn_vpoetry" Text="SEARCH" />
+                                            &nbsp; &nbsp;Languages supported: English, Hindi (हिंदी).
                                             <br />
                                             <br />
                                             <div id="snackbarVideoP">
                                                 <h4 style="color: black; padding-left: 15px">No matches found. Please try again...</h4>
                                             </div>
-                                            <asp:Panel ID="Panel4" runat="server"  ScrollBars="Auto" Width="100%">
+                                            <asp:Panel ID="Panel6" runat="server"  ScrollBars="Auto" Width="100%">
                                                 <asp:GridView  ID="GVVideoP" runat="server" AllowPaging="true" Width="100%" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
                                                     PageSize="10" AllowSorting="True" GridLines="None">
                                                     <Columns>
@@ -2283,10 +2660,10 @@
                                                 <br/>
                                                 <h4>OLD SATSANGS (1970s) & CENTENARY SATSANGS</h4>
                                                 You can browse through and listen to the Old Satsangs of 1970s and the subsequent Centenary Satsangs. These Satsangs will give you an idea as to how the Satsang was conducted at that time.
-                                                The lead pathi (reciter) was Sh. Gauri Shankar Shukla. Bachans were read by Sh. Hira Lal ji and Roop Narain ji. This section also has Centenary Satsangs of Soamiji Maharaj (1978), Huzur Maharaj (1998), Maharaj Saheb (2007) and Buaji Saheba (2013).
+                                                This section also has Centenary Satsangs of Soamiji Maharaj (1978), Huzur Maharaj (1998) and Soamiji Maharaj (2018).
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <br />
-                                    <asp:UpdatePanel ID="UpdatePanel7" runat="server">
+                                    <asp:UpdatePanel ID="UpdatePanel8" runat="server">
                                         <ContentTemplate>
                                               Search:
                                             <asp:TextBox ID="txtclassicSearch" AutoPostBack="false" runat="server" />
@@ -2662,6 +3039,190 @@
                                             The day to day administration of Radhasoami Satsang is looked after by Central Administrative Council, Radhasoami Satsang, Soami Bagh, Agra, India. Secretary can be contacted at <b>rssoamibagh@gmail.com</b>
                                             <div class="col-md-12 " style="text-align: justify;outline:none" tabindex="1">
                                                 <!--This section is for Initiation-->
+                                                <br/>
+                                                <h4 >BHENT (OFFERING)</h4>
+                                                    <b><u>A. Satsangis residing in India:</u></b>
+                                                    All Initiated (Upadeshi) Satsangis, can send the monetory Offerings (Bhent) via Cash/Cheque/IMPS/NEFT/RTGS to the bank accounts given below.
+                                                    <br/>
+                                                    <br/>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                Bank Name:
+                                                            </td>
+                                                            <td>
+                                                                Union Bank of India
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                Branch:
+                                                            </td>
+                                                            <td>
+                                                                Dayal Bagh, Agra
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                Account Holder's name:
+                                                            </td>
+                                                            <td>
+                                                                Radhasoami Satsang
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                IFSC code:
+                                                            </td>
+                                                            <td>
+                                                                e-mail <b>rssoamibagh@gmail.com</b> for details.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                Account Numbers:
+                                                            </td>
+                                                            <td>
+                                                                <table>
+                                                                    <tr>
+                                                                        <td>
+                                                                            Samadh Bhent:
+                                                                        </td>
+                                                                        <td>
+                                                                            e-mail <b>rssoamibagh@gmail.com</b> for details.
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            Bhandar Ghar Bhent:
+                                                                        </td>
+                                                                        <td>
+                                                                            e-mail <b>rssoamibagh@gmail.com</b> for details.
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            Others:
+                                                                        </td>
+                                                                        <td>
+                                                                            e-mail <b>rssoamibagh@gmail.com</b> for details.
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                <br/>
+                                                    <b><u>Notes:</u></b><br/>
+                                                    1. PAN number is mandatory for all Offerings (Bhent) having amount of more than and including INR 5000.
+                                                <br/>
+                                                    2. After transferring the funds, it is mandatory to send the details of the depositor viz. Name, full postal address with pin code and mobile number and amount remitted, to Satsang office by post or e-mail. Contact details are given below.
+                                                    <br/>&emsp;<u>Postal address:</u>
+                                                    <br/>
+                                                    &emsp;&emsp;The Secretary,
+                                                    <br/>
+                                                    &emsp;&emsp;Radhasoami Satsang,
+                                                    <br/>
+                                                    &emsp;&emsp;Soami Bagh, Agra-282005
+                                                    <br/>
+                                                    &emsp;&emsp;Uttar Pradesh, India.
+                                                    <br/>
+                                                    &emsp;<u>e-mail address:</u>
+                                                    <br/>
+                                                    &emsp;&emsp;<b>rssoamibagh@gmail.com</b>
+                                                    <br/>
+                                                    <br/>
+                                                    <b><u>B. Satsangis residing outside India:</u></b>
+                                                    All Initiated (Upadeshi) Satsangis can send the monetory Offerings (Bhent) in foreign currency to the bank account given below. If you wish to offer Bhent in Indian Rupees, please follow the details mentioned above in <b>section-A</b>
+                                                    <br/>
+                                                    <br/>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                Bank Name:
+                                                            </td>
+                                                            <td>
+                                                                Union Bank of India
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                Branch:
+                                                            </td>
+                                                            <td>
+                                                                Dayal Bagh, Agra
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                Account Holder's name:
+                                                            </td>
+                                                            <td>
+                                                                Radhasoami Satsang
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                Account Number:
+                                                            </td>
+                                                            <td>
+                                                                e-mail <b>rssoamibagh@gmail.com</b> for details.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                MICR code:
+                                                            </td>
+                                                            <td>
+                                                                e-mail <b>rssoamibagh@gmail.com</b> for details.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                SWIFT code:
+                                                            </td>
+                                                            <td>
+                                                                e-mail <b>rssoamibagh@gmail.com</b> for details.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                Bhent purpose:
+                                                            </td>
+                                                            <td>
+                                                                Samadh Bhent / Bhandar Ghar Bhent / Others
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                <br/>
+                                                    <b><u>Notes:</u></b><br/>
+                                                    1. After transferring the funds, it is mandatory to email the following details of the depositor to Satsang office at <b>rssoamibagh@gmail.com</b>.
+                                                <br/>
+                                                     <ul>
+                                                        <li>Postal address</li>
+                                                        <li>Mobile number</li>
+                                                        <li>Amount remitted</li>
+                                                        <li>Break-up of Bhent, if relevant (eg: 1. USD 50 as Samadh Bhent, 2. USD 20 as Other Bhent)</li>
+                                                        <li>Currency</li>
+                                                     </ul>
+                                                    2. Explicitly mention if Prasad has to be sent to the Satsangi. If yes, include the delivery details like Name, full postal address and contact number.
+                                                <br/>
+                                                <br/>
+                                                    <b>Contact Details:</b> (in case of issues pertaining to Bhent only)
+                                                <br/>
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            Mr. S. S. Bhattacharya (Secretary)
+                                                            <br/>Mob: 9359147387
+                                                        </td>
+                                                        <td>
+                                                            Mr. Guru Charan Das (Trust Secretary)
+                                                            <br/>Mob: 9897762456
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <br/>
                                                 <h4>INITIATION</h4>
                                                 Any seeker desiring initiation, should write to "The Secretary, Central Administrative Council, Radhasoami Satsang, Soami Bagh, Agra-282005, India" or email at <b>rssoamibagh@gmail.com</b>  to get the exact process and guidance. 
                                                 Seeker has to visit Soami Bagh, Agra and make a request to The Secretary, Central Administrative Council, Radhasoami Satsang, Soami Bagh, Agra, India of his/her intent.
@@ -2760,8 +3321,6 @@
                             <div id="BookOrdering" class="row " divType="pageContent">
                                 <asp:UpdatePanel runat ="server" >
                                     <ContentTemplate >
-
-                                  
                                    <div class="col-md-12">
                                                 <h3>BOOK ORDERING</h3>
                                        <br />
@@ -2807,7 +3366,7 @@
                                            <ContentTemplate >
                                                <br />  <br />
                           
-                                            <asp:Panel ID="Panel6" runat="server" ScrollBars="Auto"  Width="100%">
+                                            <asp:Panel ID="Panel8" runat="server" ScrollBars="Auto"  Width="100%">
                                                 <asp:GridView  ID="OrderBok" runat="server"  Width="100%" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
                             style="overflow:auto"        PageSize="10" AllowSorting="True" GridLines="None">
                                                     <Columns>
@@ -3061,8 +3620,8 @@
                 // }
                 window.onunload = function () {
                     '<%= Session("Username") %>' == '';
-}
-$('#sidebarCollapse').on('click', function () {
+                }
+                $('#sidebarCollapse').on('click', function () {
                     document.getElementById("sidebarplaylist").style.display = "block";
                     $('#sidebarplaylist, #content').toggleClass('active');
                     $('.collapse.in').toggleClass('in');

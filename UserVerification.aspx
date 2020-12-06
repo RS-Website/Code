@@ -1,4 +1,4 @@
-﻿<%@ page language="VB" autoeventwireup="false" inherits="UserVerification, App_Web_izrmdfet" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="UserVerification.aspx.vb" Inherits="UserVerification" %>
 
 <!DOCTYPE html>
 

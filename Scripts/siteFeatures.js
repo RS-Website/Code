@@ -105,7 +105,6 @@ var onLoad = function () {
     $("a[targetDiv='HomePage']").parent().addClass("active");
 
     $("td").attr("nowrap", "");
-    
 }
 
 $(document).ready(function ($) {
@@ -117,7 +116,7 @@ $(document).ready(function ($) {
         var anchorTag = value;
         if(anchorTag.hasAttribute("targetDiv")) {
             $(anchorTag).click(function (event) {
-                
+
                 menuItemClickHandler(event);
 
                 $("div[divType='pageContent']").hide();
@@ -147,8 +146,6 @@ $(document).ready(function ($) {
 
                 $("#" + $(anchorTag).attr("targetDiv")).show();
 
-                var contentLoadedEvent = new Event("content-loaded");
-                document.dispatchEvent(contentLoadedEvent);
                 
             })
         }
