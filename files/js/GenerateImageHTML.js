@@ -20,6 +20,8 @@ var getCardViewHTML = function(Maharaj) {
       break;
     case "Guru Gurumukh":
       return getHTML(GuruGurumukhPhotos, "files/images/GuruGurumukh/");
+    case "Samadh":
+      return getHTML(SamadhPhotos, "files/images/Samadh/");
   }
 };
 
