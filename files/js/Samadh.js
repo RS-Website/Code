@@ -23,5 +23,14 @@ var SamadhPhotos = [
     { original: "IMG_20161230_082448.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }, 
     { original: "IMG_20161230_082511.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }, 
     { original: "IMG_20181019_192530.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }, 
-    { original: "IMG_20190221_211852.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }
+    { original: "IMG_20190221_211852.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" },
+
+
+    { original: "IMG_20180819_110616.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }, 
+    { original: "IMG_20180819_110639.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }, 
+    { original: "IMG_20180830_155244.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }, 
+    { original: "IMG_20180906_081127.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }, 
+    { original: "IMG_20180907_114146.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" },
+    { original: "IMG_20180929_165336.jpg", title_english: "Samadh", title_hindi: "", detail_english: "", detail_hindi: "" }
+    
 ]
