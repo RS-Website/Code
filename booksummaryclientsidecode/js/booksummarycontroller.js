@@ -1,6 +1,8 @@
 $(document).ready(function(){
     BookSummary.buildAutoComplete();
     BookSummary.buildSummarries();
+
+    
 });
 
 
@@ -47,6 +49,12 @@ var BookSummary = {
                 $("coral-accordion-item-label").each(function(i,e){
                     $(e).css("font-size", "16px");
                 });
+
+                setTimeout(() => {
+                    var height = window.screen.width - $("#pageBanner").height() + "px";
+                    $("#WholeSummaryContainer").css("max-height", height);
+                }, 1);
+                
             });
         });
     },
@@ -59,11 +67,10 @@ var BookSummary = {
         $(bookSummarries).each(function(index, element) {
             
             summaryHTML += "<coral-accordion-item>";
-
             summaryHTML += "<coral-accordion-item-label>";
             summaryHTML += element.title;
             summaryHTML += "</coral-accordion-item-label>";
-            summaryHTML += "<br />"  + element.summary + "<br /><br />";
+            summaryHTML += "<br />"  + element.summary + "<br /><p /><a href=\"" + element.href + "\">Read Online</a><p /><a href=\"" + element.href + "\" download>Download</a><br />";
 
             summaryHTML += "</coral-accordion-item>";
         });
