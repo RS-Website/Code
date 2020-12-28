@@ -50,10 +50,10 @@ var BookSummary = {
                     $(e).css("font-size", "16px");
                 });
 
-                setTimeout(() => {
-                    var height = window.screen.width - $("#pageBanner").height() + "px";
-                    $("#WholeSummaryContainer").css("max-height", height);
-                }, 1);
+                // setTimeout(() => {
+                //     var height = window.screen.width - $("#pageBanner").height() + "px";
+                //     $("#WholeSummaryContainer").css("max-height", height);
+                // }, 1);
                 
             });
         });
