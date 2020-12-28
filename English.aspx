@@ -1739,7 +1739,7 @@
                                                 <h3>BOOKS</h3>
                                                 You can explore the complete collection of books in available languages here. 
                                                 <br/>
-                                                <h4>Description of books - <u><a href="Books/RS_Faith_Book_Descriptions.pdf">here</a></u></h4>
+                                                <h4>Description of books - <u><a href="BookSummary.html">here</a></u></h4>
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <asp:Panel ID="Panel10" runat="server" ScrollBars="Auto" Width="100%">
                                                 <asp:GridView  ID="GridView1"  runat="server" Width="100%" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
