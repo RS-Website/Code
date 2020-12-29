@@ -17,7 +17,7 @@ var BookSummary = {
         }
 
         $("coral-accordion-item-label").each(function(i, e){
-            if ($(e).html().indexOf(text) === -1) {
+            if ($(e).html().trim().toLowerCase().indexOf(text.trim().toLowerCase()) === -1) {
                 $(e).closest("coral-accordion-item").hide();
             } else {
                 // handle previously hidden accordions
