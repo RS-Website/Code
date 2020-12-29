@@ -1,7 +1,15 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://opensource.adobe.com/coral-spectrum/playground/dist/css/coral.css" />
+    <link rel="stylesheet" href="https://opensource.adobe.com/coral-spectrum/playground/dist/css/coral.css" crossorigin="anonymous" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -12,14 +20,16 @@
 
 <body class="coral--lightest" style="text-align:justify;font-size:16px;background-color: #FFF7EB;">
     <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
-        <img src="files/images/header.png" class="img-responsive HeaderDiv">
-        <br />
-        <h2>&nbsp;&nbsp;Book Summaries</h2>
-        <br />
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="files/images/header.png" class="img-responsive HeaderDiv" width="100%">
+        </nav>
+       
+        <h3>&nbsp;&nbsp;Book Summaries</h3>
+       
         <table>
             <tr>
                 <td>
-                    &nbsp;&nbsp;<label id="label1" class="coral-Form-fieldlabel" style="font-size:16px;">Search by Title
+                    &nbsp;&nbsp;&nbsp;&nbsp;<label id="label1" class="coral-Form-fieldlabel" style="font-size:16px;">Search by Title&nbsp;&nbsp;
                     </label>
                 </td>
                 <td>
