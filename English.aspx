@@ -1315,7 +1315,8 @@
                                         the grace which he experiences internally or by which his affairs are satisfactorily
                                         managed. He should offer thanks to the Supreme Being internally. Of course, he is not
                                         prohibited from giving indications of such experiences to Parmarthis and loving devotees
-                                        on some special occasions, because they also have experiences of such grace and mercy
+                                        on some 
+                                            s, because they also have experiences of such grace and mercy
                                         and Mauj in their own affairs". He was all-powerful. He showed that no one can know the
                                         secrets of Sants unless They themselves are pleased to impart the same to Jivas. Huzur
                                         Maharaj used to give very patient hearing. Satsangis would often relate their petty household
@@ -1739,7 +1740,7 @@
                                                 <h3>BOOKS</h3>
                                                 You can explore the complete collection of books in available languages here. 
                                                 <br/>
-                                                <h4>Description of books - <u><a href="Books/RS_Faith_Book_Descriptions.pdf">here</a></u></h4>
+                                                <h4>Description of books - <u><a href="BookSummary.html">here</a></u></h4>
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <asp:Panel ID="Panel10" runat="server" ScrollBars="Auto" Width="100%">
                                                 <asp:GridView  ID="GridView1"  runat="server" Width="100%" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
@@ -2015,7 +2016,7 @@
                                                             </ItemTemplate>
                                                             <ItemStyle Wrap="true" />
                                                         </asp:TemplateField>
-                                                        <asp:TemplateField HeaderText="Special Occasion">
+                                                        <asp:TemplateField HeaderText="Description">
                                                             <ItemTemplate>
                                                                 <asp:Label ID="SplOccasion_Eng" runat="server" Text='<%# Bind("SplOccasion_Eng") %>'></asp:Label>
                                                             </ItemTemplate>
