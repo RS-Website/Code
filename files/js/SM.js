@@ -4,7 +4,7 @@ var SoamijiMaharajPhotos = [
     title_english: "",
     title_hindi: "",
     detail_english:
-      "Says Radhasoami this is to you<br>Come along to Satlok I invite you.",
+      "Says Radhasoami this to you<br>Come along to Satlok I invite you.",
     detail_hindi: ""
   },
   {
@@ -44,7 +44,7 @@ var SoamijiMaharajPhotos = [
     title_english: "",
     title_hindi: "",
     detail_english:
-      "RADHASOAMI is the Ocean profoundly serene<br>No one can fathom howsoever branve and keen.",
+      "RADHASOAMI is the Ocean profoundly serene<br>No one can fathom howsoever brave and keen.",
     detail_hindi: ""
   },
   {
