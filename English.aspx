@@ -244,12 +244,12 @@
                                                             <li>Volume 1. Read <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-1.pdf">here</a></li>
                                                             <li>Volume 2. Read <a href="Books/NE10/English/Sar_Bachan_Poetry_Part-2.pdf">here</a></li>
                                                         </ol>
-                                                        <li> Prem Bani by Huzur Maharaj (6 Volumes)</li>
+                                                        <li> Prem Bani by Huzur Maharaj (4 Volumes)</li>
                                                         <ol>
                                                             <li>Volume 1. Read <a href="Books/NE10/English/Prem_Bani_Part-1.pdf">here</a></li>
                                                             <li>Volume 2. Read <a href="Books/NE10/English/Prem_Bani_Part-2.pdf">here</a></li>
                                                             <li>Volume 3. Read <a href="Books/NE10/English/Prem_Bani_Part-3.pdf">here</a></li>
-                                                            <li>Volume 4. Read <a href="Books/Trust/Hindi/Prem_Bani_Part-4.pdf">here</a></li>
+                                                            <li>Volume 4. Read <a href="Books/NE10/English/Prem_Bani_Part-4.pdf">here</a></li>
                                                         </ol>
                                                     </ol>
                                                     <li>Discourses of Sant Sat Gurus.</li>
@@ -1315,8 +1315,7 @@
                                         the grace which he experiences internally or by which his affairs are satisfactorily
                                         managed. He should offer thanks to the Supreme Being internally. Of course, he is not
                                         prohibited from giving indications of such experiences to Parmarthis and loving devotees
-                                        on some 
-                                            s, because they also have experiences of such grace and mercy
+                                        on some special occasions, because they also have experiences of such grace and mercy
                                         and Mauj in their own affairs". He was all-powerful. He showed that no one can know the
                                         secrets of Sants unless They themselves are pleased to impart the same to Jivas. Huzur
                                         Maharaj used to give very patient hearing. Satsangis would often relate their petty household
@@ -1988,7 +1987,7 @@
                                            <%-- <div id="snackbarShabd">
                                                 <h4 style="color: black; padding-left: 15px;">No matches found. Please try again...</h4>
                                             </div>--%>
-                                            <asp:Panel ID="Panel1" runat="server" ScrollBars="Auto" Height ="300px" Width="100%">
+                                            <asp:Panel ID="Panel1" runat="server" ScrollBars="Auto" Width="100%">
                                                 <asp:GridView Style="overflow:auto"  ID="GVShabd" Width="100%" runat="server" AllowPaging="true" AutoGenerateColumns="false" AlternatingRowStyle-BackColor="#e5e5e5"
                                                     PageSize="10" AllowSorting="True" GridLines="None">
                                                     <Columns>
@@ -2463,7 +2462,7 @@
                             </div>
 
                             <!-- Container (Classic Satsangs) -->
-                            <div id="ClassSatsang" class="row " divType="pageContent">\
+                            <div id="ClassSatsang" class="row " divType="pageContent">
                                    <div class="col-md-12">
                                                 <br/>
                                                 <h4>OLD SATSANGS (1970s) & CENTENARY SATSANGS</h4>
@@ -2740,7 +2739,7 @@
                                         a room were built on this mound. In this act of Sewa, along with other Satsangis, Maharaj
                                         Saheb and Babuji Maharaj also took part, that is, they also carried basketfuls of earth
                                         dug up for the construction. The palanquin used by Soamiji Maharaj is also kept here.
-                                        Once, on a specific occasion, Bahuji Maharaj had observed that "Radha Bagh is not a picnic
+                                        Once, on a specific occasion, Babuji Maharaj had observed that "Radha Bagh is not a picnic
                                         spot, rather it would be a place of worship". When Babuji Maharaj left His mortal coil,
                                         His last rites were conducted in Radha Bagh itself and subsequently His Samadh was also
                                         constructed in Radha Bagh. Since then, till today, evening Satsang on the 20
@@ -2856,7 +2855,7 @@
                                                     <li>He/She is willing to totally abstain from any animal food (including fish and eggs) and intoxicants of all types.</li>
                                                     <li>He/She is willing to give up all past faiths and beliefs, based on a proper understanding of Radhasoami faith.</li>
                                                 </ul>
-                                                Normally the seeker is required to visit Soami Bagh, Agra. In case he/she is not in a position to visit Soami Bagh, Agra for certain reasons, there is a provision for granting Initiation through letter in which case a senior Satsangi in the same region can meet and explain the modes of practice personally. This is granted only in exceptional circumstances and normally it is expected that a seeker will take his initiation at Soami Bagh, Agra only.
+                                                Normally the seeker is required to visit Soami Bagh, Agra in person. In case he/she is not in a position to visit Soami Bagh, Agra for certain reasons, there is a provision for granting Initiation through letter in which case a senior Satsangi in the same region can meet and explain the modes of practice personally. This is granted only in exceptional circumstances.
                                                 <br/>
                                                 <!--This section is for Accommodation details-->
                                                 <h4>ACCOMMODATION</h4>
@@ -3263,3 +3262,4 @@ $('#sidebarCollapse').on('click', function () {
        </body>
 
 </html>
+
