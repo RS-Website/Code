@@ -3,7 +3,7 @@
 $(document).ready(function() {
     setTimeout(() => {
         var width = $("img.HeaderDiv").width();
-        console.log(width);
+        
         $("div.container").width(width + "px");
 
         $('#sankalanTable').DataTable( {
@@ -13,17 +13,25 @@ $(document).ready(function() {
             scrollCollapse: true,
             paging:         false,
 
+            drawCallback: function() {
+                if($(document).width() < 1000) {
+                    removeColumnsForMobileView();
+                } else {
+                    addColumnsForDesktopView();
+                }
+            },
+
 
             columns: [
                 { title: "Name (Hindi)", width:"12%" },
                 { title: "Name (English)", width: "12%" },
-                {title: "Book (Hindi)", width: "12%" },
+                {title: "Book (Hindi)", width: "12%", className: "hideMobileView" },
                 { title: "Book (English)", width: "12%" },
-                { title: "Bachan", width: "50px" },
-                { title: "Shabd", width: "50px"},
+                { title: "Bachan", width: "50px", className: "hideMobileView" },
+                { title: "Shabd", width: "50px", className: "hideMobileView"},
 
-                { title: "Occasion (Hindi)", width: "10%" },
-                { title: "Occasion (English)", width: "10%" },
+                { title: "Occasion (Hindi)", width: "10%", className: "hideMobileView" },
+                { title: "Occasion (English)", width: "10%", className: "hideMobileView" },
                 { title: "Audio" },
                 { title: "Video"}
             ]
@@ -45,5 +53,23 @@ $(document).ready(function() {
             audios[i].pause();
         }
     }
-    }, true);
+    }, true); 
 });
+
+
+$(window).resize(function() {
+    if($(document).width() < 1000) {
+        removeColumnsForMobileView();
+    } else {
+        addColumnsForDesktopView();
+    }
+});
+
+var removeColumnsForMobileView = function() {
+    $(".hideMobileView").hide();
+}
+
+
+var addColumnsForDesktopView = function() {
+    $(".hideMobileView").show();
+}
