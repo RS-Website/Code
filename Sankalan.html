@@ -20,12 +20,19 @@
 
     <style>
       .sankalanaudio {
-        width: 220px;
+        width: 80%;
       }
+
+      coral-accordion-item-label {
+        width: 100%;
+      }
+
+      h2, th, td { font-size: 18px !important; }
     </style>
-    
+    <link rel="stylesheet" href="https://opensource.adobe.com/coral-spectrum/playground/dist/css/coral.css" />
+    <script src="https://opensource.adobe.com/coral-spectrum/playground/dist/js/coral.js"></script>
   </head>
-  <body class="labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
+  <body class="coral--lightest labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
     <div class="container" style="margin:0 auto;">
       <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
         <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%"/>
@@ -34,13 +41,196 @@
             
       
         </div>
-      
-      <h2 style="margin-left:1%">Shabds from Sankalan</h2>
+        <h1 style="margin-left:1%; text-align: center;">** Shabds by Occasion **</h1>
+      <coral-accordion>
+        <coral-accordion-item>
+          <coral-accordion-item-label>
+            <h2 style="margin-left:1%">Morning</h2>
+          </coral-accordion-item-label>
+          <table shabdByCategory id="Morning" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Retiring to Bed</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="RetiringToBed" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Bhandara - Soamiji Maharaj</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraSM" class="display" width="100%"></table>
+          </coral-accordion-item>
+     
+          
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Bhandara - Huzur Maharaj</h2>
+            </coral-accordion-item-label>
+          <table shabdByCategory id="BhandaraHM" class="display" width="100%"></table>
+          </coral-accordion-item>
 
       
-      <table id="sankalanTable" class="display" width="100%"></table>
       
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Bhandara - Maharaj Saheb</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraMS" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Bhandara - Buaji Maharaj</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraBuajiM" class="display" width="100%"></table>
+          </coral-accordion-item>
 
 
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Bhandara - Babuji Maharaj</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraBJM" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Basant Panchami Satsang</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Basant" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Holi Satsang</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Holi" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Padiwa Satsang</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Padiwa" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Guru Purnima Satsang</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="GuruPurnima" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Diwali</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Diwali" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Thanks Giving</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="ThanksGiving" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Marriage/Wedding</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Marriage" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">House Warming</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="HouseWarming" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">End Stage of Life/After Departure from this world</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="EndStage" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Warning/Chetawanii</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Chetwani" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Prem</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Prem" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Prayer for Grace And Mercy</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="PrayerForGraceAndMercy" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Prayer in the Feet of Radhasoami Dayal</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="PrayerInFeetOfRadhasoamiDayal" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Consolation and Solace</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="ConsolationAndSolace" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Sewa Bani</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="SewaBani" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Arti Shabd</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Artis" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Gloary of Radhasoami Naame</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="GloryOfRadhasoamiNaam" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Ghazal & Masnavi</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="GhazalMasnavi" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <h2 style="margin-left:1%">Saawan Hindola Aur Jhoola</h2>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="SaawanHindola" class="display" width="100%"></table>
+          </coral-accordion-item>
+    
+    </coral-accordion>
   </body>
 </html>

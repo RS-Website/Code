@@ -1,17 +1,16 @@
-
- 
-$(document).ready(function() {
+var plotTable = function(idTable, filterFunc) {
     setTimeout(() => {
         var width = $("img.HeaderDiv").width();
         
         $("div.container").width(width + "px");
 
-        $('#sankalanTable').DataTable( {
-            data: dataSet,
+        $('#' + idTable).DataTable( {
+            data: dataSet.filter(filterFunc),
 
-            scrollY:        '60vh',
+            scrollY:        '40vh',
             scrollCollapse: true,
-            paging:         false,
+            paging:         true,
+            searching:      false,
 
             drawCallback: function() {
                 if($(document).width() < 1000) {
@@ -30,20 +29,30 @@ $(document).ready(function() {
                 { title: "Bachan", width: "50px", className: "hideMobileView" },
                 { title: "Shabd", width: "50px", className: "hideMobileView"},
 
-                { title: "Occasion (Hindi)", width: "10%", className: "hideMobileView" },
-                { title: "Occasion (English)", width: "10%", className: "hideMobileView" },
+                { title: "Occasion (Hindi)", width: "10%", className: "hideMobileView", visible: false },
+                { title: "Occasion (English)", width: "10%", className: "hideMobileView", visible: false },
                 { title: "Audio" },
-                { title: "Video"}
+                { title: "Video", width: "100px"}
             ]
         } );
 
         
-        $("input[type='search']").width("500px");
+        // $("input[type='search']").width("500px");
         $("div.dataTables_wrapper").css("margin-left", "1%");
         $("div.dataTables_wrapper").css("margin-right", "1%");
         $("div.dataTables_filter").css("float", "left");
-    }, 500);   
-
+    }, 500); 
+}
+ 
+$(document).ready(function() {
+    
+    $("table[shabdByCategory]").each(function(i, tableEl){
+        var tableId = $(tableEl).attr("id");
+        var filterStr = tableIdFilterMap[tableId];
+        plotTable(tableId, function(el) {
+            return el[7] === filterStr;
+        });
+    });
 
     // pause all other audios when "this" is played.
     document.addEventListener('play', function(e){
@@ -58,7 +67,7 @@ $(document).ready(function() {
 
 
 $(window).resize(function() {
-    if($(document).width() < 1000) {
+    if($(window).width() < 1000) {
         removeColumnsForMobileView();
     } else {
         addColumnsForDesktopView();
@@ -73,3 +82,32 @@ var removeColumnsForMobileView = function() {
 var addColumnsForDesktopView = function() {
     $(".hideMobileView").show();
 }
+
+var tableIdFilterMap = {
+"Morning" : "After waking up in morning, Niyamawali",
+"RetiringToBed": "Before retiring to bed in evening, Niyamawali",
+"BhandaraSM": "Bhandara of Soami Ji Maharaj",
+"BhandaraHM": "Bhandara of Huzur Maharaj",
+"BhandaraMS": "Bhandara of Maharaj Saheb",
+"BhandaraBuajiM": "Bhandara of Buaji Maharaj",
+"BhandaraBJM": "Bhandara of Babuji Maharaj",
+"Basant": "Basant Panchmi Satsang",
+"Holi": "Holi Satang",
+"Padiwa": "Satsang on Asadh Badi Padiwa",
+"GuruPurnima": "Guru Purnima Satsang, Niyamawali",
+"Diwali": "Diwali Satsang",
+"ThanksGiving": "Thanksgiving",
+"Marriage": "Marriage",
+"HouseWarming": "House warming",
+"EndStage": "Illness and End Time or Death",
+"Chetwani": "not found - TBC",
+"Prem": "not found - TBC",
+"PrayerForGraceAndMercy": "Prayer for Daya and Mehar",
+"PrayerInFeetOfRadhasoamiDayal": "Prayer",
+"ConsolationAndSolace": "Assurance and solace",
+"SewaBani": "Hyms of Sewa",
+"Artis": "Arti",
+"GloryOfRadhasoamiNaam": "not found - TBC",
+"GhazalMasnavi": "Ghazal and Masnavi",
+"SaawanHindola": "Sawan, Hindola and Jhula (Swing)"
+};
