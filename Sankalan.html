@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="has-lab-nav-bottom lab-theme-light">
   <head>
+    <meta charset="UTF-8">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -8,13 +9,23 @@
     ></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
     
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 
     <script type="text/javascript" src="DataJsons/sankalan.video.json.js"></script>
     <script type="text/javascript" src="Scripts/sankalan.controller.js"></script>
+
+    <style>
+      .sankalanaudio {
+        width: 220px;
+      }
+    </style>
+    
   </head>
-  <body class="labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support" style="font-family:helvetica;">
+  <body class="labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
     <div class="container" style="margin:0 auto;">
       <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
         <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%"/>
@@ -23,9 +34,11 @@
             
       
         </div>
-      <br />
-      <h2>Shabds from Sankalan</h2>
-      <table id="example" class="display" width="100%"></table>
+      
+      <h2 style="margin-left:1%">Shabds from Sankalan</h2>
+
+      
+      <table id="sankalanTable" class="display" width="100%"></table>
       
 
 
