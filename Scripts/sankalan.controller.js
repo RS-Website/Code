@@ -22,6 +22,14 @@ var plotTable = function(idTable, filterFunc) {
                 }
             },
 
+            "aoColumnDefs": [{
+                "sType": "bookname_english",
+                "bSortable": true,
+                "aTargets": [3]
+
+            }],     
+
+            order: [[3, "asc"]],
 
             columns: [
                 { title: "Name (Hindi)", width: "10%", className: "leftalign" },
@@ -44,6 +52,70 @@ var plotTable = function(idTable, filterFunc) {
         $("div.dataTables_filter").css("float", "left");
     }, 500); 
 }
+
+// Custom Sorting
+jQuery.fn.dataTableExt.oSort["bookname_english-desc"] = function(x, y) {
+    var px = x.trim().toLowerCase();
+    var py = y.trim().toLowerCase();
+
+    var xStart = px.split(' ')[0];
+    var yStart = py.split(' ')[0];
+
+    if(xStart !== yStart) {
+        // x is from Sar Bachan and y Prem Bani
+        // Sar Bachan < Prem Bani (by time)
+        if(xStart === "sar") {
+            return 1;
+        } else {
+            return -1;
+        }
+    } else {
+        var xLast = px.charAt(px.length-1);
+        var yLast = py.charAt(px.length-1);
+
+        if(isNaN(xLast) || isNaN(yLast)) {
+            return -1;
+        }
+
+        if(xLast === yLast) {
+            return 0;
+        }
+        
+        return xLast > yLast ? -1 : 1;
+    }
+};
+
+// Custom Sorting
+jQuery.fn.dataTableExt.oSort["bookname_english-asc"] = function(x, y) {
+    var px = x.trim().toLowerCase();
+    var py = y.trim().toLowerCase();
+
+    var xStart = px.split(' ')[0];
+    var yStart = py.split(' ')[0];
+
+    if(xStart !== yStart) {
+        // x is from Sar Bachan and y Prem Bani
+        // Sar Bachan < Prem Bani (by time)
+        if(xStart === "sar") {
+            return -1;
+        } else {
+            return 1;
+        }
+    } else {
+        var xLast = px.charAt(px.length-1);
+        var yLast = py.charAt(px.length-1);
+
+        if(isNaN(xLast) || isNaN(yLast)) {
+            return 1;
+        }
+        if(xLast === yLast) {
+            return 0;
+        }
+        
+        return xLast < yLast ? -1 : 1;
+    }
+}
+
  
 $(document).ready(function() {
     
