@@ -1,5 +1,8 @@
 var plotTable = function(idTable, filterFunc) {
     setTimeout(() => {
+       
+
+        console.time();
         var width = $("img.HeaderDiv").width();
         
         $("div.container").width(width + "px");
@@ -12,7 +15,11 @@ var plotTable = function(idTable, filterFunc) {
             paging:         true,
             searching:      false,
 
+                
+
             drawCallback: function() {
+                console.log("Time for " + idTable)
+                console.timeEnd();
                 if($(document).width() < 1000) {
                     removeColumnsForMobileView();
                 } else {
@@ -50,7 +57,7 @@ $(document).ready(function() {
         var tableId = $(tableEl).attr("id");
         var filterStr = tableIdFilterMap[tableId];
         plotTable(tableId, function(el) {
-            return el[7] === filterStr;
+            return el[7].includes(filterStr);
         });
     });
 
@@ -63,6 +70,7 @@ $(document).ready(function() {
         }
     }
     }, true); 
+
 });
 
 
@@ -86,6 +94,7 @@ var addColumnsForDesktopView = function() {
 var tableIdFilterMap = {
 "Morning" : "After waking up in morning, Niyamawali",
 "RetiringToBed": "Before retiring to bed in evening, Niyamawali",
+"Bhog" : "Bhog",
 "BhandaraSM": "Bhandara of Soami Ji Maharaj",
 "BhandaraHM": "Bhandara of Huzur Maharaj",
 "BhandaraMS": "Bhandara of Maharaj Saheb",
