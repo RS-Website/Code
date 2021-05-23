@@ -1,8 +1,5 @@
 var plotTable = function(idTable, filterFunc) {
     setTimeout(() => {
-       
-
-        console.time();
         var width = $("img.HeaderDiv").width();
         
         $("div.container").width(width + "px");
@@ -18,8 +15,6 @@ var plotTable = function(idTable, filterFunc) {
                 
 
             drawCallback: function() {
-                console.log("Time for " + idTable)
-                console.timeEnd();
                 if($(document).width() < 1000) {
                     removeColumnsForMobileView();
                 } else {
@@ -29,22 +24,21 @@ var plotTable = function(idTable, filterFunc) {
 
 
             columns: [
-                { title: "Name (Hindi)", width: "12%", className: "leftalign" },
-                { title: "Name (English)", width: "12%", className: "leftalign" },
-                {title: "Book (Hindi)",  className: "hideMobileView leftalign", width: "12%" },
-                { title: "Book (English)", width: "12%", className: "leftalign"  },
-                { title: "Bachan", width:"30px", className: "hideMobileView centeralign" },
-                { title: "Shabd", width: "30px", className: "hideMobileView centeralign"},
+                { title: "Name (Hindi)", width: "10%", className: "leftalign" },
+                { title: "Name (English)", width: "11%", className: "leftalign" },
+                {title: "Book (Hindi)",  className: "hideMobileView leftalign", width: "10%" },
+                { title: "Book (English)", width: "11%", className: "leftalign"  },
+                { title: "Bachan", width:"4%", className: "hideMobileView centeralign" },
+                { title: "Shabd", width: "4%", className: "hideMobileView centeralign"},
 
-                { title: "Occasion (Hindi)", width:"12%", className: "hideMobileView", visible: false },
-                { title: "Occasion (English)", width:"12%",  className: "hideMobileView", visible: false },
-                { title: "Audio", width: "25%", className:" centeralign" },
-                { title: "Video", width: "10%", className: "rightalign"}
+                { title: "Occasion (Hindi)", width:"10%", className: "hideMobileView", visible: false },
+                { title: "Occasion (English)", width:"10%",  className: "hideMobileView", visible: false },
+                { title: "Audio", width: "20%", className:" centeralign" },
+                { title: "Video", width: "10%", className: "centeralign"}
             ]
         } );
 
         
-        // $("input[type='search']").width("500px");
         $("div.dataTables_wrapper").css("margin-left", "1%");
         $("div.dataTables_wrapper").css("margin-right", "1%");
         $("div.dataTables_filter").css("float", "left");
