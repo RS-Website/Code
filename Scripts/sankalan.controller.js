@@ -29,17 +29,17 @@ var plotTable = function(idTable, filterFunc) {
 
 
             columns: [
-                { title: "Name (Hindi)", width:"12%" },
-                { title: "Name (English)", width: "12%" },
-                {title: "Book (Hindi)", width: "12%", className: "hideMobileView" },
-                { title: "Book (English)", width: "12%" },
-                { title: "Bachan", width: "50px", className: "hideMobileView" },
-                { title: "Shabd", width: "50px", className: "hideMobileView"},
+                { title: "Name (Hindi)", width: "12%", className: "leftalign" },
+                { title: "Name (English)", width: "12%", className: "leftalign" },
+                {title: "Book (Hindi)",  className: "hideMobileView leftalign", width: "12%" },
+                { title: "Book (English)", width: "12%", className: "leftalign"  },
+                { title: "Bachan", width:"30px", className: "hideMobileView centeralign" },
+                { title: "Shabd", width: "30px", className: "hideMobileView centeralign"},
 
-                { title: "Occasion (Hindi)", width: "10%", className: "hideMobileView", visible: false },
-                { title: "Occasion (English)", width: "10%", className: "hideMobileView", visible: false },
-                { title: "Audio" },
-                { title: "Video", width: "100px"}
+                { title: "Occasion (Hindi)", width:"12%", className: "hideMobileView", visible: false },
+                { title: "Occasion (English)", width:"12%",  className: "hideMobileView", visible: false },
+                { title: "Audio", width: "25%", className:" centeralign" },
+                { title: "Video", width: "10%", className: "rightalign"}
             ]
         } );
 
