@@ -10,7 +10,7 @@ var plotTable = function(idTable, filterFunc) {
             scrollY:        '85vh',
             scrollCollapse: true,
             paging:         true,
-            searching:      false,
+            searching:      true,
             //responsive:     true,
             pageLength:     25,
             info:           true, // show how manu entries exist, actually
@@ -182,14 +182,15 @@ var tableIdFilterMap = {
 "Marriage": "Marriage",
 "HouseWarming": "House warming",
 "EndStage": "Illness and End Time or Death",
-"Chetwani": "not found - TBC",
-"Prem": "not found - TBC",
+"Chetwani": "Admonition",
+"Prem": "Love and Yearning",
+"Invocation": "Invocation",
 "PrayerForGraceAndMercy": "Prayer for Daya and Mehar",
 "PrayerInFeetOfRadhasoamiDayal": "Prayer",
 "ConsolationAndSolace": "Assurance and solace",
 "SewaBani": "Hyms of Sewa",
 "Artis": "Arti",
-"GloryOfRadhasoamiNaam": "not found - TBC",
+"GloryOfRadhasoamiNaam": "Mahima of Radhasoami Naam",
 "GhazalMasnavi": "Ghazal and Masnavi",
 "SaawanHindola": "Sawan, Hindola and Jhula (Swing)"
 };
