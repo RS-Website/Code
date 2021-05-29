@@ -19,6 +19,7 @@ var plotTable = function(idTable, filterFunc) {
                 
 
             drawCallback: function() {
+                $("table.audioColumnDataTable tr").css("background-color", "transparent");
                 if($(document).width() < 1000) {
                     adaptForMobieleView();
                 } else {
@@ -36,8 +37,8 @@ var plotTable = function(idTable, filterFunc) {
             order: [[3, "asc"]],
 
             columns: [
-                { title: "Name (Hindi)", width: "10%", className: "leftalign" },
-                { title: "Name (English)", width: "11%", className: "leftalign" },
+                { title: "Name (Hindi)", width: "12%", className: "leftalign" },
+                { title: "Name (English)", width: "14%", className: "leftalign" },
                 {title: "Book (Hindi)",  className: "hideMobileView leftalign", width: "10%" },
                 { title: "Book (English)", width: "11%", className: "leftalign"  },
                 { title: "Bachan", width:"4%", className: "hideMobileView centeralign" },
@@ -45,7 +46,7 @@ var plotTable = function(idTable, filterFunc) {
 
                 { title: "Occasion (Hindi)", width:"10%", className: "hideMobileView", visible: false },
                 { title: "Occasion (English)", width:"10%",  className: "hideMobileView", visible: false },
-                { title: "Audio", width: "20%", className:" centeralign" },
+                { title: "Audio", width: "15%", className:" centeralign" },
                 { title: "Video", width: "10%", className: "centeralign"}
             ]
         } );
