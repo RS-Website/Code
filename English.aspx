@@ -474,70 +474,8 @@
                                                         </div>
                                                     </div>
                                                     <br />
-                                                <h4>IMPORTANT DATES - 2020</h4>
-                                                    Given below are the dates of festivals as per Radhasoami Faith in Calendar year 2020.
-                                                    <div class="row" >
-                                                        <div class="col-md-12" style="text-align: justify;">
-                                                            <br/>
-                                                            <table>
-                                                                <tr>
-                                                                    <th style="width: 150px">DATE</th>
-                                                                    <th style="width: 100px">DAY</th>
-                                                                    <th style="width: 200px">FESTIVAL</th>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>1<sup>st</sup> January 2020</td>
-                                                                    <td>Wednesday</td>
-                                                                    <td>New Year (Nutan Varsh)</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>30<sup>th</sup> January 2020</td>
-                                                                    <td>Thursday</td>
-                                                                    <td>Basant Panchami<br/>(Establishment of Radhasoami Satsang in 1861 on this day)</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>10<sup>th</sup> March 2020</td>
-                                                                    <td>Tuesday</td>
-                                                                    <td>Holi Satsang</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>7<sup>th</sup> May 2020</td>
-                                                                    <td>Thursday</td>
-                                                                    <td>Bhandara Buaji Maharaj</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>6<sup>th</sup> June 2020</td>
-                                                                    <td>Saturday</td>
-                                                                    <td>Asadh Badi Padiwa<br/>(Day of departure of Soamiji Maharaj)</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>5<sup>th</sup> July 2020</td>
-                                                                    <td>Sunday</td>
-                                                                    <td>Guru Poornima</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>11<sup>th</sup> August 2020</td>
-                                                                    <td>Tuesday</td>
-                                                                    <td>Bhandara Soamiji Maharaj</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>24<sup>th</sup> October 2020</td>
-                                                                    <td>Saturday</td>
-                                                                    <td>Bhandara Maharaj Saheb</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>15<sup>th</sup> November 2020</td>
-                                                                    <td>Sunday</td>
-                                                                    <td>Bhandara Babuji Maharaj</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>25<sup>th</sup> December 2020</td>
-                                                                    <td>Friday</td>
-                                                                    <td>Bhandara Huzur Maharaj</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                        <br/>
+                                                    
+                                                    <br/>
                                                     </div>
                                                     <br />
                                                     <h4>LIVE SATSANG</h4>
@@ -3262,4 +3200,3 @@ $('#sidebarCollapse').on('click', function () {
        </body>
 
 </html>
-
