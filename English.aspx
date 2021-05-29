@@ -2776,10 +2776,10 @@
                             </div>
                                 </div>
                             
-                            <!-- Container (General Indormation) -->
+                            <!-- Container (General Information) -->
                             <div id="GenInfo" class="row " divType="pageContent">
                                 <div class="col-md-12" style="padding-right:50px;">
-                                      
+                                        
                                             <h3>GENERAL INFORMATION</h3>
                                             The day to day administration of Radhasoami Satsang is looked after by Central Administrative Council, Radhasoami Satsang, Soami Bagh, Agra, India. Secretary can be contacted at <b>rssoamibagh@gmail.com</b>
                                             <div class="col-md-12 " style="text-align: justify;outline:none" tabindex="1">
@@ -2795,6 +2795,86 @@
                                                 </ul>
                                                 Normally the seeker is required to visit Soami Bagh, Agra in person. In case he/she is not in a position to visit Soami Bagh, Agra for certain reasons, there is a provision for granting Initiation through letter in which case a senior Satsangi in the same region can meet and explain the modes of practice personally. This is granted only in exceptional circumstances.
                                                 <br/>
+                                                
+                                                <br />
+
+                                                <h3>BHENT (Offering at the Lotus Feet of Radhasoami Dayal)</h3>
+                                            <div class="col-md-12 " style="text-align: justify;outline:none" >
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th colspan="3" style="text-align:center;">Details</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="width:200px;">Bank</td>
+                                                            <td colspan="2">Union Bank of India</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Bank Branch</td>
+                                                            <td colspan="2">Dayal Bagh, Agra</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td colspan="2">Radhasoami Satsang</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>IFSC Code</td>
+                                                            <td colspan="2">UBINO530565</td>
+                                                        </tr>
+                                                        
+                                                        <tr>
+                                                            <th colspan="3"" style="text-align:center;">Bhent Accounts</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Samadh</td>
+                                                            <td colspan="2">305602010005817</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Bhandar Ghar</td>
+                                                            <td colspan="2">305602010013820</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Other</td>
+                                                            <td colspan="2">305601010291223</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <th colspan="3" style="text-align:center;">Instructions</th>
+                                                            </tr>
+                                                        <tr>
+                                                            <td colspan="3">
+                                                                * The bank transfers can be done via Cash/Cheque/NEFT/RTGS <br/>
+                                                                * Please inform Satsang Authority after ensuring the Bhent transfer is complete (Contact details follow) <br />
+                                                                * The information can be sent by postal letter/email. (Please check the contact details below) <br />
+                                                                * While informing RS Satsang about the Bhent, please mention the amount breakup, category of Bhent and the name of the Satsangi offering the Bhent <br />
+                                                                * If the Bhent amount exceeds Rs 5,000/-, please share your PAN Number.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th colspan="3"" style="text-align:center;">
+                                                                Satsang Authority Contact Details
+                                                            </th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Authorised Person</th>
+                                                            <th>Contact Number</th>
+                                                            <th>e-Mail Id</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Secretary - Shri S.S. Bhattacharya<br />Radhasoami Satsang,<br/>Soami Bagh, Agra-282005 (UP)</td>
+                                                            <td>+91-9359147387</td>
+                                                            <td>rssoamibagh@gmail.com</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Trust Secretary - Shri Guru Charan Das<br />Radhasoami Satsang,<br/>Soami Bagh, Agra-282005 (UP)</td>
+                                                            <td>+91-9897762456</td>
+                                                            <td>rssoamibagh@gmail.com</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                                
+
                                                 <!--This section is for Accommodation details-->
                                                 <h4>ACCOMMODATION</h4>
                                                 Limited air conditioned and non air conditioned accommodation is available in Soami Bagh, Agra and Soami Bagh, Varanasi. Kindly contact Secretary, Radhasoami Satsang, Soami Bagh, Agra, India.
