@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-US" class="has-lab-nav-bottom lab-theme-light">
+  <head>
+    <meta charset="UTF-8">
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
+    
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="DataJsons/sankalan.video.json.js"></script>
+    <script type="text/javascript" src="Scripts/sankalan.controller.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css" />
+
+    
+    
+    <style>
+      .accordionHeading {
+        text-transform: none;
+      }
+
+      
+      coral-accordion-item-label {
+        width: 100%;
+      }
+
+      h2, th, td { font-size: 18px !important; }
+
+      .is-open {
+        background-color: #FFDEAD;
+      }
+
+      span.accordionHeading {
+        font-size: 14px;
+      }
+
+      .sankalanaudio {
+        object-fit: fill;
+      }
+
+      .centeralign {
+        text-align: center;
+      }
+
+      .leftalign {
+        text-align: left;;
+      }
+
+      .rightalign {
+        text-align: right;
+      }
+
+      .glyphicon {
+          font-size: 35px;
+      }
+
+    </style>
+    <link rel="stylesheet" href="https://opensource.adobe.com/coral-spectrum/playground/dist/css/coral.css" />
+    <script src="https://opensource.adobe.com/coral-spectrum/playground/dist/js/coral.js"></script>
+  </head>
+  <body class="coral--lightest labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
+    <div class="container" style="margin:0 auto;">
+      <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
+        <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%"/>
+        
+        
+            
+      
+        </div>
+        <h1 style="margin-left:1%; text-align: center;">** Shabds/Hymns by Special Occasions **</h1>
+      <coral-accordion>
+        <coral-accordion-item>
+          <coral-accordion-item-label>
+            <table width="100%">
+              <tr>
+                <td>
+                  <h2 class="accordionHeading" style="margin-left:1%">Shabd for daily recital on getting up in the morning. <span class="accordionHeading clickMsg" style="float:right;">(Please
+                      click to expand/collapse)</span></h2>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h2 class="accordionHeading" style="margin-left:1%">सुबह उठने पर रोज़ पढ़ा जाने वाला शब्द <span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                </td>
+              </tr>
+            </table>
+          </coral-accordion-item-label>
+          <table shabdByCategory id="Morning" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabd for daily recital before going to sleep.<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">रात को सोने से पूर्व रोज़ पढ़ा जाने वाला शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="RetiringToBed" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabd for Bhog (offering food to Radhasoami Dayal before meals)<span
+                        class="accordionHeading clickMsg" style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">भोग के शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Bhog" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited at Arti Satsang on day of Bhandara - Soamiji Maharaj <span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - स्वामीजी महाराज<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraSM" class="display" width="100%"></table>
+          </coral-accordion-item>
+     
+          
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited at Arti Satsang on day of Bhandara - Huzur Maharaj <span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - हुज़ूर महाराज<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+          <table shabdByCategory id="BhandaraHM" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+      
+      
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited at Arti Satsang on day of Bhandara - Maharaj Saheb <span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - महाराज साहब<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraMS" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited at Arti Satsang on day of Bhandara - Buaji Maharaj <span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - बुआजी महाराज<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraBuajiM" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited at Arti Satsang on day of Bhandara - Babuji Maharaj <span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - बाबूजी महाराज<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="BhandaraBJM" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited during special Satsang - Basant Panchami<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">बसंत पंचमी को सतसंग<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Basant" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited during special Satsang - Holi<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">होली का सतसंग<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Holi" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited during special Satsang - Asad Badi Padva (day of departure of Soamiji Maharaj)<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">असाढ़ बदी पड़वा का सतसंग<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Padiwa" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited during special Satsang - Guru Purnima<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">गुरुपूर्णिमा का सतसंग<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="GuruPurnima" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds recited at Diwali<span class="accordionHeading clickMsg" style="float:right;">(Please
+                        click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">दीवाली के अवसर पर पढ़े जाने वाले शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Diwali" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds for congratulations and thanksgiving.<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">बधावा व शुकराने के शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="ThanksGiving" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds on the occasion of marriage<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">शादी विवाह के अवसर पर पढ़े जाने वाले शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Marriage" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds on the occasion of House Warming<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">ग्रह प्रवेश के अवसर पर पढ़े जाने वाले शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="HouseWarming" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds for reciting during last days or on death.<span
+                        class="accordionHeading" style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">अंतिम समय और मृत्यु होने पर पढ़े जाने वाले शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="EndStage" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds of Chitaoni (admonition).<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">चितावनी के शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Chetwani" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds of yearning, love and devotion.<span class="accordionHeading clickMsg" style="float:right;">(Please
+                        click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">प्रेम और विरह के शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Prem" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Cry for help and prayer<span
+                        class="accordionHeading clickMsg" style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">फ़र्याद एवं पुकार<span
+                        class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक
+                        करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Invocation" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Prayer for Grace And Mercy <span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">प्रार्थना वास्ते प्रप्ति दया और मेहर के लिए<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="PrayerForGraceAndMercy" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Binti and Prarthana (prayer and supplication) at the Holy Feet of Radhasoami Dayal.<span
+                        class="accordionHeading" style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">बिनती और प्रार्थना राधास्वामी दयाल के चरण कँवल में<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="PrayerInFeetOfRadhasoamiDayal" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds of assurance and solace<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">आश्वासन और सांत्वना के शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="ConsolationAndSolace" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Shabds of Sewa Bani (rendering service)<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">सेवा बानी के शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="SewaBani" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">A few Arti Shabds<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">आरतियों के कुछ शब्द<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="Artis" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Eminence and glory of Radhasoami Nam<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">महिमा राधास्वामी नाम<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="GloryOfRadhasoamiNaam" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Ghazals (odes) and Masnavi.<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">ग़ज़ल एवं मसनवी<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="GhazalMasnavi" class="display" width="100%"></table>
+          </coral-accordion-item>
+
+          <coral-accordion-item>
+            <coral-accordion-item-label>
+              <table width="100%">
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">Sawan, cradle and swing.<span class="accordionHeading clickMsg"
+                        style="float:right;">(Please click to expand/collapse)</span></h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="accordionHeading" style="margin-left:1%">सावन, हिंडोला व झूला<span class="accordionHeading clickMsg" style="float:right;">(कृपया विस्तार या संक्षिप्त करने के लिए क्लिक करें)</span></h2>
+                  </td>
+                </tr>
+              </table>
+            </coral-accordion-item-label>
+            <table shabdByCategory id="SaawanHindola" class="display" width="100%"></table>
+          </coral-accordion-item>
+    
+    </coral-accordion>
+  </body>
+</html>
