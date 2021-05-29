@@ -55,7 +55,7 @@ var plotTable = function(idTable, filterFunc) {
         $("div.dataTables_wrapper").css("margin-left", "1%");
         $("div.dataTables_wrapper").css("margin-right", "1%");
         $("div.dataTables_filter").css("float", "left");
-    }, 500); 
+    }, 250); 
 }
 
 // Custom Sorting
