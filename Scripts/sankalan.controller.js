@@ -7,18 +7,22 @@ var plotTable = function(idTable, filterFunc) {
         $('#' + idTable).DataTable( {
             data: dataSet.filter(filterFunc),
 
-            scrollY:        '40vh',
+            scrollY:        '85vh',
             scrollCollapse: true,
             paging:         true,
             searching:      false,
+            //responsive:     true,
+            pageLength:     25,
+            info:           true, // show how manu entries exist, actually
+            lengthChange:   false, // whether to show the dropdown to switch page size
 
                 
 
             drawCallback: function() {
                 if($(document).width() < 1000) {
-                    removeColumnsForMobileView();
+                    adaptForMobieleView();
                 } else {
-                    addColumnsForDesktopView();
+                    adaptForDesktopView();
                 }
             },
 
@@ -142,19 +146,21 @@ $(document).ready(function() {
 
 $(window).resize(function() {
     if($(window).width() < 1000) {
-        removeColumnsForMobileView();
+        adaptForMobieleView();
     } else {
-        addColumnsForDesktopView();
+        adaptForDesktopView();
     }
 });
 
-var removeColumnsForMobileView = function() {
+var adaptForMobieleView = function() {
     $(".hideMobileView").hide();
+    $(".clickMsg").hide();
 }
 
 
-var addColumnsForDesktopView = function() {
+var adaptForDesktopView = function() {
     $(".hideMobileView").show();
+    $(".clickMsg").show();
 }
 
 var tableIdFilterMap = {
@@ -169,7 +175,7 @@ var tableIdFilterMap = {
 "Basant": "Basant Panchmi Satsang",
 "Holi": "Holi Satang",
 "Padiwa": "Satsang on Asadh Badi Padiwa",
-"GuruPurnima": "Guru Purnima Satsang, Niyamawali",
+"GuruPurnima": "Guru Purnima Satsang",
 "Diwali": "Diwali Satsang",
 "ThanksGiving": "Thanksgiving",
 "Marriage": "Marriage",
