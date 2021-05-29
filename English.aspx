@@ -2860,15 +2860,11 @@
                                                             <th>e-Mail Id</th>
                                                         </tr>
                                                         <tr>
-                                                            <td>Secretary - Shri S.S. Bhattacharya<br />Radhasoami Satsang,<br/>Soami Bagh, Agra-282005 (UP)</td>
+                                                            <td>Secretary <br />Radhasoami Satsang,<br/>Soami Bagh, Agra-282005 (UP)</td>
                                                             <td>+91-9359147387</td>
                                                             <td>rssoamibagh@gmail.com</td>
                                                         </tr>
-                                                        <tr>
-                                                            <td>Trust Secretary - Shri Guru Charan Das<br />Radhasoami Satsang,<br/>Soami Bagh, Agra-282005 (UP)</td>
-                                                            <td>+91-9897762456</td>
-                                                            <td>rssoamibagh@gmail.com</td>
-                                                        </tr>
+                                                        
                                                     </tbody>
                                                 </table>
                                             </div>
