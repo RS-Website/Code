@@ -51,7 +51,8 @@
                                             <li><a targetDiv="SantBani" style="cursor: pointer">Sant Bani</a></li>
                                             <li><a targetDiv="Relics" style="cursor: pointer">Relics</a></li>
                                             <li><a targetDiv="Videoclips" style="cursor: pointer">Video Clips</a></li>
-                                            <li><a targetDiv="Videopoetry" style="cursor: pointer">Video Poetry</a></li>
+                                            <!--<li><a targetDiv="Videopoetry" style="cursor: pointer">Video Poetry</a></li>-->
+                                            <li><a style="cursor: pointer;" href="ShabdsByOccasion.html">Shabds  for special occasions</a></li>
                                             <li><a targetDiv="ClassSatsang" style="cursor: pointer">Old Satsangs (1970s/Centenary)</a></li>
                                         </ul>
                                     </li>
