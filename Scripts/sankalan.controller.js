@@ -10,7 +10,7 @@ var plotTable = function(idTable, filterFunc) {
             scrollY:        '60vh',
             scrollCollapse: true,
             paging:         true,
-            searching:      false,
+            searching:      true,
             //responsive:     true,
             pageLength:     25,
             info:           true, // show how manu entries exist, actually
@@ -126,9 +126,15 @@ $(document).ready(function() {
     
     $("table[shabdByCategory]").each(function(i, tableEl){
         var tableId = $(tableEl).attr("id");
-        var filterStr = tableIdFilterMap[tableId];
+        var filterStr = tableIdFilterMap[tableId].trim().toLowerCase();
         plotTable(tableId, function(el) {
-            return el[7].includes(filterStr);
+            var thisCategory = el[7].trim().toLowerCase();
+            if(filterStr === "prayer") {
+                return thisCategory.includes(filterStr)
+                    && !thisCategory.includes("manglacharan and prayer")
+                    && !thisCategory.includes("prayer for daya and mehar");
+            }
+            return thisCategory.includes(filterStr);
         });
     });
 
@@ -175,7 +181,7 @@ var tableIdFilterMap = {
 "BhandaraBJM": "Bhandara of Babuji Maharaj",
 "Basant": "Basant Panchmi Satsang",
 "Holi": "Holi Satang",
-"Padiwa": "Satsang on Asadh Badi Padiwa",
+"Padiwa": "Asadh Badi Padiwa",
 "GuruPurnima": "Guru Purnima Satsang",
 "Diwali": "Diwali Satsang",
 "ThanksGiving": "Thanksgiving",
@@ -189,7 +195,7 @@ var tableIdFilterMap = {
 "PrayerInFeetOfRadhasoamiDayal": "Prayer",
 "ConsolationAndSolace": "Assurance and solace",
 "SewaBani": "Hyms of Sewa",
-"Artis": "Arti",
+"Artis": "Arti Shabd",
 "GloryOfRadhasoamiNaam": "Mahima of Radhasoami Naam",
 "GhazalMasnavi": "Ghazal and Masnavi",
 "SaawanHindola": "Sawan, Hindola and Jhula (Swing)"
