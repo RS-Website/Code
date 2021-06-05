@@ -2863,7 +2863,7 @@
                                                         <tr>
                                                             <td>Secretary <br />Radhasoami Satsang,<br/>Soami Bagh, Agra-282005 (UP)</td>
                                                             <td>+91-9359147387</td>
-                                                            <td>rssoamibagh@gmail.com</td>
+                                                            <td><b>rssoamibagh@gmail.com</b></td>
                                                         </tr>
                                                         
                                                     </tbody>
