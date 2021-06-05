@@ -47,7 +47,7 @@
                                         <ul id="#media"  style ="z-index:999;" class="dropdown-menu">
                                             <li><a targetDiv="Books" style="cursor: pointer">Books</a></li>
                                             <li><a targetDiv="Audio" style="cursor: pointer">Prose</a></li>
-                                            <li><a targetDiv="Shabd" style="cursor: pointer">Poetry (Sar Bachan & Prem Bani) </a></li>
+                                            <li><a targetDiv="Shabd" style="cursor: pointer">Poetry Audio (Sar Bachan & Prem Bani) </a></li>
                                             <li><a targetDiv="SantBani" style="cursor: pointer">Sant Bani</a></li>
                                             <li><a targetDiv="Relics" style="cursor: pointer">Relics</a></li>
                                             <li><a targetDiv="Videoclips" style="cursor: pointer">Video Clips</a></li>
