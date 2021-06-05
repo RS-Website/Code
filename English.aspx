@@ -2844,8 +2844,8 @@
                                                         <tr>
                                                             <td colspan="3">
                                                                 * The bank transfers can be done via Cash/Cheque/NEFT/RTGS <br/>
-                                                                * Please inform Satsang Authority after ensuring the Bhent transfer is complete (Contact details follow) <br />
-                                                                * The information can be sent by postal letter/email. (Please check the contact details below) <br />
+                                                                * Please inform Satsang Authority after ensuring the Bhent transfer is complete (Contact details below) <b>rssoamibagh@gmail.com</b> <br />
+                                                                * The information can be sent by postal letter/email. (Please check the contact details below) <b>rssoamibagh@gmail.com</b> <br />
                                                                 * While informing RS Satsang about the Bhent, please mention the amount breakup, category of Bhent and the name of the Satsangi offering the Bhent <br />
                                                                 * If the Bhent amount exceeds Rs 5,000/-, please share your PAN Number.
                                                             </td>
