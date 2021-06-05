@@ -117,6 +117,8 @@
                             <div id="HomePage" class="row BorderDiv" divType="pageContent">
                                 <!--<div class="col-md-2  "></div>-->
                                 <div class="col-md-12" style ="font-size:15px;"  >
+                                    <center style="background-color:#FFF7EB;padding:6px;"><h4>** Video Shabds have been re-organised into a new page <a href="ShabdsByOccasion.html"><u>Shabds by Special Occasion</u></a>.Option to access in 'Library' menu as well. **</h4></center>
+                                    
                                    <center style="background-color:#FFF7EB;padding:6px;"><h4>** Check the newly added <u><a href="ImageGallery.html">Image Gallery</a></u>. Option to access in menu as well. **</h4></center>
                                                 <h3>INTRODUCTION</h3>
                                                 &emsp;&emsp;Finding the Jivas in acute distress and delusion, and that they have deviated considerably from true Parmarth
