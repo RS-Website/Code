@@ -52,7 +52,7 @@
                                             <li><a targetDiv="Relics" style="cursor: pointer">Relics</a></li>
                                             <li><a targetDiv="Videoclips" style="cursor: pointer">Video Clips</a></li>
                                             <!--<li><a targetDiv="Videopoetry" style="cursor: pointer">Video Poetry</a></li>-->
-                                            <li><a style="cursor: pointer;" href="ShabdsByOccasion.html">Shabds  for special occasions</a></li>
+                                            <li><a style="cursor: pointer;" href="ShabdsByOccasion.html">Shabds for special occasions</a></li>
                                             <li><a targetDiv="ClassSatsang" style="cursor: pointer">Old Satsangs (1970s/Centenary)</a></li>
                                         </ul>
                                     </li>
@@ -1804,8 +1804,8 @@
                             <div id="Audio" class="row " divType="pageContent">
                                <div class="col-md-12">
                                                         <h3>AUDIO</h3>
-                                                Here you can find the complete collection of audio rendetions (by Satsangis) of (i) Discourses, poetry of all Sant Sat Gurus
-                                                of Radhasoami Faith and (ii) Poetry of other Sants. The rendetions are in Hindi language.
+                                                Here you can find the complete collection of audio renditions (by Satsangis) of (i) Discourses, poetry of all Sant Sat Gurus
+                                                of Radhasoami Faith and (ii) Poetry of other Sants. The renditions are in Hindi language.
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                                 <br/>
                                                 <br/>
@@ -1819,8 +1819,8 @@
                                                 <br/>
 -->                                                
                                                 <h4>PROSE</h4>
-                                                In the table below, you can listen to the audio rendetions (by Satsangis) of Discourses of all Sant Sat Gurus of Radhasoami
-                                                Faith. The rendetions are in Hindi language. 
+                                                In the table below, you can listen to the audio renditions (by Satsangis) of Discourses of all Sant Sat Gurus of Radhasoami
+                                                Faith. The renditions are in Hindi language. 
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                            
                                     <br />
@@ -1904,7 +1904,7 @@
                                    <div class="col-md-12">
                                             <br/>
                                                 <h4>POETRY - RADHASOAMI FAITH</h4>
-                                                In the table below, you can listen to the audio rendetions (by Satsangis) of Poetry of Sants of Radhasoami Faith. The rendetions
+                                                In the table below, you can listen to the audio renditions (by Satsangis) of Poetry of Sants of Radhasoami Faith. The renditions
                                                 are in Hindi language. 
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <br/>
@@ -1995,8 +1995,8 @@
                             <div id="SantBani" class="row " divType="pageContent">
                                    <div class="col-md-12">
                                                 <br/>
-                                                <h4>SANT BANI</h4>
-                                                In the table below, you can listen to the audio rendetions (by Satsangis) of Poetry of Sants of other Faith. The rendetions
+                                                <h4>SANT BANI (Shabds of Sants before the advent of Soamiji Maharaj, the August Founder of Radhasoami Faith)</h4>
+                                                In the table below, you can listen to the audio renditions (by Satsangis) of Poetry of Sants of other Faith, before the advent of Soamiji Maharaj, the August Founder of Radhasoami Faith. The renditions
                                                 are in Hindi language. 
                                                 <br/><u>Note:</u> In case of mobiles and laptops, few browsers do not support 'Open/Play online' feature. Hence clicking on play online will result into download of the content on laptop or mobile. It can then be accessed locally.
                                     <br/>
