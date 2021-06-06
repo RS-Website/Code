@@ -10,7 +10,7 @@ var plotTable = function(idTable, filterFunc) {
             scrollY:        '60vh',
             scrollCollapse: true,
             paging:         true,
-            searching:      true,
+            searching:      false,
             //responsive:     true,
             pageLength:     25,
             info:           true, // show how manu entries exist, actually
