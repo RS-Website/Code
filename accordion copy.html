@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en-US" class="has-lab-nav-bottom lab-theme-light">
+  <head>
+    <meta charset="UTF-8">
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
+    
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="DataJsons/sankalan.video.json.js"></script>
+    <script type="text/javascript" src="Scripts/sankalan.controller.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <script src="Scripts/accordion.bootstrap.shabdsByOccasion.js"></script>
+    <style>
+      .accordionHeading {
+        text-transform: none;
+      }
+
+      
+      coral-accordion-item-label {
+        width: 100%;
+      }
+
+      h2, th, td { font-size: 18px !important; }
+
+      .is-open {
+        background-color: #FFDEAD;
+      }
+
+      span.accordionHeading {
+        font-size: 14px;
+      }
+
+      .sankalanaudio {
+        object-fit: fill;
+      }
+
+      .centeralign {
+        text-align: center;
+      }
+
+      .leftalign {
+        text-align: left;;
+      }
+
+      .rightalign {
+        text-align: right;
+      }
+
+      .glyphicon {
+          font-size: 35px;
+      }
+
+      coral-accordion-item.is-open coral-accordion-item-label {
+        border-bottom: 0.1em solid #7E7E7E;;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="https://opensource.adobe.com/coral-spectrum/playground/dist/css/coral.css" /> -->
+    <!--<script src="https://opensource.adobe.com/coral-spectrum/playground/dist/js/coral.js"></script> -->
+  </head>
+  <body class="coral--lightest labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
+    <div style="margin:0 auto;">
+      <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
+        <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%"/>
+        
+        
+            
+      
+        </div>
+        <h1 style="margin-left:1%; text-align: center;">Shabds/Hymns by Special Occasions <br/>(in Audio and Video format)</h1>
+        <!--#accordionExample-->
+        <!--morning-->
+        <div class="accordion" id="ShabdsByOccasionsMorning" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="MorningAccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#MorningAccordionBody"
+                aria-expanded="true" aria-controls="MorningAccordionBody">
+                <table>
+                  <tr><td><h2>Shabd for daily recital on getting up in the morning</h2></td></tr>
+                  <tr><td><br /></td></tr>
+                  <tr><td> <h2>सुबह उठने पर रोज़ पढ़ा जाने वाला शब्द</h2></td></tr>
+                </table>
+              </button>
+            </h2>
+            <div id="MorningAccordionBody" class="accordion-collapse collapse" aria-labelledby="MorningAccordionHeading"
+              data-bs-parent="#ShabdsByOccasionsMorning">
+              <div class="accordion-body">
+                <table shabdByCategory id="Morning" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!--sleep-->
+        <div class="accordion" id="ShabdsByOccasionsRetiringToBed" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="SleepccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#SleepAccordionBody"
+                aria-expanded="true" aria-controls="SleepAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabd for daily recital before going to sleep</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>रात को सोने से पूर्व रोज़ पढ़ा जाने वाला शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="SleepAccordionBody" class="accordion-collapse collapse" aria-labelledby="SleepAccordionHeading"
+              data-bs-parent="#ShabdsByOccasionsRetiringToBed">
+              <div class="accordion-body">
+                <table shabdByCategory id="RetiringToBed" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <br /><br/>
+        <!--bhog-->
+        <div class="accordion" id="ShabdsByOccasionsBhog" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhogccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#BhogAccordionBody"
+                aria-expanded="true" aria-controls="BhogAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabd for Bhog (offering food to Radhasoami Dayal before meals)</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>भोग के शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhogAccordionBody" class="accordion-collapse collapse" aria-labelledby="BhogAccordionHeading"
+              data-bs-parent="#ShabdsByOccasionsBhog">
+              <div class="accordion-body">
+                <table shabdByCategory id="Bhog" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <br /><br />
+        <!--SM bhandara-->
+        <div class="accordion" id="ShabdsByOccasionsBhandaraSM" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraSoamijiMaharajccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraSoamijiMaharajAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraSoamijiMaharajAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited at Arti Satsang on day of Bhandara - Soamiji Maharaj</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - स्वामीजी महाराज</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraSoamijiMaharajAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraSoamijiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasionsBhandaraSM">
+              <div class="accordion-body">
+                <table shabdByCategory id="BhandaraSM" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--HM - Bhandara-->
+        <div class="accordion" id="ShabdsByOccasionsBhandaraHM" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraHuzurMaharajccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraHuzurMaharajAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraHuzurMaharajAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited at Arti Satsang on day of Bhandara - Huzur Maharaj</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - हुज़ूर महाराज</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraHuzurMaharajAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraHuzurMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasionsBhandaraHM">
+              <div class="accordion-body">
+                <table shabdByCategory id="BhandaraHM" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--MS Bhandara-->
+        <div class="accordion" id="ShabdsByOccasionsBhandaraMS" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraMaharajSahebccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraMaharajSahebAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraMaharajSahebAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited at Arti Satsang on day of Bhandara - Maharaj Saheb</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - महाराज साहब</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraMaharajSahebAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraMaharajSahebAccordionHeading" data-bs-parent="#ShabdsByOccasionsBhandaraMS">
+              <div class="accordion-body">
+                <table shabdByCategory id="BhandaraMS" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Buaji M Bhandara-->
+        <div class="accordion" id="ShabdsByOccasionsBhandaraBuajiM" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraBuajiMaharajccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraBuajiMaharajAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraBuajiMaharajAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited at Arti Satsang on day of Bhandara - Buaji Maharaj</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - बुआजी महाराज</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraBuajiMaharajAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraBuajiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasionsBhandaraBuajiM">
+              <div class="accordion-body">
+                <table shabdByCategory id="BhandaraBuajiM" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--BM BHandara-->
+        <div class="accordion" id="ShabdsByOccasionsBhandaraBJM" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraBabujiMaharajccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraBabujiMaharajAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraBabujiMaharajAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited at Arti Satsang on day of Bhandara - Babuji Maharaj</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>भंडारे के दिन आरती के सतसंग में पढ़े जाने वाले शब्द - बाबूजी महाराज</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraBabujiMaharajAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraBabujiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasionsBhandaraBJM">
+              <div class="accordion-body">
+                <table shabdByCategory id="BhandaraBJM" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <br /><br />
+
+        <!--Basant-->
+        <div class="accordion" id="ShabdsByOccasionsBasant" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraBasantPanchamiccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraBasantPanchamiAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraBasantPanchamiAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited during special Satsang - Basant Panchami</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>बसंत पंचमी को सतसंग</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraBasantPanchamiAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraBasantPanchamiAccordionHeading" data-bs-parent="#ShabdsByOccasionsBasant">
+              <div class="accordion-body">
+                <table shabdByCategory id="Basant" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Holi-->
+        <div class="accordion" id="ShabdsByOccasionsHoli" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraHoliSatsantccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraHoliSatsantAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraHoliSatsantAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited during special Satsang - Holi</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>होली का सतसंग</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraHoliSatsantAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraHoliSatsantAccordionHeading" data-bs-parent="#ShabdsByOccasionsHoli">
+              <div class="accordion-body">
+                <table shabdByCategory id="Holi" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Padwa-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraPadiwaSatsangccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraPadiwaSatsangAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraPadiwaSatsangAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited during special Satsang - Padiwa</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>असाढ़ बदी पड़वा का सतसंग</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraPadiwaSatsangAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraPadiwaSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="Padiwa" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Guru Purnima-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraGuruPurnimaSatsangccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraGuruPurnimaSatsangAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraGuruPurnimaSatsangAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited during special Satsang - Guru Purnima</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>गुरुपूर्णिमा का सतसंग</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraGuruPurnimaSatsangAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraGuruPurnimaSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="GuruPurnima" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Diwali-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraDiwaliSatsangccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraDiwaliSatsangAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraDiwaliSatsangAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds recited at Diwali</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>दीवाली के अवसर पर पढ़े जाने वाले शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraDiwaliSatsangAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraDiwaliSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="Diwali" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <br /><br />
+        <!--Thanks-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraOccasionThanksGivingccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraOccasionThanksGivingAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraOccasionThanksGivingAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds for congratulations and thanksgiving</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>बधावा व शुकराने के शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraOccasionThanksGivingAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraOccasionThanksGivingAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="ThanksGiving" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Marriage-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraOccasionMarriageccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraOccasionMarriageAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraOccasionMarriageAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds on the occasion of marriage</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>शादी विवाह के अवसर पर पढ़े जाने वाले शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraOccasionMarriageAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraOccasionMarriageAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="Marriage" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--House Warming-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraOccasionHouseWarmingccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraOccasionHouseWarmingAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraOccasionHouseWarmingAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds on the occasion of House Warming</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>ग्रह प्रवेश के अवसर पर पढ़े जाने वाले शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraOccasionHouseWarmingAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraOccasionHouseWarmingAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="HouseWarming" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Last stage-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraLastStageccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraLastStageAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraLastStageAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds for reciting during last days or on death</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>अंतिम समय और मृत्यु होने पर पढ़े जाने वाले शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraLastStageAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraLastStageAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="EndStage" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Admonition (chitawni)-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraAdmonitionccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraAdmonitionAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraAdmonitionAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds of Chitaoni (admonition)</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>चितावनी के शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraAdmonitionAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraAdmonitionAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="Chetwani" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Love-->
+        <div class="accordion" id="ShabdsByOccasionsPadiwa" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraLoveAndYearningccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraLoveAndYearningAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraLoveAndYearningAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds of yearning, love and devotion</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>प्रेम और विरह के शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraLoveAndYearningAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraLoveAndYearningAccordionHeading" data-bs-parent="#ShabdsByOccasionsPadiwa">
+              <div class="accordion-body">
+                <table shabdByCategory id="Prem" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Cry for help and prayer-->
+        <div class="accordion" id="ShabdsByOccasionsCryForHelpAndPrayer" style="margin-left: 20px; margin-right: 25px;">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="BhandaraCryForHelpAndPrayerccordionHeading">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraCryForHelpAndPrayerAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraCryForHelpAndPrayerAccordionBody">
+                <table>
+                    <tr>
+                        <td>
+                            <h2>Cry for help and prayer</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2>फ़र्याद एवं पुकार</h2>
+                        </td>
+                    </tr>
+                </table>
+            </button>
+        </h2>
+        <div id="BhandaraCryForHelpAndPrayerAccordionBody" class="accordion-collapse collapse"
+            aria-labelledby="BhandaraCryForHelpAndPrayerAccordionHeading" data-bs-parent="#ShabdsByOccasionsCryForHelpAndPrayer">
+            <div class="accordion-body">
+                <table shabdByCategory id="Invocation" class="display" width="100%"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!--Grace and Mercy-->
+        <div class="accordion" id="ShabdsByOccasionsGraceAndMercy" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraGraceAndMercyccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraGraceAndMercyAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraGraceAndMercyAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Prayer for Grace And Mercy</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>प्रार्थना वास्ते प्रप्ति दया और मेहर के लिए</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraGraceAndMercyAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraGraceAndMercyAccordionHeading" data-bs-parent="#ShabdsByOccasionsGraceAndMercy">
+              <div class="accordion-body">
+                <table shabdByCategory id="PrayerForGraceAndMercy" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Binti aur Prarthana-->
+        <div class="accordion" id="ShabdsByOccasionsBintiAurPrarthana" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraBintiAurPrarthanaccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraBintiAurPrarthanaAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraBintiAurPrarthanaAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Binti and Prarthana (prayer and supplication) at the Holy Feet of Radhasoami Dayal</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>बिनती और प्रार्थना राधास्वामी दयाल के चरण कँवल में</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraBintiAurPrarthanaAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraBintiAurPrarthanaAccordionHeading" data-bs-parent="#ShabdsByOccasionsBintiAurPrarthana">
+              <div class="accordion-body">
+                <table shabdByCategory id="PrayerInFeetOfRadhasoamiDayal" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Assurance and solace-->
+        <div class="accordion" id="ShabdsByOccasionsAssuranceAndSolace" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraAssuranceAndSolaceccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraAssuranceAndSolaceAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraAssuranceAndSolaceAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds of assurance and solace</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>आश्वासन और सांत्वना के शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraAssuranceAndSolaceAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraAssuranceAndSolaceAccordionHeading"
+              data-bs-parent="#ShabdsByOccasionsAssuranceAndSolace">
+              <div class="accordion-body">
+                <table shabdByCategory id="ConsolationAndSolace" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Sewa Bani-->
+        <div class="accordion" id="ShabdsBySewaBaniShabd" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraAssuranceAndSolaceccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraAssuranceAndSolaceAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraAssuranceAndSolaceAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Shabds of Sewa Bani (rendering service)</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>सेवा बानी के शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraAssuranceAndSolaceAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraAssuranceAndSolaceAccordionHeading" data-bs-parent="#ShabdsBySewaBaniShabd">
+              <div class="accordion-body">
+                <table shabdByCategory id="SewaBani" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Arti Shabds-->
+        <div class="accordion" id="ShabdsByArtiShabd" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraAssuranceAndSolaceccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraAssuranceAndSolaceAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraAssuranceAndSolaceAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>A few Arti Shabds</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>आरतियों के कुछ शब्द</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraAssuranceAndSolaceAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraAssuranceAndSolaceAccordionHeading" data-bs-parent="#ShabdsByArtiShabd">
+              <div class="accordion-body">
+                <table shabdByCategory id="Artis" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--GLory of RS Nam-->
+        <div class="accordion" id="ShabdsByGloryOfRSNam" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraGloryOfRadhasoamiNaamccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraGloryOfRadhasoamiNaamAccordionBody" aria-expanded="true"
+                aria-controls="BhandaraGloryOfRadhasoamiNaamAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Eminence and glory of Radhasoami Nam</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>महिमा राधास्वामी नाम</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraGloryOfRadhasoamiNaamAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraGloryOfRadhasoamiNaamAccordionHeading" data-bs-parent="#ShabdsByGloryOfRSNam">
+              <div class="accordion-body">
+                <table shabdByCategory id="GloryOfRadhasoamiNaam" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Ghazal-->
+        <div class="accordion" id="ShabdsByGhazal" style="margin-left: 20px; margin-right: 25px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="BhandaraGhazalccordionHeading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BhandaraGhazalAccordionBody" aria-expanded="true" aria-controls="BhandaraGhazalAccordionBody">
+                <table>
+                  <tr>
+                    <td>
+                      <h2>Ghazals (odes) and Masnavi</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><br /></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>ग़ज़ल एवं मसनवी</h2>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            </h2>
+            <div id="BhandaraGhazalAccordionBody" class="accordion-collapse collapse"
+              aria-labelledby="BhandaraGhazalAccordionHeading" data-bs-parent="#ShabdsByGhazal">
+              <div class="accordion-body">
+                <table shabdByCategory id="GhazalMasnavi" class="display" width="100%"></table>
+              </div>
+            </div>
+          </div>
+          </div>
+        
+        <!--Sawan-->
+      <div class="accordion" id="ShabdsBySaawan" style="margin-left: 20px; margin-right: 25px;">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="BhandaraSaawanccordionHeading">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#BhandaraSaawanAccordionBody" aria-expanded="true" aria-controls="BhandaraSaawanAccordionBody">
+              <table>
+                <tr>
+                  <td>
+                    <h2>Sawan, cradle and swing</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td><br /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>सावन, हिंडोला व झूला</h2>
+                  </td>
+                </tr>
+              </table>
+            </button>
+          </h2>
+          <div id="BhandaraSaawanAccordionBody" class="accordion-collapse collapse"
+            aria-labelledby="BhandaraSaawanAccordionHeading" data-bs-parent="#ShabdsBySaawan">
+            <div class="accordion-body">
+              <table shabdByCategory id="SaawanHindola" class="display" width="100%"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--END-->
+
+      <script>
+        // to handle: https://datatables.net/forums/discussion/67567/columns-adjust-issue-when-using-datatable-inside-an-accordion
+        $("div.accordion").on('show.bs.collapse', function (e) {
+            setTimeout(function () {
+              $($.fn.dataTable.tables(true)).DataTable().columns.adjust();
+            }, 10);
+          });
+      </script>
+  </body>
+</html>
