@@ -12,7 +12,7 @@ var plotTable = function(idTable, filterFunc) {
             paging:         true,
             searching:      false,
             //responsive:     true,
-            pageLength:     25,
+            pageLength:     6,
             info:           true, // show how manu entries exist, actually
             lengthChange:   false, // whether to show the dropdown to switch page size
 
