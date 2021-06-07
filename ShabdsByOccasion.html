@@ -69,11 +69,9 @@
         border-bottom: 0.1em solid #7E7E7E;;
       }
 
-      /* .accordion-button:not(.collapsed) { */
+      
       .accordion-button {
-          /* color: #0c63e4; */
           color: #646464 !important;
-          /* background-color: #e7f1ff; */
           background-color: transparent !important;
           box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
       }
@@ -81,10 +79,14 @@
 
       .accordion-button:not(.collapsed) {
           /* color: #0c63e4; */
-          color: #646464 !important;
+          color: #1F1F1F !important;
           /* background-color: #e7f1ff; */
           background-color : #FFDBBD !important;
           box-shadow : inset 0 -1px 0 rgb(0 0 0 / 13%);
+      }
+
+      .tableContainer {
+        background-color : #FFDBBD !important;
       }
     </style>
     <link rel="stylesheet" href="https://opensource.adobe.com/coral-spectrum/playground/dist/css/coral.css" /> 
@@ -116,7 +118,7 @@
             </h2>
             <div id="MorningAccordionBody" class="accordion-collapse collapse" aria-labelledby="MorningAccordionHeading"
               data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Morning" class="display" width="100%"></table>
               </div>
             </div>
@@ -147,7 +149,7 @@
             </h2>
             <div id="SleepAccordionBody" class="accordion-collapse collapse" aria-labelledby="SleepAccordionHeading"
               data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="RetiringToBed" class="display" width="100%"></table>
               </div>
             </div>
@@ -178,7 +180,7 @@
             </h2>
             <div id="BhogAccordionBody" class="accordion-collapse collapse" aria-labelledby="BhogAccordionHeading"
               data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Bhog" class="display" width="100%"></table>
               </div>
             </div>
@@ -210,7 +212,7 @@
             </h2>
             <div id="BhandaraSoamijiMaharajAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraSoamijiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="BhandaraSM" class="display" width="100%"></table>
               </div>
             </div>
@@ -241,7 +243,7 @@
             </h2>
             <div id="BhandaraHuzurMaharajAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraHuzurMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="BhandaraHM" class="display" width="100%"></table>
               </div>
             </div>
@@ -272,7 +274,7 @@
             </h2>
             <div id="BhandaraMaharajSahebAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraMaharajSahebAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="BhandaraMS" class="display" width="100%"></table>
               </div>
             </div>
@@ -304,7 +306,7 @@
             </h2>
             <div id="BhandaraBuajiMaharajAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraBuajiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="BhandaraBuajiM" class="display" width="100%"></table>
               </div>
             </div>
@@ -335,7 +337,7 @@
             </h2>
             <div id="BhandaraBabujiMaharajAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraBabujiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="BhandaraBJM" class="display" width="100%"></table>
               </div>
             </div>
@@ -368,7 +370,7 @@
             </h2>
             <div id="BhandaraBasantPanchamiAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraBasantPanchamiAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Basant" class="display" width="100%"></table>
               </div>
             </div>
@@ -399,7 +401,7 @@
             </h2>
             <div id="BhandaraHoliSatsantAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraHoliSatsantAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Holi" class="display" width="100%"></table>
               </div>
             </div>
@@ -430,7 +432,7 @@
             </h2>
             <div id="BhandaraPadiwaSatsangAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraPadiwaSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Padiwa" class="display" width="100%"></table>
               </div>
             </div>
@@ -461,7 +463,7 @@
             </h2>
             <div id="BhandaraGuruPurnimaSatsangAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraGuruPurnimaSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="GuruPurnima" class="display" width="100%"></table>
               </div>
             </div>
@@ -492,7 +494,7 @@
             </h2>
             <div id="BhandaraDiwaliSatsangAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraDiwaliSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Diwali" class="display" width="100%"></table>
               </div>
             </div>
@@ -524,7 +526,7 @@
             </h2>
             <div id="BhandaraOccasionThanksGivingAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraOccasionThanksGivingAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="ThanksGiving" class="display" width="100%"></table>
               </div>
             </div>
@@ -555,7 +557,7 @@
             </h2>
             <div id="BhandaraOccasionMarriageAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraOccasionMarriageAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Marriage" class="display" width="100%"></table>
               </div>
             </div>
@@ -586,7 +588,7 @@
             </h2>
             <div id="BhandaraOccasionHouseWarmingAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraOccasionHouseWarmingAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="HouseWarming" class="display" width="100%"></table>
               </div>
             </div>
@@ -617,7 +619,7 @@
             </h2>
             <div id="BhandaraLastStageAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraLastStageAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="EndStage" class="display" width="100%"></table>
               </div>
             </div>
@@ -648,7 +650,7 @@
             </h2>
             <div id="BhandaraAdmonitionAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraAdmonitionAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Chetwani" class="display" width="100%"></table>
               </div>
             </div>
@@ -679,7 +681,7 @@
             </h2>
             <div id="BhandaraLoveAndYearningAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraLoveAndYearningAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Prem" class="display" width="100%"></table>
               </div>
             </div>
@@ -711,7 +713,7 @@
         </h2>
         <div id="BhandaraCryForHelpAndPrayerAccordionBody" class="accordion-collapse collapse"
             aria-labelledby="BhandaraCryForHelpAndPrayerAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-            <div class="accordion-body">
+            <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Invocation" class="display" width="100%"></table>
             </div>
         </div>
@@ -742,7 +744,7 @@
             </h2>
             <div id="BhandaraGraceAndMercyAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraGraceAndMercyAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="PrayerForGraceAndMercy" class="display" width="100%"></table>
               </div>
             </div>
@@ -773,7 +775,7 @@
             </h2>
             <div id="BhandaraBintiAurPrarthanaAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraBintiAurPrarthanaAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="PrayerInFeetOfRadhasoamiDayal" class="display" width="100%"></table>
               </div>
             </div>
@@ -804,7 +806,7 @@
             </h2>
             <div id="BhandaraAssuranceAndSolaceAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraAssuranceAndSolaceAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="ConsolationAndSolace" class="display" width="100%"></table>
               </div>
             </div>
@@ -835,7 +837,7 @@
             </h2>
             <div id="BhandaraSewaBaniShabdAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraSewaBaniShabdAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="SewaBani" class="display" width="100%"></table>
               </div>
             </div>
@@ -866,7 +868,7 @@
             </h2>
             <div id="BhandaraArtiShabdAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraArtiShabdAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="Artis" class="display" width="100%"></table>
               </div>
             </div>
@@ -897,7 +899,7 @@
             </h2>
             <div id="BhandaraGloryOfRadhasoamiNaamAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraGloryOfRadhasoamiNaamAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="GloryOfRadhasoamiNaam" class="display" width="100%"></table>
               </div>
             </div>
@@ -927,7 +929,7 @@
             </h2>
             <div id="BhandaraGhazalAccordionBody" class="accordion-collapse collapse"
               aria-labelledby="BhandaraGhazalAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-              <div class="accordion-body">
+              <div class="accordion-body tableContainer">
                 <table shabdByCategory id="GhazalMasnavi" class="display" width="100%"></table>
               </div>
             </div>
@@ -957,7 +959,7 @@
           </h2>
           <div id="BhandaraSaawanAccordionBody" class="accordion-collapse collapse"
             aria-labelledby="BhandaraSaawanAccordionHeading" data-bs-parent="#ShabdsByOccasion">
-            <div class="accordion-body">
+            <div class="accordion-body tableContainer">
               <table shabdByCategory id="SaawanHindola" class="display" width="100%"></table>
             </div>
           </div>
