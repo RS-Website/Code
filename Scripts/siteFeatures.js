@@ -1,4 +1,4 @@
-﻿//<script type="text/javascript " src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit "></script>
+//<script type="text/javascript " src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit "></script>
 //function googleTranslateElementInit() {
 //    new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'hi,kn', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
 //}
@@ -105,6 +105,13 @@ var onLoad = function () {
     $("a[targetDiv='HomePage']").parent().addClass("active");
 
     $("td").attr("nowrap", "");
+
+    var windowWidth = $(window).width();
+    if (windowWidth < 500) {
+        $("ul.nav li[role='presentation']").each(function(i, menuOption) {
+            $(menuOption).css("width", windowWidth);
+        });
+    }
     
 }
 
