@@ -1,3 +1,6 @@
+
+var dataSet = 
+
 [
    [
       "बार बार कर जोड़ कर",
@@ -309,7 +312,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Darash Mohin Dije Soami Maharaj.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Darash Mohin Dije Soami Maharaj.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Chalo Bidesan Apne Desh.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Darash Mohin Dije Soami Maharaj.mp4'>Video</a>"
    ],
    [
       "लाज मेरी राखो गुरु महाराज",
@@ -465,7 +468,7 @@
       "भंडारा बाबूजी महाराज",
       "Bhandara of Babuji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Param Guru Radhasoami Data Re.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Param Guru Radhasoami Data Re.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Guru Pyare Ke Charnon Mein Jhalakati Hai.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Param Guru Radhasoami Data Re.mp4'>Video</a>"
    ],
    [
       "राधास्वामी चरन शीश मैं डारा",
@@ -489,7 +492,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Chhod Chali Ab Chhin Chhin Maya Desh.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Chhod Chali Ab Chhin Chhin Maya Desh.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Hangamaye Shadi Ka Garam Ho Raha Dekho Har Ja.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Chhod Chali Ab Chhin Chhin Maya Desh.mp4'>Video</a>"
    ],
    [
       "सुरतिया अमर हुई अब संत धाम में जाय",
@@ -501,7 +504,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Amar Hui Ab Sant Dham Mein Jay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Amar Hui Ab Sant Dham Mein Jay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Kaj Mere Kinhe Poore.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Amar Hui Ab Sant Dham Mein Jay.mp4'>Video</a>"
    ],
    [
       "सुरतिया तड़प रही गुरु दरश बिना",
@@ -513,7 +516,7 @@
       "",
       "Satsang on Asadh Badi Padiwa",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Tadap Rahi Guru Darash Bina.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Tadap Rahi Guru Darash Bina.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Khele Surat Guru Charnan Pas.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Tadap Rahi Guru Darash Bina.mp4'>Video</a>"
    ],
    [
       "सुरतिया तरस रही गुरु दर्शन को दिन रात",
@@ -525,7 +528,7 @@
       "प्रेम एवं विरह",
       "Satasang on Asadh Badi Padiwa, Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Taras Rahi Guru Darshan Ko Din Rat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Taras Rahi Guru Darshan Ko Din Rat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Mere Anand Anand Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Taras Rahi Guru Darshan Ko Din Rat.mp4'>Video</a>"
    ],
    [
       "सुरतिया झुरत रही कस लगूँ शब्द सँग जाय",
@@ -537,7 +540,7 @@
       "प्रेम एवं विरह",
       "Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhurat Rahi Kas Lagoon Shabd Sang Jay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhurat Rahi Kas Lagoon Shabd Sang Jay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Mere Anand Hot Apar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Jhurat Rahi Kas Lagoon Shabd Sang Jay.mp4'>Video</a>"
    ],
    [
       "सुरतिया विनय करत गुरु चरनन में कर जोड़",
@@ -549,7 +552,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Vinay Karat Guru Charnan Mein Kar Jod.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Vinay Karat Guru Charnan Mein Kar Jod.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Mere Dhoom Bhai Hai Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Vinay Karat Guru Charnan Mein Kar Jod.mp4'>Video</a>"
    ],
    [
       "सुरतिया यांच रही गुरु चरन प्रेम की दात",
@@ -561,7 +564,7 @@
       "बिनती एवं प्रार्थना, नियमावली",
       "Prayer, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Yanch Rahi Guru Charan Prem Ki Dat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Yanch Rahi Guru Charan Prem Ki Dat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Pakado Guru Ke Charan Samhar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Yanch Rahi Guru Charan Prem Ki Dat.mp4'>Video</a>"
    ],
    [
       "सुरतिया सोच भरी गुरु चरनन करत पुकार",
@@ -573,7 +576,7 @@
       "भंडारा बुआजी महाराज",
       "Bhandara of Buaji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Soch Bhari Guru Charnan Karat Pukar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Soch Bhari Guru Charnan Karat Pukar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Saj Kar Aarat Laee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Soch Bhari Guru Charnan Karat Pukar.mp4'>Video</a>"
    ],
    [
       "सुरतिया सेव करत गुरु भक्तन की दिन रात",
@@ -585,7 +588,7 @@
       "सेवा बानी",
       "Hyms of Sewa",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Sev Karat Guru Bhaktan Ki Din Rat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Sev Karat Guru Bhaktan Ki Din Rat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Sang Satguru Kheloongi Hori.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Sev Karat Guru Bhaktan Ki Din Rat.mp4'>Video</a>"
    ],
    [
       "सुरतिया खड़ी रहे नित सेवा में गुरु के पास",
@@ -609,7 +612,7 @@
       "भंडारा बाबूजी महाराज",
       "Bhandara of Babuji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhoom Rahi Ab Piya Ami Ras Naam.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhoom Rahi Ab Piya Ami Ras Naam.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aao Ri Sakhi Jud Holi Gaven.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Jhoom Rahi Ab Piya Ami Ras Naam.mp4'>Video</a>"
    ],
    [
       "सुरतिया मस्त हुई अब पाया दरस गुरु आय",
@@ -621,7 +624,7 @@
       "भंडारा महाराज साहब",
       "Bhandara of Maharaj Saheb",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Mast Hui Ab Paya Daras Guru Aay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Mast Hui Ab Paya Daras Guru Aay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aao Ri Simat He Sakhiyo.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Mast Hui Ab Paya Daras Guru Aay.mp4'>Video</a>"
    ],
    [
       "सुरतिया उमंग भरी रही गुरु चरनन लिपटाय",
@@ -633,7 +636,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Umang Bhari Rahi Guru Charnan Lipatay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Umang Bhari Rahi Guru Charnan Lipatay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aarat Gaoon Poore Guru Ki.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Umang Bhari Rahi Guru Charnan Lipatay.mp4'>Video</a>"
    ],
    [
       "सुरतिया धूम मचाय रही खेलन को होली सतगुरु साथ",
@@ -645,7 +648,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Dhoom Machay Rahi Khelan Ko Holi Satguru Sath.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Dhoom Machay Rahi Khelan Ko Holi Satguru Sath.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aarat Gaoon Soami Surat Chadhaoon.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Dhoom Machay Rahi Khelan Ko Holi Satguru Sath.mp4'>Video</a>"
    ],
    [
       "सुरतिया दूर बसे हर दम गुरु चरन निहार",
@@ -657,7 +660,7 @@
       "सत्संग आसाढ़ बदी पड़िवा",
       "Satsang on Asadh Badi Padiwa ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Door Base Har Dam Guru Charan Nihar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Door Base Har Dam Guru Charan Nihar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aarat Karoon Aaj Satguru Ki.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Door Base Har Dam Guru Charan Nihar.mp4'>Video</a>"
    ],
    [
       "सुरतिया भाग चली तज काल देश संसार",
@@ -669,7 +672,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Bhag Chali Taj Kal Desh Sansar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Bhag Chali Taj Kal Desh Sansar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ab Khelat Radhasoami Sang Hori.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Bhag Chali Taj Kal Desh Sansar.mp4'>Video</a>"
    ],
    [
       "आज चलो बिदेसन अपने देश",
@@ -753,7 +756,7 @@
       "प्रेम एवं विरह",
       "Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mere Uthi Kaleje Pir Ghani.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mere Uthi Kaleje Pir Ghani.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Achraj Aarat Guru Ki Dharoon.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mere Uthi Kaleje Pir Ghani.mp4'>Video</a>"
    ],
    [
       "निज घर अपने चाल री मेरी प्यारी सुरतिया",
@@ -801,7 +804,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surat Pyari Jhoolat Aaj Hindol.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surat Pyari Jhoolat Aaj Hindol.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ajab Yeh Bangla Liya Sajay.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surat Pyari Jhoolat Aaj Hindol.mp4'>Video</a>"
    ],
    [
       "खिला मेरे घट में आज बसंत",
@@ -969,7 +972,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Khilaee Ab Ke Nai Hori Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Khilaee Ab Ke Nai Hori Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bar Bar Kar Jod Kar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Khilaee Ab Ke Nai Hori Ho.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने मचाई जग बिच होरी हो",
@@ -981,7 +984,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Machaee Jag Bich Hori Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Machaee Jag Bich Hori Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bar Bar Karoon Binti.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Machaee Jag Bich Hori Ho.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने निभाई खेप हमारी हो",
@@ -993,7 +996,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Nibhai Khep Hamari Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Nibhai Khep Hamari Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bhago Re Jag Se Ab Bhago.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Nibhai Khep Hamari Ho.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने सुनाई जुगत निराली हो",
@@ -1005,7 +1008,7 @@
       "दीवाली सत्संग",
       "Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Sunaee Jugat Nirali Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Sunaee Jugat Nirali Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Sunaee Jugat Nirali Ho.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne SuNayee Jugat Nirali Ho.mp4'>Video</a>"
    ],
    [
       "मेरे हिये में बजत बधाई संत सँग पाया रे",
@@ -1077,7 +1080,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Chal Dekhiye Satsang Mein Jahan Niramal Phaag Rachori.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Chal Dekhiye Satsang Mein Jahan Niramal Phaag Rachori.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Chal Kheliye Satguru Se Rang Holi Aaj Sakhi Ri.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Chal Dekhiye Satsang Mein Jahan Niramal Phaag Rachori.mp4'>Video</a>"
    ],
    [
       "चल खेलिये सतगुरु से रंग होली आज सखी री",
@@ -1149,7 +1152,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Binti Karoon Charan Mein Aaj.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Binti Karoon Charan Mein Aaj.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Chauka Bartan Kiya Achambhi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Binti Karoon Charan Mein Aaj.mp4'>Video</a>"
    ],
    [
       "होली खेल न जाने बावरिया",
@@ -1173,7 +1176,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Aaj Guru Sang Phaag Racho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Aaj Guru Sang Phaag Racho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aaee Sakhi Aaj Guru Sang Phaag Racho.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aayee Sakhi Aaj Guru Sang Phaag Racho.mp4'>Video</a>"
    ],
    [
       "आज आई बहार बसन्त",
@@ -1221,7 +1224,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Mil Satguru Khelo Holi.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Mil Satguru Khelo Holi.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aaee Sakhi Mil Satguru Khelo Holi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aayee Sakhi Mil Satguru Khelo Holi.mp4'>Video</a>"
    ],
    [
       "ऋतु बसन्त फूली जग माहीं मिल सतगुरु घट",
@@ -1233,7 +1236,7 @@
       "बसंत पंचमी सत्संग",
       "Basant Panchmi Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Ritu Basant Fooli Jag Mahin Mil Satguru Ghat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Ritu Basant Fooli Jag Mahin Mil Satguru Ghat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Darash De Aaj Bandhao Dheer.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Ritu Basant Fooli Jag Mahin Mil Satguru Ghat.mp4'>Video</a>"
    ],
    [
       "निरखो निरखो सखी ऋतु आई बसन्त",
@@ -1245,7 +1248,7 @@
       "बसंत पंचमी सत्संग",
       "Basant Panchmi Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Nirkho Nirkho Sakhi Ritu Aaee Basant.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Nirkho Nirkho Sakhi Ritu Aaee Basant.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Nirkho Nirkho Sakhi Ritu Aaee Basant.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Nirkho Nirkho Sakhi Ritu Aayee Basant.mp4'>Video</a>"
    ],
    [
       "आज आया बसन्त नवीन",
@@ -1293,7 +1296,7 @@
       "",
       "Bhandara of Buaji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sindh Se Aaee Soorat Nar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sindh Se Aaee Soorat Nar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Sindh Se Aaee Soorat Nar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sindh Se Aayee Soorat Nar.mp4'>Video</a>"
    ],
    [
       "राधास्वामी छबि मेरे हिये बस गई री",
@@ -1305,7 +1308,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Chhabi Mere Hiye Bas Gayi Ri.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Chhabi Mere Hiye Bas Gayi Ri.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Daya Guru Kya Karoon Varnan.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Chhabi Mere Hiye Bas Gayi Ri.mp4'>Video</a>"
    ],
    [
       "सावन मास मेघ घिर आये",
@@ -1317,7 +1320,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Megh Ghir Aaye.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Megh Ghir Aaye.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dekhan Chali Basant Agam Ghar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Megh Ghir Aaye.mp4'>Video</a>"
    ],
    [
       "सुर्त आवाज़ को पकड़ के गई",
@@ -1425,7 +1428,7 @@
       "",
       "Ghazal And Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Pyare Gaflat Chhodo Sar Basar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Pyare Gaflat Chhodo Sar Basar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhiraj Dharana Mat Ghabrana.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Pyare Gaflat Chhodo Sar Basar.mp4'>Video</a>"
    ],
    [
       "अहो मेरे सतगुरु अहो मेरी जान",
@@ -1569,7 +1572,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sakhi Ri Main Jaoongi Ghar Nahin Thahroongi Maya Desh.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sakhi Ri Main Jaoongi Ghar Nahin Thahroongi Maya Desh.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhokha Mat Khana Jag Aay Piyare.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sakhi Ri Main Jaoongi Ghar Nahin Thahroongi Maya Desh.mp4'>Video</a>"
    ],
    [
       "जो मेरे प्रीतम से प्रीत करे",
@@ -1617,7 +1620,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Dhara Nar Roop Jagat Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Dhara Nar Roop Jagat Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhun Sun Kar Man Samajhaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Dhara Nar Roop Jagat Mein.mp4'>Video</a>"
    ],
    [
       "करूँ बँदगी राधास्वामी आगे",
@@ -1641,7 +1644,7 @@
       "",
       "Mahima of Radhasoami Naam",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Naam Sunaya Radhasoami.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Naam Sunaya Radhasoami.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Gaoon Arti Lekar Thali.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Naam Sunaya Radhasoami.mp4'>Video</a>"
    ],
    [
       "राधास्वामी नाम जो गावे सो ही तरे",
@@ -1713,7 +1716,7 @@
       "भंडारा स्वामीजी महाराज, भंडारा हुज़ूर महाराज",
       "Bhandara of Soami Ji Maharaj, Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Mere Sindh Gambhir.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Mere Sindh Gambhir.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ghat Mein Kheloon Ab Basant.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Mere Sindh Gambhir.mp4'>Video</a>"
    ],
    [
       "आज दिवस सखि मंगल खानी",
@@ -1725,7 +1728,7 @@
       "भंडारा महाराज साहब",
       "Bhandara of Maharaj Saheb",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Aaj Diwas Sakhi Mangal Khani.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Aaj Diwas Sakhi Mangal Khani.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Aarat Main Karne Aaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Diwas Sakhi Mangal Khani.mp4'>Video</a>"
    ],
    [
       "आज साज कर आरत लाई",
@@ -1785,7 +1788,7 @@
       "भंडारा बुआजी महाराज",
       "Bhandara of Buaji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Apne Soami Ki Main Karat Arti.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Apne Soami Ki Main Karat Arti.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Charan Girah Mere Aaye.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Apne Soami Ki Main Karat Arti.mp4'>Video</a>"
    ],
    [
       "आरत करूँ आज सतगुरु की",
@@ -1881,7 +1884,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mat Dekh Paraye Augun.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mat Dekh Paraye Augun.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Main Gunahagar Ati Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mat Dekh Paraye Augun.mp4'>Video</a>"
    ],
    [
       "मुसाफि़र रहना तुम हुशियार",
@@ -1893,7 +1896,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Musafir Rahna Tum Hushiyar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Musafir Rahna Tum Hushiyar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mere Data Main Bhai Dasi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Musafir Rahna Tum Hushiyar.mp4'>Video</a>"
    ],
    [
       "मित्र तेरा कोई नहीं संगियन में",
@@ -1905,7 +1908,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mitr Tera Koi Nahin Sangiyan Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mitr Tera Koi Nahin Sangiyan Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mere Pragate Jag Mein Aay.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mitr Tera Koi Nahin Sangiyan Mein.mp4'>Video</a>"
    ],
    [
       "अटक तू क्यों रहा जग में",
@@ -1941,7 +1944,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Yehan Tum Samajh Soch Kar Chalna.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Yehan Tum Samajh Soch Kar Chalna.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ka Rang Ati Nirmal.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Yehan Tum Samajh Soch Kar Chalna.mp4'>Video</a>"
    ],
    [
       "मन रे क्यों गुमान अब करना",
@@ -1953,7 +1956,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Man Re Kyon Guman Ab Karna.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Man Re Kyon Guman Ab Karna.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ka Rang Chatakila Kabhi Utre Nahin.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Man Re Kyon Guman Ab Karna.mp4'>Video</a>"
    ],
    [
       "गुरु करो खोज कर भाई",
@@ -2013,7 +2016,7 @@
       "सत्संग गुरु पूर्णिमा, नियमावली",
       "Guru Purnima Satsang, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Ka Naam Pukaro.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Ka Naam Pukaro.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ke Sang Pyari Khelo Phaag.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Ka Naam Pukaro.mp4'>Video</a>"
    ],
    [
       "गुरु की मौज रहो तुम धार",
@@ -2097,7 +2100,7 @@
       "",
       "Ghazal And Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Arsh Par Pahunch Kar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Arsh Par Pahunch Kar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Arsh Par Pahunch Kar Main Dekha Noor.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Arsh Par Pahunch Kar.mp4'>Video</a>"
    ],
    [
       "मैं सतगुरु संग करूँगी आरती",
@@ -2181,7 +2184,7 @@
       "अंतिम समय एवं मृत्यु, नियमावली",
       "Illness and End Time or Death, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mohin Mila Suhag Guru Ka.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mohin Mila Suhag Guru Ka.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jago Re Yehan Kab Lag Sona.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mohin Mila Suhag Guru Ka.mp4'>Video</a>"
    ],
    [
       "आज घड़ी अति पावन भावन",
@@ -2316,18 +2319,6 @@
       "<a href='http://radhasoamifaith.org/Video/Poetry/Ab Main Kaun Kumati Urjhani.mp4'>Video</a>"
    ],
    [
-      "करत हूँ पुकार आज सुनिये गुहार",
-      "Karat Hoon Pukar Aaj Suniye Guhar",
-      "सार बचन छंद बंद, भाग 2",
-      "Sar Bachan Poetry, Part-2",
-      "33",
-      "3",
-      "सुबह उठने के बाद, नियमावली",
-      "After waking up in morning, Niyamawali",
-      "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Karat Hoon Pukar Aaj Suniye Guhar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Karat Hoon Pukar Aaj Suniye Guhar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karat Hoon Pukar Aaj Suniye Guhar.mp4'>Video</a>"
-   ],
-   [
       "नाम दान अब सतगुरु दीजे",
       "Naam Dan Ab Satguru Dije",
       "सार बचन छंद बंद, भाग 2",
@@ -2337,7 +2328,7 @@
       "प्रेम एवं विरह, नियमावली",
       "Love and Yearning, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Naam Dan Ab Satguru Dije.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Naam Dan Ab Satguru Dije.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jo Mere Preetam Se Preet Kare.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Naam Dan Ab Satguru Dije.mp4'>Video</a>"
    ],
    [
       "सतगुरु मेरी सुनो पुकार",
@@ -2349,7 +2340,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Meri Suno Pukar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Meri Suno Pukar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jud Mil Ke Hans Sare Darshan Ko Guru Ke Aaye.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Meri Suno Pukar.mp4'>Video</a>"
    ],
    [
       "तुम धुर से चल कर आये",
@@ -2361,7 +2352,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Tum Dhur Se Chal Kar Aaye.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Tum Dhur Se Chal Kar Aaye.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaise Karoon Charan Mein Binti.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Tum Dhur Se Chal Kar Aaye.mp4'>Video</a>"
    ],
    [
       "गुरु मोहिं अपना रूप दिखाओ",
@@ -2457,7 +2448,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sant Das Ki Arti.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sant Das Ki Arti.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Arti Radhasoami Tan Man Surat Lagay.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sant Das Ki Arti.mp4'>Video</a>"
    ],
    [
       "गुरु मिले अमी रस दाता",
@@ -2481,7 +2472,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Premin Door Desh Se Aaee.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Premin Door Desh Se Aaee.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Premin Door Desh Se Aaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Premin Door Desh Se Aayee.mp4'>Video</a>"
    ],
    [
       "गुरु के दर्शन कारने हम आये अब दूर से",
@@ -2493,7 +2484,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Ke Darshan Karne Ham Aaye Ab Door Se.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Ke Darshan Karne Ham Aaye Ab Door Se.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Binti Radhasoami Aage.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ke Darshan Karne Ham Aaye Ab Door Se.mp4'>Video</a>"
    ],
    [
       "गुरु आरत तू कर ले सजनी",
@@ -2541,7 +2532,7 @@
       "शादी व अन्य खुशी के मौके",
       "Marriage and Other Happy Occasions",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Hirdey Mein Gul Paud Khilani.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Hirdey Mein Gul Paud Khilani.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaun Kare Aarat Satguru Ki.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Hirdey Mein Gul Paud Khilani.mp4'>Video</a>"
    ],
    [
       "गुरु संग खेलूँ निस दिन पास",
@@ -2649,7 +2640,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mere Guru Ne Khelaee Prem Sang Hori.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mere Guru Ne Khelaee Prem Sang Hori.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Karo Guru Ka Satsang Aaj.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mere Guru Ne Khelaee Prem Sang Hori.mp4'>Video</a>"
    ],
    [
       "राधास्वामी घर बाढ़ो रंग",
@@ -2661,7 +2652,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Ghar Badho Rang.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Ghar Badho Rang.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kya Sowe Jag Mein Nind Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Ghar Badho Rang.mp4'>Video</a>"
    ],
    [
       "आओ री सखी जुड़ होली गावें",
@@ -2685,7 +2676,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Aas Hui Jhoolan.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Aas Hui Jhoolan.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kyon Ghabrao Pran Piyari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Aas Hui Jhoolan.mp4'>Video</a>"
    ],
    [
       "सावन मास सुहागिन आई",
@@ -2697,7 +2688,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Suhagin Aaee.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Suhagin Aaee.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Suhagin Aaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Suhagin Aayee.mp4'>Video</a>"
    ],
    [
       "सुरत तू चेत री",
@@ -2709,7 +2700,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surat Tu Chet Ri.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surat Tu Chet Ri.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Lagao Meri Naiya Satguru Par.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surat Tu Chet Ri.mp4'>Video</a>"
    ],
    [
       "राधास्वामी झूलत आज हिंडोला",
@@ -2721,7 +2712,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Jhoolat Aaj Hindola.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Jhoolat Aaj Hindola.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Laj Meri Rakho Guru Maharaj.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Jhoolat Aaj Hindola.mp4'>Video</a>"
    ],
    [
       "अजब यह बँगला लिया सजाय",
@@ -2745,7 +2736,7 @@
       "शादी व अन्य खुशी के मौके",
       "Marriage and Other Happy Occasions",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Pay Gayi Radhasoami Ho Gayi Suhag Bhari.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Pay Gayi Radhasoami Ho Gayi Suhag Bhari.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Main Guru Pyare Ke Charnon Ki Dasi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Pay Gayi Radhasoami Ho Gayi Suhag Bhari.mp4'>Video</a>"
    ],
    [
       "चौका बरतन किया अचंभी",
@@ -2781,7 +2772,7 @@
       "भंडारा बाबूजी महाराज",
       "Bhandara of Babuji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Param Guru Radhasoami Data Re.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Param Guru Radhasoami Data Re.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Guru Pyare Ke Charnon Mein Jhalakati Hai.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Param Guru Radhasoami Data Re.mp4'>Video</a>"
    ],
    [
       "राधास्वामी चरन शीश मैं डारा",
@@ -2805,7 +2796,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Chhod Chali Ab Chhin Chhin Maya Desh.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Chhod Chali Ab Chhin Chhin Maya Desh.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Hangamaye Shadi Ka Garam Ho Raha Dekho Har Ja.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Chhod Chali Ab Chhin Chhin Maya Desh.mp4'>Video</a>"
    ],
    [
       "सुरतिया अमर हुई अब संत धाम में जाय",
@@ -2817,7 +2808,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Amar Hui Ab Sant Dham Mein Jay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Amar Hui Ab Sant Dham Mein Jay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Kaj Mere Kinhe Poore.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Amar Hui Ab Sant Dham Mein Jay.mp4'>Video</a>"
    ],
    [
       "सुरतिया तड़प रही गुरु दरश बिना",
@@ -2829,7 +2820,7 @@
       "",
       "Satsang on Asadh Badi Padiwa",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Tadap Rahi Guru Darash Bina.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Tadap Rahi Guru Darash Bina.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Khele Surat Guru Charnan Pas.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Tadap Rahi Guru Darash Bina.mp4'>Video</a>"
    ],
    [
       "सुरतिया तरस रही गुरु दर्शन को दिन रात",
@@ -2841,7 +2832,7 @@
       "प्रेम एवं विरह",
       "Satasang on Asadh Badi Padiwa, Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Taras Rahi Guru Darshan Ko Din Rat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Taras Rahi Guru Darshan Ko Din Rat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Mere Anand Anand Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Taras Rahi Guru Darshan Ko Din Rat.mp4'>Video</a>"
    ],
    [
       "सुरतिया झुरत रही कस लगूँ शब्द सँग जाय",
@@ -2853,7 +2844,7 @@
       "प्रेम एवं विरह",
       "Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhurat Rahi Kas Lagoon Shabd Sang Jay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhurat Rahi Kas Lagoon Shabd Sang Jay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Mere Anand Hot Apar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Jhurat Rahi Kas Lagoon Shabd Sang Jay.mp4'>Video</a>"
    ],
    [
       "सुरतिया विनय करत गुरु चरनन में कर जोड़",
@@ -2865,7 +2856,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Vinay Karat Guru Charnan Mein Kar Jod.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Vinay Karat Guru Charnan Mein Kar Jod.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Mere Dhoom Bhai Hai Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Vinay Karat Guru Charnan Mein Kar Jod.mp4'>Video</a>"
    ],
    [
       "सुरतिया यांच रही गुरु चरन प्रेम की दात",
@@ -2877,7 +2868,7 @@
       "बिनती एवं प्रार्थना, नियमावली",
       "Prayer, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Yanch Rahi Guru Charan Prem Ki Dat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Yanch Rahi Guru Charan Prem Ki Dat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Pakado Guru Ke Charan Samhar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Yanch Rahi Guru Charan Prem Ki Dat.mp4'>Video</a>"
    ],
    [
       "सुरतिया सोच भरी गुरु चरनन करत पुकार",
@@ -2889,7 +2880,7 @@
       "भंडारा बुआजी महाराज",
       "Bhandara of Buaji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Soch Bhari Guru Charnan Karat Pukar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Soch Bhari Guru Charnan Karat Pukar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Saj Kar Aarat Laee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Soch Bhari Guru Charnan Karat Pukar.mp4'>Video</a>"
    ],
    [
       "सुरतिया सेव करत गुरु भक्तन की दिन रात",
@@ -2901,7 +2892,7 @@
       "सेवा बानी",
       "Hyms of Sewa",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Sev Karat Guru Bhaktan Ki Din Rat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Sev Karat Guru Bhaktan Ki Din Rat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Sang Satguru Kheloongi Hori.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Sev Karat Guru Bhaktan Ki Din Rat.mp4'>Video</a>"
    ],
    [
       "सुरतिया खड़ी रहे नित सेवा में गुरु के पास",
@@ -2925,7 +2916,7 @@
       "भंडारा बाबूजी महाराज",
       "Bhandara of Babuji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhoom Rahi Ab Piya Ami Ras Naam.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Jhoom Rahi Ab Piya Ami Ras Naam.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aao Ri Sakhi Jud Holi Gaven.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Jhoom Rahi Ab Piya Ami Ras Naam.mp4'>Video</a>"
    ],
    [
       "सुरतिया मस्त हुई अब पाया दरस गुरु आय",
@@ -2937,7 +2928,7 @@
       "भंडारा महाराज साहब",
       "Bhandara of Maharaj Saheb",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Mast Hui Ab Paya Daras Guru Aay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Mast Hui Ab Paya Daras Guru Aay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aao Ri Simat He Sakhiyo.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Mast Hui Ab Paya Daras Guru Aay.mp4'>Video</a>"
    ],
    [
       "सुरतिया उमंग भरी रही गुरु चरनन लिपटाय",
@@ -2949,7 +2940,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Umang Bhari Rahi Guru Charnan Lipatay.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Umang Bhari Rahi Guru Charnan Lipatay.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aarat Gaoon Poore Guru Ki.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Umang Bhari Rahi Guru Charnan Lipatay.mp4'>Video</a>"
    ],
    [
       "सुरतिया धूम मचाय रही खेलन को होली सतगुरु साथ",
@@ -2961,7 +2952,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Dhoom Machay Rahi Khelan Ko Holi Satguru Sath.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Dhoom Machay Rahi Khelan Ko Holi Satguru Sath.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aarat Gaoon Soami Surat Chadhaoon.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Dhoom Machay Rahi Khelan Ko Holi Satguru Sath.mp4'>Video</a>"
    ],
    [
       "सुरतिया दूर बसे हर दम गुरु चरन निहार",
@@ -2973,7 +2964,7 @@
       "सत्संग आसाढ़ बदी पड़िवा",
       "Satsang on Asadh Badi Padiwa ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Door Base Har Dam Guru Charan Nihar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Door Base Har Dam Guru Charan Nihar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Aarat Karoon Aaj Satguru Ki.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Door Base Har Dam Guru Charan Nihar.mp4'>Video</a>"
    ],
    [
       "सुरतिया भाग चली तज काल देश संसार",
@@ -2985,7 +2976,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suratiya Bhag Chali Taj Kal Desh Sansar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suratiya Bhag Chali Taj Kal Desh Sansar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ab Khelat Radhasoami Sang Hori.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suratiya Bhag Chali Taj Kal Desh Sansar.mp4'>Video</a>"
    ],
    [
       "आज चलो बिदेसन अपने देश",
@@ -3033,7 +3024,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Koi Milo Purush Se Chal Satpur.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Koi Milo Purush Se Chal Satpur.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ab Main Kaun Kumati Urjhani.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Milo Purush Se Chal Satpur.mp4'>Video</a>"
    ],
    [
       "कोई चलो गुरु संग अगम नगर",
@@ -3045,7 +3036,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Koi Chalo Guru Sang Agam Nagar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Koi Chalo Guru Sang Agam Nagar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ab Man Aatur Daras Pukare.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Chalo Guru Sang Agam Nagar.mp4'>Video</a>"
    ],
    [
       "आज खेले सुरत गुरु चरनन पास",
@@ -3069,7 +3060,7 @@
       "प्रेम एवं विरह",
       "Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mere Uthi Kaleje Pir Ghani.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mere Uthi Kaleje Pir Ghani.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Achraj Aarat Guru Ki Dharoon.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mere Uthi Kaleje Pir Ghani.mp4'>Video</a>"
    ],
    [
       "निज घर अपने चाल री मेरी प्यारी सुरतिया",
@@ -3117,7 +3108,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surat Pyari Jhoolat Aaj Hindol.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surat Pyari Jhoolat Aaj Hindol.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ajab Yeh Bangla Liya Sajay.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surat Pyari Jhoolat Aaj Hindol.mp4'>Video</a>"
    ],
    [
       "खिला मेरे घट में आज बसंत",
@@ -3129,7 +3120,7 @@
       "बसंत पंचमी सत्संग",
       "Basant Panchmi Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Khila Mere Ghat Mein Aaj Basant.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Khila Mere Ghat Mein Aaj Basant.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Anand Mangal Aaj Saj Sab Aarat Laee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Khila Mere Ghat Mein Aaj Basant.mp4'>Video</a>"
    ],
    [
       "छबीले छवि लगे तोरी प्यारी",
@@ -3165,7 +3156,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Badhat Satsang Ab Din Din.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Badhat Satsang Ab Din Din.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ari He Padosin Pyari Koi Jatan Bata Do.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Badhat Satsang Ab Din Din.mp4'>Video</a>"
    ],
    [
       "दया गुरु क्या करुँ वर्णन",
@@ -3201,7 +3192,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Pyare Karen Aaj Jagat Uddhar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Pyare Karen Aaj Jagat Uddhar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Arti Gaoon Satguru Aaj.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Karen Aaj Jagat Uddhar.mp4'>Video</a>"
    ],
    [
       "गुरु प्यारे के सँग प्यारी खेलो फाग",
@@ -3225,7 +3216,7 @@
       "प्रेम एवं विरह",
       "Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Ari He Padosin Pyari Koi Jatan Bata Do.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Ari He Padosin Pyari Koi Jatan Bata Do.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Atak Tu Kyon Raha Jag Mein.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Ari He Padosin Pyari Koi Jatan Bata Do.mp4'>Video</a>"
    ],
    [
       "गुरु प्यारे की मौज रहो तुम धार",
@@ -3273,7 +3264,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Pyare Ki Chhavi Man Mohan.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Pyare Ki Chhavi Man Mohan.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bada Julm Hai Mere Yar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ki Chhavi Man Mohan.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने दया कर मोहिं लीन्ह उबारी हो",
@@ -3285,7 +3276,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Daya Kara Mohin Linh Ubari Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Daya Kara Mohin Linh Ubari Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Badhat Satsang Ab Din Din.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Daya Kara Mohin Linh Ubari Ho.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने खिलाई अब के नइ होरी हो",
@@ -3297,7 +3288,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Khilaee Ab Ke Nai Hori Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Khilaee Ab Ke Nai Hori Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bar Bar Kar Jod Kar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Khilaee Ab Ke Nai Hori Ho.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने मचाई जग बिच होरी हो",
@@ -3309,7 +3300,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Machaee Jag Bich Hori Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Machaee Jag Bich Hori Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bar Bar Karoon Binti.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Machaee Jag Bich Hori Ho.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने निभाई खेप हमारी हो",
@@ -3321,7 +3312,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Nibhai Khep Hamari Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Nibhai Khep Hamari Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bhago Re Jag Se Ab Bhago.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Nibhai Khep Hamari Ho.mp4'>Video</a>"
    ],
    [
       "सतगुरु प्यारे ने सुनाई जुगत निराली हो",
@@ -3333,7 +3324,7 @@
       "दीवाली सत्संग",
       "Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Sunaee Jugat Nirali Ho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Pyare Ne Sunaee Jugat Nirali Ho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne Sunaee Jugat Nirali Ho.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Pyare Ne SuNayee Jugat Nirali Ho.mp4'>Video</a>"
    ],
    [
       "मेरे हिये में बजत बधाई संत सँग पाया रे",
@@ -3357,7 +3348,7 @@
       "बधावा एवं शुकराना, नियमावली",
       "Thanksgiving, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mere Dhoom Bhai Ati Bhari Daras Radhasoami Kinha Re.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mere Dhoom Bhai Ati Bhari Daras Radhasoami Kinha Re.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bin Satguru Didar Tadap Rahi Man Mein.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mere Dhoom Bhai Ati Bhari Daras Radhasoami Kinha Re.mp4'>Video</a>"
    ],
    [
       "कस प्रीतम से जाय मिलूँ मैं",
@@ -3381,7 +3372,7 @@
       "",
       "Arti Shabd , Mahima of Radhasoami Naam",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Dinadayala Mere Sad Kirpala.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Dinadayala Mere Sad Kirpala.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Binti Gave Das Anokha.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Dinadayala Mere Sad Kirpala.mp4'>Video</a>"
    ],
    [
       "मैं हुई सखी अपने प्यारे की प्यारी",
@@ -3393,7 +3384,7 @@
       "अंतिम समय एवं मृत्यु, नियमावली",
       "Illness and End Time or Death, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Main Hui Sakhi Apne Pyare Ki Pyari.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Main Hui Sakhi Apne Pyare Ki Pyari.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Binti Karoon Pukar Pukari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Main Hui Sakhi Apne Pyare Ki Pyari.mp4'>Video</a>"
    ],
    [
       "जब से मैं देखा राधास्वामी का मुखड़ा",
@@ -3417,7 +3408,7 @@
       "सत्संग गुरु पूर्णिमा",
       "Guru Purnima Satsang, Love and Yearning ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Jagi Hai Umang Mere Hiye Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Jagi Hai Umang Mere Hiye Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bol Ri Radha Pyari Bansi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Jagi Hai Umang Mere Hiye Mein.mp4'>Video</a>"
    ],
    [
       "चल देखिये सतसंग में जहाँ निरमल फाग रचोरी",
@@ -3429,7 +3420,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Chal Dekhiye Satsang Mein Jahan Niramal Phaag Rachori.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Chal Dekhiye Satsang Mein Jahan Niramal Phaag Rachori.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Chal Kheliye Satguru Se Rang Holi Aaj Sakhi Ri.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Chal Dekhiye Satsang Mein Jahan Niramal Phaag Rachori.mp4'>Video</a>"
    ],
    [
       "चल खेलिये सतगुरु से रंग होली आज सखी री",
@@ -3453,7 +3444,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mohin Daras Deo Guru Pyare Kyon Eti Der Lagaiyan.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mohin Daras Deo Guru Pyare Kyon Eti Der Lagaiyan.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Chalo Ri Sakhi Mil Aarat Gaven.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mohin Daras Deo Guru Pyare Kyon Eti Der Lagaiyan.mp4'>Video</a>"
    ],
    [
       "तुम सोचो अपने मन में या जग में दुक्ख घनेरा",
@@ -3477,7 +3468,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Jeev Ubaran Jag Mein Aaye.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Jeev Ubaran Jag Mein Aaye.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Charan Guru Badhat Hiye Anurag.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Jeev Ubaran Jag Mein Aaye.mp4'>Video</a>"
    ],
    [
       "गगन में बाजत आज बधाई",
@@ -3489,7 +3480,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Gagan Mein Bajat Aaj Badhaee.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Gagan Mein Bajat Aaj Badhaee.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Charan Guru Hirdey Dhar Rahi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Gagan Mein Bajat Aaj Badhaee.mp4'>Video</a>"
    ],
    [
       "गुरु धरा सीस पर हाथ मन क्यों सोच करे",
@@ -3501,7 +3492,7 @@
       "आश्वासन एवं सांत्वना, नियमावली",
       "Assurance and solace, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Dhara Sis Par Hath Man Kyon Soch Kare.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Dhara Sis Par Hath Man Kyon Soch Kare.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Charan Ur Dharo Radha Pyari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Dhara Sis Par Hath Man Kyon Soch Kare.mp4'>Video</a>"
    ],
    [
       "बिनती करूँ चरन में आज",
@@ -3513,7 +3504,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Binti Karoon Charan Mein Aaj.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Binti Karoon Charan Mein Aaj.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Chauka Bartan Kiya Achambhi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Binti Karoon Charan Mein Aaj.mp4'>Video</a>"
    ],
    [
       "सुनो बिनती स्वामी महाराज",
@@ -3525,7 +3516,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Suno Binti Soami Maharaj.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Suno Binti Soami Maharaj.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Chet Chalo Yeh Sab Janjal.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Suno Binti Soami Maharaj.mp4'>Video</a>"
    ],
    [
       "ऋतु बसन्त आये सतगुरु जग में",
@@ -3537,7 +3528,7 @@
       "बसंत पंचमी सत्संग",
       "Basant Panchmi Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Ritu Basant Aaye Satguru Jag Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Ritu Basant Aaye Satguru Jag Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Cheto Mere Pyare Tere Bhale Ki Kahoon.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Ritu Basant Aaye Satguru Jag Mein.mp4'>Video</a>"
    ],
    [
       "होली खेल न जाने बावरिया",
@@ -3549,7 +3540,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Holi Khel Na Jane Bawariya.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Holi Khel Na Jane Bawariya.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Cheto Re Ghar Ghat Samharo.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Holi Khel Na Jane Bawariya.mp4'>Video</a>"
    ],
    [
       "फागुन की ऋतु आई सखी आज गुरु संग फाग रचो",
@@ -3561,7 +3552,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Aaj Guru Sang Phaag Racho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Aaj Guru Sang Phaag Racho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aaee Sakhi Aaj Guru Sang Phaag Racho.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aayee Sakhi Aaj Guru Sang Phaag Racho.mp4'>Video</a>"
    ],
    [
       "आज आई बहार बसन्त",
@@ -3585,7 +3576,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Main To Holi Khelan Ko Thadhi.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Main To Holi Khelan Ko Thadhi.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Chunar Meri Maili Bhayee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Main To Holi Khelan Ko Thadhi.mp4'>Video</a>"
    ],
    [
       "आज सँग सतगुरु खेलूँगी होरी",
@@ -3609,7 +3600,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Mil Satguru Khelo Holi.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Phaagun Ki Ritu Aaee Sakhi Mil Satguru Khelo Holi.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aaee Sakhi Mil Satguru Khelo Holi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Phaagun Ki Ritu Aayee Sakhi Mil Satguru Khelo Holi.mp4'>Video</a>"
    ],
    [
       "ऋतु बसन्त फूली जग माहीं मिल सतगुरु घट",
@@ -3621,7 +3612,7 @@
       "बसंत पंचमी सत्संग",
       "Basant Panchmi Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Ritu Basant Fooli Jag Mahin Mil Satguru Ghat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Ritu Basant Fooli Jag Mahin Mil Satguru Ghat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Darash De Aaj Bandhao Dheer.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Ritu Basant Fooli Jag Mahin Mil Satguru Ghat.mp4'>Video</a>"
    ],
    [
       "सखी री ऐसी होली खेल",
@@ -3633,7 +3624,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sakhi Ri Aisi Holi Khel.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sakhi Ri Aisi Holi Khel.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Darash Guru Tadap Raha Man Mor.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sakhi Ri Aisi Holi Khel.mp4'>Video</a>"
    ],
    [
       "निरखो निरखो सखी ऋतु आई बसन्त",
@@ -3645,7 +3636,7 @@
       "बसंत पंचमी सत्संग",
       "Basant Panchmi Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Nirkho Nirkho Sakhi Ritu Aaee Basant.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Nirkho Nirkho Sakhi Ritu Aaee Basant.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Nirkho Nirkho Sakhi Ritu Aaee Basant.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Nirkho Nirkho Sakhi Ritu Aayee Basant.mp4'>Video</a>"
    ],
    [
       "आज आया बसन्त नवीन",
@@ -3669,7 +3660,7 @@
       "दीवाली सत्संग",
       "Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Diwala Poojen Jeev Ajan.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Diwala Poojen Jeev Ajan.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dard Dukhi Jiyara Nit Tarse.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Diwala Poojen Jeev Ajan.mp4'>Video</a>"
    ],
    [
       "तड़पत रही बेहाल दरस बिन मन नहिं माने",
@@ -3693,7 +3684,7 @@
       "",
       "Bhandara of Buaji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sindh Se Aaee Soorat Nar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sindh Se Aaee Soorat Nar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Sindh Se Aaee Soorat Nar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sindh Se Aayee Soorat Nar.mp4'>Video</a>"
    ],
    [
       "मेरा जीया ना माने सजनी जाऊँगी गुरु दरबार",
@@ -3705,7 +3696,7 @@
       "प्रेम एवं विरह",
       "Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mera Jiya Na Mane Sajni Jaoongi Guru Darbar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mera Jiya Na Mane Sajni Jaoongi Guru Darbar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Darshan Ki Pyas Ghaneri.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mera Jiya Na Mane Sajni Jaoongi Guru Darbar.mp4'>Video</a>"
    ],
    [
       "राधास्वामी छबि मेरे हिये बस गई री",
@@ -3717,7 +3708,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Chhabi Mere Hiye Bas Gayi Ri.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Chhabi Mere Hiye Bas Gayi Ri.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Daya Guru Kya Karoon Varnan.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Chhabi Mere Hiye Bas Gayi Ri.mp4'>Video</a>"
    ],
    [
       "सावन मास मेघ घिर आये",
@@ -3729,7 +3720,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Megh Ghir Aaye.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Megh Ghir Aaye.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dekhan Chali Basant Agam Ghar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Megh Ghir Aaye.mp4'>Video</a>"
    ],
    [
       "राधास्वामी सेव करत धर प्यारा",
@@ -3741,7 +3732,7 @@
       "भोग",
       "Bhog",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Sev Karat Dhar Pyara.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Sev Karat Dhar Pyara.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dekho Dekho Sakhi Ab Chal Basant.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Sev Karat Dhar Pyara.mp4'>Video</a>"
    ],
    [
       "सुर्त आवाज़ को पकड़ के गई",
@@ -3753,7 +3744,7 @@
       "गज़ल एवं मसनवी",
       "Ghazal and Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surt Aawaz Ko Pakad Ke.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surt Aawaz Ko Pakad Ke.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dekho Sab Jag Jat Baha.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surt Aawaz Ko Pakad Ke.mp4'>Video</a>"
    ],
    [
       "हे गुरु मैं तेरे दीदार का आशिक़ जो हुआ",
@@ -3765,7 +3756,7 @@
       "गज़ल एवं मसनवी",
       "Ghazal and Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/He Guru Main Tere Didar Ka Aashik Jo Hua.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/He Guru Main Tere Didar Ka Aashik Jo Hua.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dev Ri Sakhi Mohin Umang Badhaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/He Guru Main Tere Didar Ka Aashik Jo Hua.mp4'>Video</a>"
    ],
    [
       "आज आनन्द रहा मौज से चहुँ दिस छाई",
@@ -3825,7 +3816,7 @@
       "गज़ल एवं मसनवी",
       "Ghazal and Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Nij Roop Poore Satguru Ka.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Nij Roop Poore Satguru Ka.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dham Apne Chalo Bhai.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Nij Roop Poore Satguru Ka.mp4'>Video</a>"
    ],
    [
       "यह सतसंग और राधास्वामी है नाम",
@@ -3849,7 +3840,7 @@
       "",
       "Ghazal And Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Pyare Gaflat Chhodo Sar Basar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Pyare Gaflat Chhodo Sar Basar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhiraj Dharana Mat Ghabrana.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Pyare Gaflat Chhodo Sar Basar.mp4'>Video</a>"
    ],
    [
       "अहो मेरे सतगुरु अहो मेरी जान",
@@ -3969,7 +3960,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Koi Din Ka Hai Jag Mein Rahna Sakhi.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Koi Din Ka Hai Jag Mein Rahna Sakhi.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhiraj Dharo Bachan Guru Gaho.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Din Ka Hai Jag Mein Rahna Sakhi.mp4'>Video</a>"
    ],
    [
       "हे मेरे समरथ साईं निज रूप दिखाओ",
@@ -3993,7 +3984,7 @@
       "अंतिम समय एवं मृत्यु",
       "Illness and End Time or Death ",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sakhi Ri Main Jaoongi Ghar Nahin Thahroongi Maya Desh.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sakhi Ri Main Jaoongi Ghar Nahin Thahroongi Maya Desh.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhokha Mat Khana Jag Aay Piyare.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sakhi Ri Main Jaoongi Ghar Nahin Thahroongi Maya Desh.mp4'>Video</a>"
    ],
    [
       "जो मेरे प्रीतम से प्रीत करे",
@@ -4029,7 +4020,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj, Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Chalo Ri Sakhi Mil Aarat Gaven.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Chalo Ri Sakhi Mil Aarat Gaven.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhun Mein Ab Surat Lagao.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Chalo Ri Sakhi Mil Aarat Gaven.mp4'>Video</a>"
    ],
    [
       "राधास्वामी धरा नर रूप जगत में",
@@ -4041,7 +4032,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Dhara Nar Roop Jagat Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Dhara Nar Roop Jagat Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhun Sun Kar Man Samajhaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Dhara Nar Roop Jagat Mein.mp4'>Video</a>"
    ],
    [
       "करूँ बँदगी राधास्वामी आगे",
@@ -4053,7 +4044,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Karoon Bandagi Radhasoami Aage.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Karoon Bandagi Radhasoami Aage.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Diwala Poojen Jeev Ajan.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Bandagi Radhasoami Aage.mp4'>Video</a>"
    ],
    [
       "राधास्वामी नाम सिफ़त करूँ इस नाम की",
@@ -4065,7 +4056,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Naam Sifat Karoon Is Naam Ki.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Naam Sifat Karoon Is Naam Ki.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Gagan Mein Bajat Aaj Badhaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Naam Sifat Karoon Is Naam Ki.mp4'>Video</a>"
    ],
    [
       "राधास्वामी नाम सुनाया राधास्वामी",
@@ -4077,7 +4068,7 @@
       "",
       "Mahima of Radhasoami Naam",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Naam Sunaya Radhasoami.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Naam Sunaya Radhasoami.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Gaoon Arti Lekar Thali.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Naam Sunaya Radhasoami.mp4'>Video</a>"
    ],
    [
       "राधास्वामी नाम जो गावे सो ही तरे",
@@ -4125,7 +4116,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Ke Daras Par Main Balihari.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Ke Daras Par Main Balihari.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Gave Arti Sevak Poora.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ke Daras Par Main Balihari.mp4'>Video</a>"
    ],
    [
       "राधास्वामी मेरे सिन्ध गंभीर",
@@ -4137,7 +4128,7 @@
       "भंडारा स्वामीजी महाराज, भंडारा हुज़ूर महाराज",
       "Bhandara of Soami Ji Maharaj, Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Mere Sindh Gambhir.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Mere Sindh Gambhir.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Ghat Mein Kheloon Ab Basant.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Mere Sindh Gambhir.mp4'>Video</a>"
    ],
    [
       "आज दिवस सखि मंगल खानी",
@@ -4149,7 +4140,7 @@
       "भंडारा महाराज साहब",
       "Bhandara of Maharaj Saheb",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Aaj Diwas Sakhi Mangal Khani.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Aaj Diwas Sakhi Mangal Khani.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Aarat Main Karne Aaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Aaj Diwas Sakhi Mangal Khani.mp4'>Video</a>"
    ],
    [
       "आज साज कर आरत लाई",
@@ -4173,7 +4164,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj, Bhandara of Maharaj Saheb",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Yeh Aarat Dasi Rachi Prem Sindh Ki Dhar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Yeh Aarat Dasi Rachi Prem Sindh Ki Dhar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Aarat Tu Kar Le Sajni.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Yeh Aarat Dasi Rachi Prem Sindh Ki Dhar.mp4'>Video</a>"
    ],
    [
       "आनँद मंगल आज साज सब आरत लाई",
@@ -4209,7 +4200,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Charan Guru Hirdey Dhar Rahi.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Charan Guru Hirdey Dhar Rahi.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Bin Kabhi Na Utre Par.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Charan Guru Hirdey Dhar Rahi.mp4'>Video</a>"
    ],
    [
       "अपने स्वामी की मैं करत आरती",
@@ -4221,7 +4212,7 @@
       "भंडारा बुआजी महाराज",
       "Bhandara of Buaji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Apne Soami Ki Main Karat Arti.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Apne Soami Ki Main Karat Arti.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Charan Girah Mere Aaye.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Apne Soami Ki Main Karat Arti.mp4'>Video</a>"
    ],
    [
       "आरत करूँ आज सतगुरु की",
@@ -4245,7 +4236,7 @@
       "भंडारा बुआजी महाराज",
       "Bhandara of Buaji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Daya Prem Ghat Aaya.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Daya Prem Ghat Aaya.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Charan Pakad Dradh Bhai.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Daya Prem Ghat Aaya.mp4'>Video</a>"
    ],
    [
       "प्रेम प्रीति घट धार आरती राधास्वामी कीजे",
@@ -4257,7 +4248,7 @@
       "भंडारा बाबूजी महाराज",
       "Bhandara of Babuji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Prem Preeti Ghat Dhar Arti Radhasoami Kije.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Prem Preeti Ghat Dhar Arti Radhasoami Kije.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Dhara Sis Par Hath Man Kyon Soch Kare.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Prem Preeti Ghat Dhar Arti Radhasoami Kije.mp4'>Video</a>"
    ],
    [
       "तिल भीतर दिल जोड़",
@@ -4269,7 +4260,7 @@
       "भंडारा बाबूजी महाराज",
       "Bhandara of Babuji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Til Bhitar Dil Jod.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Til Bhitar Dil Jod.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Dhyan Dharo Tum Man Mein.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Til Bhitar Dil Jod.mp4'>Video</a>"
    ],
    [
       "जीव चिताय रहे राधास्वामी",
@@ -4281,7 +4272,7 @@
       "गृह प्रवेश",
       "House warming",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Jeev Chitaya Rahe Radhasoami.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Jeev Chitaya Rahe Radhasoami.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ka Agam Roop Main Dekha.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Jeev Chitaya Rahe Radhasoami.mp4'>Video</a>"
    ],
    [
       "तुम दीपक मैं भई हूँ पतंगा",
@@ -4293,7 +4284,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Tum Dipak Main Bhai Hoon Patanga.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Tum Dipak Main Bhai Hoon Patanga.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ka Dhyan Kar Pyare.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Tum Dipak Main Bhai Hoon Patanga.mp4'>Video</a>"
    ],
    [
       "करूँ बीनती दोउ कर जोरी",
@@ -4317,7 +4308,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Karoon Binti Radhasoami Aaj.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Karoon Binti Radhasoami Aaj.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Karo Khoj Kar Bhai.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Binti Radhasoami Aaj.mp4'>Video</a>"
    ],
    [
       "स्वामी सुनो हमारी बिनती",
@@ -4329,7 +4320,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Soami Suno Hamari Binti.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Soami Suno Hamari Binti.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ke Daras Par Main Balihari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Soami Suno Hamari Binti.mp4'>Video</a>"
    ],
    [
       "आज मेरे आनँद होत अपार",
@@ -4353,7 +4344,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Kal Ne Jagat Ajab Bharmaya.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Kal Ne Jagat Ajab Bharmaya.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ki Kar Har Dam Pooja.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Kal Ne Jagat Ajab Bharmaya.mp4'>Video</a>"
    ],
    [
       "चेत चलो यह सब जंजाल",
@@ -4365,7 +4356,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Chet Chalo Yeh Sab Janjal.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Chet Chalo Yeh Sab Janjal.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ki Mauj Raho Tum Dhar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Chet Chalo Yeh Sab Janjal.mp4'>Video</a>"
    ],
    [
       "मत देख पराये औगुन",
@@ -4377,7 +4368,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mat Dekh Paraye Augun.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mat Dekh Paraye Augun.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Main Gunahagar Ati Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mat Dekh Paraye Augun.mp4'>Video</a>"
    ],
    [
       "मुसाफि़र रहना तुम हुशियार",
@@ -4389,7 +4380,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Musafir Rahna Tum Hushiyar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Musafir Rahna Tum Hushiyar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mere Data Main Bhai Dasi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Musafir Rahna Tum Hushiyar.mp4'>Video</a>"
    ],
    [
       "मित्र तेरा कोई नहीं संगियन में",
@@ -4401,7 +4392,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mitr Tera Koi Nahin Sangiyan Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mitr Tera Koi Nahin Sangiyan Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mere Pragate Jag Mein Aay.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mitr Tera Koi Nahin Sangiyan Mein.mp4'>Video</a>"
    ],
    [
       "मौत से डरत रहो दिन रात",
@@ -4413,7 +4404,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Maut Se Darat Raho Din Rat.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Maut Se Darat Raho Din Rat.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mile Ami Ras Data.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Maut Se Darat Raho Din Rat.mp4'>Video</a>"
    ],
    [
       "तजो मन यह दुख सुख का धाम",
@@ -4425,7 +4416,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Tajo Man Yeh Dukh Sukh Ka Dham.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Tajo Man Yeh Dukh Sukh Ka Dham.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mohin Apna Roop Dikhao.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Tajo Man Yeh Dukh Sukh Ka Dham.mp4'>Video</a>"
    ],
    [
       "अटक तू क्यों रहा जग में",
@@ -4437,7 +4428,7 @@
       "चितावनी",
       "Admonition",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Atak Tu Kyon Raha Jag Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Atak Tu Kyon Raha Jag Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Moorat Mere Man Bas Gaiyan.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Atak Tu Kyon Raha Jag Mein.mp4'>Video</a>"
    ],
    [
       "मिली नर देह यह तुम को",
@@ -4461,7 +4452,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Yehan Tum Samajh Soch Kar Chalna.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Yehan Tum Samajh Soch Kar Chalna.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ka Rang Ati Nirmal.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Yehan Tum Samajh Soch Kar Chalna.mp4'>Video</a>"
    ],
    [
       "मन रे क्यों गुमान अब करना",
@@ -4473,7 +4464,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Man Re Kyon Guman Ab Karna.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Man Re Kyon Guman Ab Karna.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ka Rang Chatakila Kabhi Utre Nahin.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Man Re Kyon Guman Ab Karna.mp4'>Video</a>"
    ],
    [
       "गुरु करो खोज कर भाई",
@@ -4485,7 +4476,7 @@
       "सत्संग गुरु पूर्णिमा",
       "Guru Purnima Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Karo Khoj Kar Bhai.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Karo Khoj Kar Bhai.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Karen Aaj Jagat Uddhar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Karo Khoj Kar Bhai.mp4'>Video</a>"
    ],
    [
       "गुरु की कर हर दम पूजा",
@@ -4509,7 +4500,7 @@
       "सत्संग गुरु पूर्णिमा, नियमावली",
       "Guru Purnima Satsang, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Charan Pakad Dradh Bhai.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Charan Pakad Dradh Bhai.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ke Darshan Karat Rahoon.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Charan Pakad Dradh Bhai.mp4'>Video</a>"
    ],
    [
       "सतगुरु का नाम पुकारो",
@@ -4521,7 +4512,7 @@
       "सत्संग गुरु पूर्णिमा, नियमावली",
       "Guru Purnima Satsang, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Ka Naam Pukaro.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Ka Naam Pukaro.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ke Sang Pyari Khelo Phaag.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Ka Naam Pukaro.mp4'>Video</a>"
    ],
    [
       "गुरु की मौज रहो तुम धार",
@@ -4533,7 +4524,7 @@
       "आश्वासन एवं सांत्वना, नियमावली",
       "Assurance and solace, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Ki Mauj Raho Tum Dhar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Ki Mauj Raho Tum Dhar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ki Chhavi Man Mohan.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ki Mauj Raho Tum Dhar.mp4'>Video</a>"
    ],
    [
       "चेतो मेरे प्यारे तेरे भले की कहूँ",
@@ -4545,7 +4536,7 @@
       "चितावनी, नियमावली",
       "Admonition, Niyamawali, Assurance and solace",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Cheto Mere Pyare Tere Bhale Ki Kahoon.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Cheto Mere Pyare Tere Bhale Ki Kahoon.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Pyare Ki Mauj Raho Tum Dhar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Cheto Mere Pyare Tere Bhale Ki Kahoon.mp4'>Video</a>"
    ],
    [
       "गुरु का ध्यान कर प्यारे",
@@ -4557,7 +4548,7 @@
       "सत्संग गुरु पूर्णिमा, आश्वासन एवं सांत्वना, नियमावली",
       "Guru Purnima Satsang, Assurance and solace, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Ka Dhyan Kar Pyare.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Ka Dhyan Kar Pyare.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Sang Kheloon Nis Din Pas.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ka Dhyan Kar Pyare.mp4'>Video</a>"
    ],
    [
       "गुरू बिन कभी न उतरे पार",
@@ -4569,7 +4560,7 @@
       "सत्संग गुरु पूर्णिमा",
       "Guru Purnima Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Bin Kabhi Na Utre Par.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Bin Kabhi Na Utre Par.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Tarenge Ham Jani.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Bin Kabhi Na Utre Par.mp4'>Video</a>"
    ],
    [
       "गुरु तारेंगे हम जानी",
@@ -4581,7 +4572,7 @@
       "आश्वासन एवं सांत्वना, नियमावली",
       "Assurance and solace, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Tarenge Ham Jani.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Tarenge Ham Jani.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/He Guru Main Tere Didar Ka Aashik Jo Hua.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Tarenge Ham Jani.mp4'>Video</a>"
    ],
    [
       "धाम अपने चलो भाई",
@@ -4593,7 +4584,7 @@
       "अंतिम समय एवं मृत्यु, नियमावली",
       "Illness and End Time or Death, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Dham Apne Chalo Bhai.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Dham Apne Chalo Bhai.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/He Mere Pyare Satguru Mohin Darshan Dije.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Dham Apne Chalo Bhai.mp4'>Video</a>"
    ],
    [
       "हे गुरु मैं तेरे दीदार का",
@@ -4605,7 +4596,7 @@
       "गज़ल एवं मसनवी",
       "Ghazal and Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/He Guru Main Tere Didar Ka.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/He Guru Main Tere Didar Ka.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/He Guru Main Tere Didar Ka Aashik Jo Hua.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/He Guru Main Tere Didar Ka.mp4'>Video</a>"
    ],
    [
       "अर्श पर पहुँच कर",
@@ -4617,7 +4608,7 @@
       "",
       "Ghazal And Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Arsh Par Pahunch Kar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Arsh Par Pahunch Kar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Arsh Par Pahunch Kar Main Dekha Noor.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Arsh Par Pahunch Kar.mp4'>Video</a>"
    ],
    [
       "निज रूप पूरे सतगुरु का प्रेम मन में",
@@ -4629,7 +4620,7 @@
       "गज़ल एवं मसनवी",
       "Ghazal and Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Nij Roop Poore Satguru Ka Prem Man Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Nij Roop Poore Satguru Ka Prem Man Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Nij Roop Poore Satguru Ka.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Nij Roop Poore Satguru Ka Prem Man Mein.mp4'>Video</a>"
    ],
    [
       "सुर्त आवाज़ को पकड़ के गई",
@@ -4641,7 +4632,7 @@
       "गज़ल एवं मसनवी",
       "Ghazal and Masnavi",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surt Aawaz Ko Pakad Ke Gayee.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surt Aawaz Ko Pakad Ke Gayee.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Surt Aawaz Ko Pakad Ke.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surt Aawaz Ko Pakad Ke Gayee.mp4'>Video</a>"
    ],
    [
       "सुन री सखी तोहि भेद बताऊँ",
@@ -4653,7 +4644,7 @@
       "दीवाली सत्संग",
       "Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sun Ri Sakhi Tohi Bhed Bataoon.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sun Ri Sakhi Tohi Bhed Bataoon.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Holi Khel Na Jane Bawariya.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sun Ri Sakhi Tohi Bhed Bataoon.mp4'>Video</a>"
    ],
    [
       "मैं सतगुरु संग करूँगी आरती",
@@ -4665,7 +4656,7 @@
       "प्रेम एवं विरह",
       "Satsang on Asadh Badi Padiwa, Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Main Satguru Sang Karoongi Arti.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Main Satguru Sang Karoongi Arti.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jab Dekha Tej Maine Jo Malik Ke Naam Ka.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Main Satguru Sang Karoongi Arti.mp4'>Video</a>"
    ],
    [
       "दर्द दुखी मैं बिरहिन भारी",
@@ -4689,7 +4680,7 @@
       "प्रेम एवं विरह",
       "Satsang on Asadh Badi Padiwa, Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Kaisi Karoon Kasak Uthi Bhari.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Kaisi Karoon Kasak Uthi Bhari.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jab Se Main Dekha Radhasoami Ka Mukhada.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaisi Karoon Kasak Uthi Bhari.mp4'>Video</a>"
    ],
    [
       "पिया बिन कैसे जिऊँ मैं प्यारी",
@@ -4713,7 +4704,7 @@
       "प्रेम एवं विरह",
       "Satsang on Asadh Badi Padiwa, Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Dard Dukhi Jiyara Nit Tarse.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Dard Dukhi Jiyara Nit Tarse.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jagat Jeev Sab Holi Poojen.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Dard Dukhi Jiyara Nit Tarse.mp4'>Video</a>"
    ],
    [
       "चुनर मेरी मैली भई",
@@ -4737,7 +4728,7 @@
       "प्रेम एवं विरह",
       "Love and Yearning",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surt Chali Dhulawan Kaj.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surt Chali Dhulawan Kaj.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jagi Hai Umang Mere Hiye Mein.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surt Chali Dhulawan Kaj.mp4'>Video</a>"
    ],
    [
       "मोहिं मिला सुहाग गुरु का",
@@ -4749,7 +4740,7 @@
       "अंतिम समय एवं मृत्यु, नियमावली",
       "Illness and End Time or Death, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mohin Mila Suhag Guru Ka.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mohin Mila Suhag Guru Ka.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jago Re Yehan Kab Lag Sona.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mohin Mila Suhag Guru Ka.mp4'>Video</a>"
    ],
    [
       "आज घड़ी अति पावन भावन",
@@ -4797,19 +4788,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Meri Pakado Banh Hey Satguru.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Meri Pakado Banh Hey Satguru.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jeev Chitawan Aaye Radhasoami.mp4'>Video</a>"
-   ],
-   [
-      "गुरु मैं गुनहगार अति भारी",
-      "Guru Main Gunahagar Ati Bhari",
-      "सार बचन छंद बंद, भाग 2",
-      "Sar Bachan Poetry, Part-2",
-      "29",
-      "3",
-      "रात को सोने से पहले, नियमावली",
-      "Before retiring to bed in evening, Niyamawali",
-      "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Main Gunahagar Ati Bhari.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Main Gunahagar Ati Bhari.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Main Gunahagar Ati Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Meri Pakado Banh Hey Satguru.mp4'>Video</a>"
    ],
    [
       "आरत गाऊँ पूरे गुरु की",
@@ -4857,7 +4836,7 @@
       "भंडारा स्वामीजी महाराज",
       "Bhandara of Soami Ji Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Kare Aarata Sevak Bhola.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Kare Aarata Sevak Bhola.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jeev Chitaya Rahe Radhasoami.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Kare Aarata Sevak Bhola.mp4'>Video</a>"
    ],
    [
       "दम्पत आरत करूँ राधास्वामी",
@@ -4869,7 +4848,7 @@
       "शादी व अन्य खुशी के मौके",
       "Marriage and Other Happy Occasions",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Dampat Aarat Karoon Radhasoami.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Dampat Aarat Karoon Radhasoami.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jeev Ubaran Jag Mein Aaye.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Dampat Aarat Karoon Radhasoami.mp4'>Video</a>"
    ],
    [
       "आज आरती करूँ सुहावन",
@@ -4929,7 +4908,7 @@
       "प्रेम एवं विरह, नियमावली",
       "Love and Yearning, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Naam Dan Ab Satguru Dije.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Naam Dan Ab Satguru Dije.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jo Mere Preetam Se Preet Kare.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Naam Dan Ab Satguru Dije.mp4'>Video</a>"
    ],
    [
       "सतगुरु मेरी सुनो पुकार",
@@ -4941,7 +4920,7 @@
       "बिनती एवं प्रार्थना",
       "Prayer",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Meri Suno Pukar.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Meri Suno Pukar.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Jud Mil Ke Hans Sare Darshan Ko Guru Ke Aaye.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Meri Suno Pukar.mp4'>Video</a>"
    ],
    [
       "तुम धुर से चल कर आये",
@@ -4953,7 +4932,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Tum Dhur Se Chal Kar Aaye.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Tum Dhur Se Chal Kar Aaye.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaise Karoon Charan Mein Binti.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Tum Dhur Se Chal Kar Aaye.mp4'>Video</a>"
    ],
    [
       "गुरु मोहिं अपना रूप दिखाओ",
@@ -4965,7 +4944,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Mohin Apna Roop Dikhao.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Mohin Apna Roop Dikhao.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaisi Karoon Kasak Uthi Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mohin Apna Roop Dikhao.mp4'>Video</a>"
    ],
    [
       "सतगुरु से करुँ पुकारी संतन मत कीजे जारी",
@@ -4977,7 +4956,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Satguru Se Karun Pukari Santan Mat Kije Jari.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Satguru Se Karun Pukari Santan Mat Kije Jari.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kal Ne Jagat Ajab Bharmaya.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Satguru Se Karun Pukari Santan Mat Kije Jari.mp4'>Video</a>"
    ],
    [
       "लगाओ मेरी नइया सतगुरु पार",
@@ -5001,7 +4980,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Darshan Ki Pyas Ghaneri.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Darshan Ki Pyas Ghaneri.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karat Hoon Pukar Aaj Suniye Guhar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Darshan Ki Pyas Ghaneri.mp4'>Video</a>"
    ],
    [
       "धीरज धरो बचन गुरु गहो",
@@ -5013,7 +4992,7 @@
       "भंडारा हुज़ूर महाराज",
       "Bhandara of Huzur Maharaj",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Dhiraj Dharo Bachan Guru Gaho.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Dhiraj Dharo Bachan Guru Gaho.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kare Aarata Sevak Bhola.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Dhiraj Dharo Bachan Guru Gaho.mp4'>Video</a>"
    ],
    [
       "धीरज धरना मत घबराना",
@@ -5049,7 +5028,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sant Das Ki Arti.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sant Das Ki Arti.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Arti Radhasoami Tan Man Surat Lagay.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sant Das Ki Arti.mp4'>Video</a>"
    ],
    [
       "गुरु मिले अमी रस दाता",
@@ -5061,7 +5040,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Mile Ami Ras Data.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Mile Ami Ras Data.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Bandagi Radhasoami Aage.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Mile Ami Ras Data.mp4'>Video</a>"
    ],
    [
       "प्रेमिन दूर देश से आई",
@@ -5073,7 +5052,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Premin Door Desh Se Aaee.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Premin Door Desh Se Aaee.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Premin Door Desh Se Aaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Premin Door Desh Se Aayee.mp4'>Video</a>"
    ],
    [
       "गुरु के दर्शन कारने हम आये अब दूर से",
@@ -5085,7 +5064,7 @@
       "फ़र्याद एवं पुकार",
       "Invocation",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Ke Darshan Karne Ham Aaye Ab Door Se.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Ke Darshan Karne Ham Aaye Ab Door Se.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Binti Radhasoami Aage.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ke Darshan Karne Ham Aaye Ab Door Se.mp4'>Video</a>"
    ],
    [
       "गुरु आरत तू कर ले सजनी",
@@ -5097,7 +5076,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Aarat Tu Kar Le Sajni.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Aarat Tu Kar Le Sajni.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Karoon Binti Radhasoami Aaj.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Aarat Tu Kar Le Sajni.mp4'>Video</a>"
    ],
    [
       "आओ री सिमट हे सखियो",
@@ -5121,7 +5100,7 @@
       "दीवाली सत्संग",
       "Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Ka Agam Roop Main Dekha.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Ka Agam Roop Main Dekha.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kas Preetam Se Jay Miloon Main.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Ka Agam Roop Main Dekha.mp4'>Video</a>"
    ],
    [
       "मेरे उर में भरे दुख साल",
@@ -5133,7 +5112,7 @@
       "प्रेम एवं विरह",
       "Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mere Ur Mein Bhare Dukh Sal.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mere Ur Mein Bhare Dukh Sal.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Katik Mas Panchwa Chala.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mere Ur Mein Bhare Dukh Sal.mp4'>Video</a>"
    ],
    [
       "हिरदे में गुल पौद खिलानी",
@@ -5145,7 +5124,7 @@
       "शादी व अन्य खुशी के मौके",
       "Marriage and Other Happy Occasions",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Hirdey Mein Gul Paud Khilani.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Hirdey Mein Gul Paud Khilani.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaun Kare Aarat Satguru Ki.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Hirdey Mein Gul Paud Khilani.mp4'>Video</a>"
    ],
    [
       "सुरत आज मगन भई",
@@ -5157,7 +5136,7 @@
       "अंतिम समय एवं मृत्यु, नियमावली",
       "Illness and End Time or Death, Niyamawali",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surat Aaj Magan Bhai.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surat Aaj Magan Bhai.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaya Nagar Mein Dhoom Machi Hai.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surat Aaj Magan Bhai.mp4'>Video</a>"
    ],
    [
       "गुरु संग खेलूँ निस दिन पास",
@@ -5169,7 +5148,7 @@
       "भंडारा हुज़ूर महाराज, दीवाली सत्संग",
       "Bhandara of Huzur Maharaj, Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Sang Kheloon Nis Din Pas.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Sang Kheloon Nis Din Pas.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Khel Rahi Surat Phaag Naee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Sang Kheloon Nis Din Pas.mp4'>Video</a>"
    ],
    [
       "गुरु मूरत मेरे मन बस गइयाँ",
@@ -5181,7 +5160,7 @@
       "प्रार्थना दया एवं मेहर के लिये",
       "Prayer for Daya and Mehar",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Guru Moorat Mere Man Bas Gaiyan.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Guru Moorat Mere Man Bas Gaiyan.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Khila Mere Ghat Mein Aaj Basant.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Guru Moorat Mere Man Bas Gaiyan.mp4'>Video</a>"
    ],
    [
       "कातिक मास पाँचवा चला",
@@ -5193,7 +5172,7 @@
       "दीवाली सत्संग",
       "Diwali Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Katik Mas Panchwa Chala.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Katik Mas Panchwa Chala.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Chalo Guru Sang Agam Nagar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Katik Mas Panchwa Chala.mp4'>Video</a>"
    ],
    [
       "देखो देखो सखी अब चल बसंत",
@@ -5205,7 +5184,7 @@
       "बसंत पंचमी सत्संग",
       "Basant Panchmi Satsang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Dekho Dekho Sakhi Ab Chal Basant.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Dekho Dekho Sakhi Ab Chal Basant.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Din Ka Hai Jag Mein Rahna Sakhi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Dekho Dekho Sakhi Ab Chal Basant.mp4'>Video</a>"
    ],
    [
       "घट में खेलूँ अब बसन्त",
@@ -5253,7 +5232,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Kaya Nagar Mein Dhoom Machi Hai.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Kaya Nagar Mein Dhoom Machi Hai.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Gaho Guru Ki Saran Samhar.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Kaya Nagar Mein Dhoom Machi Hai.mp4'>Video</a>"
    ],
    [
       "मेरे गुरु ने खेलाई प्रेम संग होरी",
@@ -5265,7 +5244,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Mere Guru Ne Khelaee Prem Sang Hori.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Mere Guru Ne Khelaee Prem Sang Hori.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Karo Guru Ka Satsang Aaj.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Mere Guru Ne Khelaee Prem Sang Hori.mp4'>Video</a>"
    ],
    [
       "मेरी सुरत राधास्वामी जोरी",
@@ -5277,7 +5256,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Meri Surat Radhasoami Jori.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Meri Surat Radhasoami Jori.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Koi Milo Purush Se Chal Satpur.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Meri Surat Radhasoami Jori.mp4'>Video</a>"
    ],
    [
       "राधास्वामी घर बाढ़ो रंग",
@@ -5289,7 +5268,7 @@
       "होली सत्संग",
       "Holi Satang",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Ghar Badho Rang.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Ghar Badho Rang.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kya Sowe Jag Mein Nind Bhari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Ghar Badho Rang.mp4'>Video</a>"
    ],
    [
       "आओ री सखी जुड़ होली गावें",
@@ -5313,7 +5292,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Aas Hui Jhoolan.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Aas Hui Jhoolan.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Kyon Ghabrao Pran Piyari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Aas Hui Jhoolan.mp4'>Video</a>"
    ],
    [
       "सावन मास सुहागिन आई",
@@ -5325,7 +5304,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Suhagin Aaee.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Sawan Mas Suhagin Aaee.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Suhagin Aaee.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Sawan Mas Suhagin Aayee.mp4'>Video</a>"
    ],
    [
       "सुरत तू चेत री",
@@ -5337,7 +5316,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surat Tu Chet Ri.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surat Tu Chet Ri.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Lagao Meri Naiya Satguru Par.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surat Tu Chet Ri.mp4'>Video</a>"
    ],
    [
       "राधास्वामी झूलत आज हिंडोला",
@@ -5349,7 +5328,7 @@
       "सावन, हिंडोला एवं झूला",
       "Sawan, Hindola and Jhula (Swing)",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Jhoolat Aaj Hindola.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Radhasoami Jhoolat Aaj Hindola.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Laj Meri Rakho Guru Maharaj.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Radhasoami Jhoolat Aaj Hindola.mp4'>Video</a>"
    ],
    [
       "अजब यह बँगला लिया सजाय",
@@ -5373,7 +5352,7 @@
       "शादी व अन्य खुशी के मौके",
       "Marriage and Other Happy Occasions",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Pay Gayi Radhasoami Ho Gayi Suhag Bhari.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Pay Gayi Radhasoami Ho Gayi Suhag Bhari.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Main Guru Pyare Ke Charnon Ki Dasi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Pay Gayi Radhasoami Ho Gayi Suhag Bhari.mp4'>Video</a>"
    ],
    [
       "सुर्त बन्नी गुरु पाया बन्ना",
@@ -5385,7 +5364,7 @@
       "",
       "Marriage and Other Happy Occasions",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Surt Banni Guru Paya Banna.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Surt Banni Guru Paya Banna.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Main Hui Sakhi Apne Pyare Ki Pyari.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Surt Banni Guru Paya Banna.mp4'>Video</a>"
    ],
    [
       "स्वामी उठे और बैठे भजन में",
@@ -5397,7 +5376,7 @@
       "सेवा बानी",
       "Hyms of Sewa",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Soami Uthe Aur Baithe Bhajan Mein.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Soami Uthe Aur Baithe Bhajan Mein.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Main Satguru Sang Karoongi Arti.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Soami Uthe Aur Baithe Bhajan Mein.mp4'>Video</a>"
    ],
    [
       "चौका बरतन किया अचंभी",
@@ -5421,18 +5400,6 @@
       "सेवा बानी",
       "Hyms of Sewa",
       "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Raat Jagoon Main Sun Kar Khadaka.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Raat Jagoon Main Sun Kar Khadaka.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Main To Holi Khelan Ko Thadhi.mp4'>Video</a>"
+      "<a href='http://radhasoamifaith.org/Video/Poetry/Raat Jagoon Main Sun Kar Khadaka.mp4'>Video</a>"
    ],
-   [
-      "भोग धरे राधास्वामी आगे",
-      "Bhog Dhare Radhasoami Aage",
-      "सार बचन छंद बंद, भाग 2",
-      "Sar Bachan Poetry, Part-2",
-      "42",
-      "4",
-      "भोग",
-      "Bhog",
-      "<table class='audioColumnDataTable'><tr><td><a href='http://radhasoamifaith.org/Audio/Shabd/Bhog Dhare Radhasoami Aage.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='http://radhasoamifaith.org/Audio/Shabd/Bhog Dhare Radhasoami Aage.mp3' type='audio/mp3'></audio></td></tr></table>",
-      "<a href='http://radhasoamifaith.org/Video/Poetry/Bhog Dhare Radhasoami Aage.mp4'>Video</a>"
-   ]
-]
+];
