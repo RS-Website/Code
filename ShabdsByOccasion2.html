@@ -117,36 +117,25 @@
     <div style="margin:30px;">
       <table width="100%">
         <tr>
-          <td>
+          <td width="80%">
             <input id="searchInput" class="form-control" type="text" placeholder="Type to search.. (Click/Touch Search, or press Enter)" aria-label="Search"
               onkeydown="handleKeyPress(event)">
           </td>
+          <td width="10%">
+            <button style="width:100%;margin:1%" id="searchBtn" type="button" class="btn btn-outline-primary" onclick="search()">
+              Search</button>
+          </td>
+          <td width="10%">
+            <button style="width:100%;margin:1%" id="resetSearch" type="button" class="btn btn-outline-primary" onclick="resetSearch()">Reset
+              Search</button>
+          </td>
         </tr>
         <tr>
-          <td>
+          <td colspan="3">
             <label id="searchMsg" style="display:none;">placeholder</label>
           </td>
         </tr>
-        <tr>
-          <td>
-            <table>
-              <tr>
-                <td>
-                  <button id="searchBtn" type="button" class="btn btn-outline-primary" onclick="search()">
-                    Search</button>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                  <button id="resetSearch" type="button" class="btn btn-outline-primary" onclick="resetSearch()">Reset
-                    Search</button>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
+        
       </table>
     </div>
     <script>
