@@ -3,19 +3,28 @@
 
 <head>
   <meta charset="UTF-8">
+  <style>
+    ::-webkit-input-placeholder {
+      font-style: italic;
+    }
+    :-moz-placeholder {
+      font-style: italic;  
+    }
+    ::-moz-placeholder {
+      font-style: italic;  
+    }
+    :-ms-input-placeholder {  
+      font-style: italic; 
+    }
+  </style>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
   <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
-
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-
   <script type="text/javascript" src="DataJsons/sankalan.video.json.js"></script>
   <script type="text/javascript" src="Scripts/sankalan.controller.js"></script>
-
   <link rel="stylesheet" type="text/css"
     href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -23,13 +32,11 @@
     crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
   <!-- <script src="Scripts/accordion.bootstrap.shabdsByOccasion.js"></script> -->
   <style>
     .accordionHeading {
       text-transform: none;
     }
-
 
     coral-accordion-item-label {
       width: 100%;
@@ -38,7 +45,7 @@
     h2,
     th,
     td {
-      font-size: 18px !important;
+      font-size: 12px !important;
     }
 
     .is-open {
@@ -75,13 +82,11 @@
       ;
     }
 
-
     .accordion-button {
       color: #646464 !important;
       background-color: transparent !important;
       box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
     }
-
 
     .accordion-button:not(.collapsed) {
       /* color: #0c63e4; */
@@ -104,20 +109,17 @@
   <div style="margin:0 auto;">
     <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
       <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%" />
-
-
-
-
     </div>
+
     <h1 style="margin-left:1%; text-align: center;">Shabds/Hymns by Special Occasions <br />(in Audio and Video format)
     </h1>
-
     <!-- Search form -->
     <div style="margin:30px;">
       <table width="100%">
         <tr>
           <td>
-            <input id="searchInput" class="form-control" type="text" placeholder="Search" aria-label="Search" onkeydown="handleKeyPress(event)">
+            <input id="searchInput" class="form-control" type="text" placeholder="Type to search.. (Click/Touch Search, or press Enter)" aria-label="Search"
+              onkeydown="handleKeyPress(event)">
           </td>
         </tr>
         <tr>
@@ -127,72 +129,89 @@
         </tr>
         <tr>
           <td>
-            <button id="resetSearch" type="button" class="btn btn-outline-primary" onclick="resetSearch()">Reset Search</button>
+            <table>
+              <tr>
+                <td>
+                  <button id="searchBtn" type="button" class="btn btn-outline-primary" onclick="search()">
+                    Search</button>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <button id="resetSearch" type="button" class="btn btn-outline-primary" onclick="resetSearch()">Reset
+                    Search</button>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
       </table>
-      
     </div>
-    
     <script>
+      function search() {
+        performSearch();
+      }
 
       function resetSearch() {
-          // Get the input element by its ID
-          var inputElement = document.getElementById("searchInput");
-          // Set the value of the input element to an empty string
-          inputElement.value = "";
-          $("div[class='accordion']").children().each(function (i, e) { 
-            var btn = $(e).find("button.accordion-button");
-            if(btn.length > 0 && !$(btn[0]).hasClass("collapsed")) {
-              btn.click();
-            }
-            $(e).show(); 
-          });
-          // accordion-button
-        }
+        // Get the input element by its ID
+        var inputElement = document.getElementById("searchInput");
+        // Set the value of the input element to an empty string
+        inputElement.value = "";
+        $("div[class='accordion']").children().each(function (i, e) {
+          var btn = $(e).find("button.accordion-button");
+          if (btn.length > 0 && !$(btn[0]).hasClass("collapsed")) {
+            btn.click();
+          }
+          $(e).show();
+        });
+        // accordion-button
+      }
 
-      function handleKeyPress(event) { // 0
+      function performSearch() {
         $("#searchMsg").hide();
         // Check if the key pressed is 'Enter'
-        if (event.key === "Enter") { // 1
-          var searchText = ($("#searchInput")[0]).value;
-          var tdElem = $("td:contains('" + searchText + "')");
-          if(tdElem.length > 0) { // 2
-            // element found
-            var correspondingAccordionBtn = tdElem.closest("div[class='accordion-item']").find('button');
-            correspondingAccordionBtn = $(correspondingAccordionBtn[0]);
-            var found = false;
-            if(correspondingAccordionBtn.length > 0) { // 3
-              found = true;
-              var isExpanded = !correspondingAccordionBtn.hasClass("collapsed");
-              if(isExpanded != undefined && isExpanded != null && isExpanded === false) { // 4
-                // expand
-                $("div[class='accordion']").children().each(function (i, e) { $(e).hide(); });
-                tdElem.each(function (i, e) { $(e).closest('div[class=accordion-item]').show(); })
-                $(correspondingAccordionBtn[0]).click();
-              } else { // 3 4
-                if(isExpanded != undefined && isExpanded != null && isExpanded === true) { // 5
-                  // no-op
-                } // 4
-              } // 3
+        var searchText = ($("#searchInput")[0]).value;
+        var tdElem = $("td:contains('" + searchText + "')");
+        if (tdElem.length > 0) {
+          // element found
+          var correspondingAccordionBtn = tdElem.closest("div[class='accordion-item']").find('button');
+          correspondingAccordionBtn = $(correspondingAccordionBtn[0]);
+          var found = false;
+          if (correspondingAccordionBtn.length > 0) {
+            found = true;
+            var isExpanded = !correspondingAccordionBtn.hasClass("collapsed");
+            if (isExpanded != undefined && isExpanded != null && isExpanded === false) {
+              // expand
+              $("div[class='accordion']").children().each(function (i, e) { $(e).hide(); });
+              tdElem.each(function (i, e) { $(e).closest('div[class=accordion-item]').show(); })
+              $(correspondingAccordionBtn[0]).click();
+            } else { // 3 4
+              if (isExpanded != undefined && isExpanded != null && isExpanded === true) {
+                // no-op
+              }
             }
+          }
 
-            if(found === true) {
-              // scroll to td
-              $('html, body').animate({
-                scrollTop: tdElem.offset().top
-              }, 1000);
-            } else {
-              $("#searchMsg")[0].innerText = "No results found!!";
-              $("#searchMsg").hide();
-            }
+          if (found === true) {
+            // scroll to td
+            $('html, body').animate({
+              scrollTop: tdElem.offset().top
+            }, 1000);
+          } else {
+            $("#searchMsg")[0].innerText = "No results found!!";
+            $("#searchMsg").hide();
+          }
+        }
+      }
 
-          } // 1
-        } // 0
+      function handleKeyPress(event) {
+        if (event.key === "Enter") {
+          performSearch();
+        }
       }
     </script>
-
-
     <!--#accordionExample-->
     <div class="accordion" id="ShabdsByOccasion">
       <!--morning-->
@@ -224,8 +243,6 @@
           </div>
         </div>
       </div>
-
-
       <!--sleep-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="SleepccordionHeading">
@@ -255,8 +272,6 @@
           </div>
         </div>
       </div>
-
-
       <!--bhog-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhogccordionHeading">
@@ -286,8 +301,6 @@
           </div>
         </div>
       </div>
-
-
       <!--SM bhandara-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraSoamijiMaharajccordionHeading">
@@ -318,7 +331,6 @@
           </div>
         </div>
       </div>
-
       <!--HM - Bhandara-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraHuzurMaharajccordionHeading">
@@ -349,7 +361,6 @@
           </div>
         </div>
       </div>
-
       <!--MS Bhandara-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraMaharajSahebccordionHeading">
@@ -380,8 +391,6 @@
           </div>
         </div>
       </div>
-
-
       <!--Buaji M Bhandara-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraBuajiMaharajccordionHeading">
@@ -412,7 +421,6 @@
           </div>
         </div>
       </div>
-
       <!--BM BHandara-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraBabujiMaharajccordionHeading">
@@ -443,9 +451,6 @@
           </div>
         </div>
       </div>
-
-
-
       <!--Basant-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraBasantPanchamiccordionHeading">
@@ -476,7 +481,6 @@
           </div>
         </div>
       </div>
-
       <!--Holi-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraHoliSatsantccordionHeading">
@@ -507,7 +511,6 @@
           </div>
         </div>
       </div>
-
       <!--Padwa-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraPadiwaSatsangccordionHeading">
@@ -538,7 +541,6 @@
           </div>
         </div>
       </div>
-
       <!--Guru Purnima-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraGuruPurnimaSatsangccordionHeading">
@@ -569,7 +571,6 @@
           </div>
         </div>
       </div>
-
       <!--Diwali-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraDiwaliSatsangccordionHeading">
@@ -600,8 +601,6 @@
           </div>
         </div>
       </div>
-
-
       <!--Thanks-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraOccasionThanksGivingccordionHeading">
@@ -632,7 +631,6 @@
           </div>
         </div>
       </div>
-
       <!--Marriage-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraOccasionMarriageccordionHeading">
@@ -663,7 +661,6 @@
           </div>
         </div>
       </div>
-
       <!--House Warming-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraOccasionHouseWarmingccordionHeading">
@@ -694,7 +691,6 @@
           </div>
         </div>
       </div>
-
       <!--Last stage-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraLastStageccordionHeading">
@@ -725,7 +721,6 @@
           </div>
         </div>
       </div>
-
       <!--Admonition (chitawni)-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraAdmonitionccordionHeading">
@@ -756,7 +751,6 @@
           </div>
         </div>
       </div>
-
       <!--Love-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraLoveAndYearningccordionHeading">
@@ -787,8 +781,6 @@
           </div>
         </div>
       </div>
-
-
       <!-- Cry for help and prayer-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraCryForHelpAndPrayerccordionHeading">
@@ -819,7 +811,6 @@
           </div>
         </div>
       </div>
-
       <!--Grace and Mercy-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraGraceAndMercyccordionHeading">
@@ -850,7 +841,6 @@
           </div>
         </div>
       </div>
-
       <!--Binti aur Prarthana-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraBintiAurPrarthanaccordionHeading">
@@ -881,7 +871,6 @@
           </div>
         </div>
       </div>
-
       <!--Assurance and solace-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraAssuranceAndSolaceccordionHeading">
@@ -912,7 +901,6 @@
           </div>
         </div>
       </div>
-
       <!--Sewa Bani-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraSewaBaniShabdAccordionHeading">
@@ -943,7 +931,6 @@
           </div>
         </div>
       </div>
-
       <!--Arti Shabds-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraArtiShabdccordionHeading">
@@ -974,7 +961,6 @@
           </div>
         </div>
       </div>
-
       <!--GLory of RS Nam-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraGloryOfRadhasoamiNaamccordionHeading">
@@ -1005,7 +991,6 @@
           </div>
         </div>
       </div>
-
       <!--Ghazal-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraGhazalccordionHeading">
@@ -1036,7 +1021,6 @@
           </div>
         </div>
       </div>
-
       <!--Sawan-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="BhandaraSaawanccordionHeading">
@@ -1067,10 +1051,7 @@
           </div>
         </div>
       </div>
-
-
       <!--END-->
-
       <script>
         // to handle: https://datatables.net/forums/discussion/67567/columns-adjust-issue-when-using-datatable-inside-an-accordion
         $("div.accordion").on('show.bs.collapse', function (e) {
