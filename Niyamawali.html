@@ -24,6 +24,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="DataJsons/niyamawali.video.json.js"></script>
+  <script type="text/javascript" src="Scripts/search-commons.js"></script>
   <script type="text/javascript" src="Scripts/niyamawali.controller.js"></script>
   <link rel="stylesheet" type="text/css"
     href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css" />
@@ -138,69 +139,6 @@
         
       </table>
     </div>
-    <script>
-      function search() {
-        performSearch();
-      }
-
-      function resetSearch() {
-        // Get the input element by its ID
-        var inputElement = document.getElementById("searchInput");
-        // Set the value of the input element to an empty string
-        inputElement.value = "";
-        $("div[class='accordion']").children().each(function (i, e) {
-          var btn = $(e).find("button.accordion-button");
-          if (btn.length > 0 && !$(btn[0]).hasClass("collapsed")) {
-            btn.click();
-          }
-          $(e).show();
-        });
-        // accordion-button
-      }
-
-      function performSearch() {
-        $("#searchMsg").hide();
-        // Check if the key pressed is 'Enter'
-        var searchText = ($("#searchInput")[0]).value;
-        var tdElem = $("td:contains('" + searchText + "')");
-        if (tdElem.length > 0) {
-          // element found
-          var correspondingAccordionBtn = tdElem.closest("div[class='accordion-item']").find('button');
-          correspondingAccordionBtn = $(correspondingAccordionBtn[0]);
-          var found = false;
-          if (correspondingAccordionBtn.length > 0) {
-            found = true;
-            var isExpanded = !correspondingAccordionBtn.hasClass("collapsed");
-            if (isExpanded != undefined && isExpanded != null && isExpanded === false) {
-              // expand
-              $("div[class='accordion']").children().each(function (i, e) { $(e).hide(); });
-              tdElem.each(function (i, e) { $(e).closest('div[class=accordion-item]').show(); })
-              $(correspondingAccordionBtn[0]).click();
-            } else { // 3 4
-              if (isExpanded != undefined && isExpanded != null && isExpanded === true) {
-                // no-op
-              }
-            }
-          }
-
-          if (found === true) {
-            // scroll to td
-            $('html, body').animate({
-              scrollTop: tdElem.offset().top
-            }, 1000);
-          } else {
-            $("#searchMsg")[0].innerText = "No results found!!";
-            $("#searchMsg").hide();
-          }
-        }
-      }
-
-      function handleKeyPress(event) {
-        if (event.key === "Enter") {
-          performSearch();
-        }
-      }
-    </script>
     <!--#accordionExample-->
     <div class="accordion" id="ShabdsByOccasion">
       <!--morning-->
@@ -290,6 +228,36 @@
           </div>
         </div>
       </div>
+      <!--Daily-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="DailyccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#DailyAccordionBody" aria-expanded="true" aria-controls="DailyAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited daily</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>दैनिक के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="DailyAccordionBody" class="accordion-collapse collapse" aria-labelledby="DailyAccordionHeading"
+          data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Daily" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      
       <!--Sunday-->
       <div class="accordion-item">
         <h2 class="accordion-header" id="SundayccordionHeading">

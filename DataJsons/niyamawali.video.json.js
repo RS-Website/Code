@@ -14,6 +14,10 @@ var dataSet = [
      ["भाव भक्ति से बिंजन करती", "Bhav Bhakti Se Binjan Karti","सार बचन छंद बंद, भाग 2", "Sar Bachan Chand Band Part 2", "", "", "भोग, नियमावली", "Bhog, Niyamawali", "<table class='audioColumnDataTable'><tr><td><a href='https://www.radhasoamifaith.org/Audio/Shabd/Bhav Bhakti Se Binjan Karti.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save' style='font-size:15px;'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='https://www.radhasoamifaith.org/Audio/Shabd/Bhav Bhakti Se Binjan Karti.mp3' type='audio/mp3'></audio></td></tr></table>", "<a href='https://www.radhasoamifaith.org/Video/Poetry/Bhav Bhakti Se Binjan Karti.mp4'>Video</a>" ],
 
 
+    
+     ["चेतो मेरे प्यारे तेरे भले की कहूँ", "Cheto Mere Pyare Tere Bhale Ki Kahoon","सार बचन छंद बंद, भाग 1", "Sar Bachan Poetry, Part-1", "19", "1", "दैनिक", "Daily", "<table class='audioColumnDataTable'><tr><td><a href='https://www.radhasoamifaith.org/Audio/Shabd/Cheto Mere Pyare Tere Bhale Ki Kahoon.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save' style='font-size:15px;'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='https://www.radhasoamifaith.org/Audio/Shabd/Cheto Mere Pyare Tere Bhale Ki Kahoon.mp3' type='audio/mp3'></audio></td></tr></table>", "<a href='https://www.radhasoamifaith.org/Video/Poetry/Cheto Mere Pyare Tere Bhale Ki Kahoon.mp4'>Video</a>" ],
+
+
 
 
 
@@ -34,6 +38,8 @@ var dataSet = [
 
 
 
+
+    ["आज खेले सुरत गुरु चरनन पास", "Aaj Khele Surat Guru Charnan Pas","प्रेम बानी, भाग 2", "Prem Bani, Part - 2", "12", "36", "मंगलवार", "Tuesday", "<table class='audioColumnDataTable'><tr><td><a href='https://www.radhasoamifaith.org/Audio/Shabd/Aaj Khele Surat Guru Charnan Pas.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save' style='font-size:15px;'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='https://www.radhasoamifaith.org/Audio/Shabd/Aaj Khele Surat Guru Charnan Pas.mp3' type='audio/mp3'></audio></td></tr></table>", "<a href='https://www.radhasoamifaith.org/Video/Poetry/Aaj Khele Surat Guru Charnan Pas.mp4'>Video</a>" ],
 
     ["मन रे क्यों गुमान अब करना", "Man Re Kyon Guman Ab Karna","सार बचन छंद बंद, भाग 1", "Sar Bachan Poetry, Part-1", "15", "15", "मंगलवार", "Tuesday", "<table class='audioColumnDataTable'><tr><td><a href='https://www.radhasoamifaith.org/Audio/Shabd/Man Re Kyon Guman Ab Karna.mp3' style='cursor:pointer;' data-toggle='tooltip' title='Download' download=''><span class='glyphicon glyphicon-save' style='font-size:15px;'></span></a></td><td><audio class='sankalanaudio' controlslist='nodownload' controls='controls'><source src='https://www.radhasoamifaith.org/Audio/Shabd/Man Re Kyon Guman Ab Karna.mp3' type='audio/mp3'></audio></td></tr></table>", "<a href='https://www.radhasoamifaith.org/Video/Poetry/Man Re Kyon Guman Ab Karna.mp4'>Video</a>" ],
 
