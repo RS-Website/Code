@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-US" class="has-lab-nav-bottom lab-theme-light">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    ::-webkit-input-placeholder {
+      font-style: italic;
+    }
+    :-moz-placeholder {
+      font-style: italic;  
+    }
+    ::-moz-placeholder {
+      font-style: italic;  
+    }
+    :-ms-input-placeholder {  
+      font-style: italic; 
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="DataJsons/niyamawali.video.json.js"></script>
+  <script type="text/javascript" src="Scripts/niyamawali.controller.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- <script src="Scripts/accordion.bootstrap.shabdsByOccasion.js"></script> -->
+  <style>
+    .accordionHeading {
+      text-transform: none;
+    }
+
+    coral-accordion-item-label {
+      width: 100%;
+    }
+
+    h2,
+    th,
+    td {
+      font-size: 12px !important;
+    }
+
+    .is-open {
+      background-color: #FFDEAD;
+    }
+
+    span.accordionHeading {
+      font-size: 14px;
+    }
+
+    .sankalanaudio {
+      object-fit: fill;
+    }
+
+    .centeralign {
+      text-align: center;
+    }
+
+    .leftalign {
+      text-align: left;
+      ;
+    }
+
+    .rightalign {
+      text-align: right;
+    }
+
+    .glyphicon {
+      font-size: 35px;
+    }
+
+    coral-accordion-item.is-open coral-accordion-item-label {
+      border-bottom: 0.1em solid #7E7E7E;
+      ;
+    }
+
+    .accordion-button {
+      color: #646464 !important;
+      background-color: transparent !important;
+      box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+
+    .accordion-button:not(.collapsed) {
+      /* color: #0c63e4; */
+      color: #1F1F1F !important;
+      /* background-color: #e7f1ff; */
+      background-color: #FFDBBD !important;
+      box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+
+    .tableContainer {
+      background-color: #FFDBBD !important;
+    }
+  </style>
+  <link rel="stylesheet" href="https://opensource.adobe.com/coral-spectrum/playground/dist/css/coral.css" />
+  <!--<script src="https://opensource.adobe.com/coral-spectrum/playground/dist/js/coral.js"></script> -->
+</head>
+
+<body
+  class="coral--lightest labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
+  <div style="margin:0 auto;">
+    <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
+      <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%" />
+    </div>
+
+    <h1 style="margin-left:1%; text-align: center;">Niyamawali<br />(in Audio and Video format)
+    </h1>
+    <!-- Search form -->
+    <div style="margin:30px;">
+      <table width="100%">
+        <tr>
+          <td width="80%">
+            <input id="searchInput" class="form-control" type="text" placeholder="Type to search.. (Click/Touch Search, or press Enter)" aria-label="Search"
+              onkeydown="handleKeyPress(event)">
+          </td>
+          <td width="10%">
+            <button style="width:100%;margin:1%" id="searchBtn" type="button" class="btn btn-outline-primary" onclick="search()">
+              Search</button>
+          </td>
+          <td width="10%">
+            <button style="width:100%;margin:1%" id="resetSearch" type="button" class="btn btn-outline-primary" onclick="resetSearch()">Clear
+              Search</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <label id="searchMsg" style="display:none;">placeholder</label>
+          </td>
+        </tr>
+        
+      </table>
+    </div>
+    <script>
+      function search() {
+        performSearch();
+      }
+
+      function resetSearch() {
+        // Get the input element by its ID
+        var inputElement = document.getElementById("searchInput");
+        // Set the value of the input element to an empty string
+        inputElement.value = "";
+        $("div[class='accordion']").children().each(function (i, e) {
+          var btn = $(e).find("button.accordion-button");
+          if (btn.length > 0 && !$(btn[0]).hasClass("collapsed")) {
+            btn.click();
+          }
+          $(e).show();
+        });
+        // accordion-button
+      }
+
+      function performSearch() {
+        $("#searchMsg").hide();
+        // Check if the key pressed is 'Enter'
+        var searchText = ($("#searchInput")[0]).value;
+        var tdElem = $("td:contains('" + searchText + "')");
+        if (tdElem.length > 0) {
+          // element found
+          var correspondingAccordionBtn = tdElem.closest("div[class='accordion-item']").find('button');
+          correspondingAccordionBtn = $(correspondingAccordionBtn[0]);
+          var found = false;
+          if (correspondingAccordionBtn.length > 0) {
+            found = true;
+            var isExpanded = !correspondingAccordionBtn.hasClass("collapsed");
+            if (isExpanded != undefined && isExpanded != null && isExpanded === false) {
+              // expand
+              $("div[class='accordion']").children().each(function (i, e) { $(e).hide(); });
+              tdElem.each(function (i, e) { $(e).closest('div[class=accordion-item]').show(); })
+              $(correspondingAccordionBtn[0]).click();
+            } else { // 3 4
+              if (isExpanded != undefined && isExpanded != null && isExpanded === true) {
+                // no-op
+              }
+            }
+          }
+
+          if (found === true) {
+            // scroll to td
+            $('html, body').animate({
+              scrollTop: tdElem.offset().top
+            }, 1000);
+          } else {
+            $("#searchMsg")[0].innerText = "No results found!!";
+            $("#searchMsg").hide();
+          }
+        }
+      }
+
+      function handleKeyPress(event) {
+        if (event.key === "Enter") {
+          performSearch();
+        }
+      }
+    </script>
+    <!--#accordionExample-->
+    <div class="accordion" id="ShabdsByOccasion">
+      <!--morning-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="MorningAccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#MorningAccordionBody" aria-expanded="true" aria-controls="MorningAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabd for daily recital on getting up in the morning</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>सुबह उठने पर रोज़ पढ़ा जाने वाला शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="MorningAccordionBody" class="accordion-collapse collapse" aria-labelledby="MorningAccordionHeading"
+          data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Morning" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--sleep-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="SleepccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#SleepAccordionBody" aria-expanded="true" aria-controls="SleepAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabd for daily recital before going to sleep</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>रात को सोने से पूर्व रोज़ पढ़ा जाने वाला शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="SleepAccordionBody" class="accordion-collapse collapse" aria-labelledby="SleepAccordionHeading"
+          data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="RetiringToBed" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--bhog-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="BhogccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#BhogAccordionBody" aria-expanded="true" aria-controls="BhogAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabd for Bhog (offering food to Radhasoami Dayal before meals)</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>भोग के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="BhogAccordionBody" class="accordion-collapse collapse" aria-labelledby="BhogAccordionHeading"
+          data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Bhog" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--Sunday-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="SundayccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#SundayAccordionBody" aria-expanded="true"
+            aria-controls="SundayAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited on Sunday</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>रविवार के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="SundayAccordionBody" class="accordion-collapse collapse"
+          aria-labelledby="SundayAccordionHeading" data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Sunday" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--Monday-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="MondayccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#MondayAccordionBody" aria-expanded="true"
+            aria-controls="MondayAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited on Monday</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>सोमवार के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="MondayAccordionBody" class="accordion-collapse collapse"
+          aria-labelledby="MondayAccordionHeading" data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Monday" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+
+      <!--Tuesday-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="TuesdayccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#TuesdayAccordionBody" aria-expanded="true"
+            aria-controls="TuesdayAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited on Tuesday</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>मंगलवार के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="TuesdayAccordionBody" class="accordion-collapse collapse"
+          aria-labelledby="TuesdayAccordionHeading" data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Tuesday" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--Wednesday-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="WednesdayccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#WednesdayAccordionBody" aria-expanded="true"
+            aria-controls="WednesdayAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited on Wednesday</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>बुधवार के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="WednesdayAccordionBody" class="accordion-collapse collapse"
+          aria-labelledby="WednesdayAccordionHeading" data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Wednesday" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--Thursday-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="ThursdayccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#ThursdayAccordionBody" aria-expanded="true"
+            aria-controls="ThursdayAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited on Thursday</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>गुरुवार के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="ThursdayAccordionBody" class="accordion-collapse collapse"
+          aria-labelledby="ThursdayAccordionHeading" data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Thursday" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--Friday-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="FridayccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#FridayAccordionBody" aria-expanded="true"
+            aria-controls="FridayAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited on Friday</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>शुक्रवार के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="FridayAccordionBody" class="accordion-collapse collapse"
+          aria-labelledby="FridayAccordionHeading" data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Friday" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--Saturday-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="SaturdayccordionHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#SaturdayAccordionBody" aria-expanded="true"
+            aria-controls="SaturdayAccordionBody">
+            <table style="margin-left:25px;">
+              <tr>
+                <td>
+                  <h2>Shabds recited on Saturday</h2>
+                </td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>शनिवार के शब्द</h2>
+                </td>
+              </tr>
+            </table>
+          </button>
+        </h2>
+        <div id="SaturdayAccordionBody" class="accordion-collapse collapse"
+          aria-labelledby="SaturdayAccordionHeading" data-bs-parent="#ShabdsByOccasion">
+          <div class="accordion-body tableContainer">
+            <table shabdByCategory id="Saturday" class="display" width="100%"></table>
+          </div>
+        </div>
+      </div>
+      <!--END-->
+      <script>
+        
+        $("div.accordion").on('show.bs.collapse', function (e) {
+          // to handle: https://datatables.net/forums/discussion/67567/columns-adjust-issue-when-using-datatable-inside-an-accordion
+          setTimeout(function () {
+            $($.fn.dataTable.tables(true)).DataTable().columns.adjust();
+          }, 10);
+        });
+      </script>
+</body>
+
+</html>
