@@ -145,6 +145,13 @@
 
                     <!-- Container (Home Page) -->
                     <div id="HomePage" class="row BorderDiv" divType="pageContent">
+                        <div
+                            style="background-color: #FFDA79;color: red;padding: 10px;/* text-align: center; */font-size: 18px;/* border: red solid; */">
+                            ** New ** <br>Niyamali - Please click here - <a
+                                href="https://www.radhasoamifaith.org/Niyamawali.html">desktop view</a><br>Niyamawali -
+                            Please click here - <a
+                                href="https://www.radhasoamifaith.org/Niyamawali.mobile.html">mobile/tablet view</a>
+                        </div>
                         <!--<div class="col-md-2  "></div>-->
                         <div class="col-md-12" style="font-size:15px;">
                             <!--                                    <center style="background-color:#FFF7EB;padding:6px;"><h4>** Check the newly added book <b>"Biography of Nirmal Das Ji"</b>. Access it from the 'Library--Books' menu. **</h4></center>-->
