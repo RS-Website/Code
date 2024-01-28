@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niyamawali</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    section {
+      padding: 1em;
+    }
+
+    .song {
+      margin-bottom: 1em;
+      padding: 1em;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Style the audio player itself */
+    audio {
+      width: 100%;
+      /* display:none; */
+    }
+
+    .odd-section {
+      background-color: #FFDFDF;
+    }
+
+    .even-section {
+      background-color:#FFF4DF;
+    }
+
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="DataJsons/niyamawali.video.json.js"></script>
+  <script type="text/javascript" src="Scripts/niyamawali.controller.mobile.js"></script>
+</head>
+
+<body>
+  <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
+    <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%" />
+  </div>
+  
+  <h1 style="margin-left:1%; text-align: center;">Niyamawali<br />(in Audio and Video format)
+  </h1>
+
+  <div id="sectionsContainer">
+
+  </div>
+  <script>
+    $(document).ready(function () {
+      plotSections("#sectionsContainer");
+    });
+  </script>
+
+
+</body>
+
+</html>
