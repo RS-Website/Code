@@ -9,7 +9,7 @@ var plotSections = function(containerId) {
         // section
         const className = (sectionCounter%2 == 0)? "even-section" : "odd-section";
         var sectionHtml = "<section id='" + key + "' class='" + className + "'>";
-        sectionHtml += "<h1>" + value.replace(', Niyamawali', '') + "</h1>";
+        sectionHtml += "<h1>" + value.replace(', Niyamawali', '') + " (" + (filteredData.length) + ")" + "</h1>";
         $(filteredData).each(function(i,e){
             // section's elements
             let hindiName = e[0];
@@ -37,7 +37,7 @@ var plotSections = function(containerId) {
             sectionDivHtml += "<h5 class='audio-title'>" + hindiName + "</h5>";
             sectionDivHtml += "</td>";
             sectionDivHtml += "<td style='text-align:right;width:50%;' rowspan=5>";
-            sectionDivHtml += "<p><span class='glyphicon glyphicon-play-circle'></span>&nbsp;<a href='" + video + "'>Watch Video</a></p>"   
+            sectionDivHtml += "<p><span class='glyphicon glyphicon-play-circle'></span>&nbsp;<a href='" + video + "'> Video</a></p>"   
             // sectionDivHtml += "<video width='100%' height='30%' controls preload='none'><source src='" + video + "' type='video/mp4'>Your browser does not support video playing.</video>";
             sectionDivHtml += "</td>";
             sectionDivHtml += "</tr>";
