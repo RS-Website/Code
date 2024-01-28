@@ -107,6 +107,13 @@
 
 <body
   class="coral--lightest labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
+  <script>
+    $(document).ready(function() {
+      if (window.innerWidth <= 1000) { 
+        // Redirect to the mobile page 
+        window.location.href="Niyamawali.mobile.html"; }
+    });
+  </script>
   <div style="margin:0 auto;">
     <div role="navigation" class="row container-fluid" id="pageBanner" style="overflow:hidden; top:0;">
       <img src="files/images/header.png" class="img-responsive HeaderDiv" style="width:100%" />
