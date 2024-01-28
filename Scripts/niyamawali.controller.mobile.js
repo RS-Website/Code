@@ -14,6 +14,8 @@ var plotSections = function(containerId) {
             // section's elements
             let hindiName = e[0];
             let englishName = e[1];
+            let hindiBookName = e[2];
+            let englishBookName = e[3];
             let audio = '';
             let video = ''
 
@@ -32,9 +34,9 @@ var plotSections = function(containerId) {
             sectionDivHtml += "<table width='100%'>";
             sectionDivHtml += "<tr>";
             sectionDivHtml += "<td>";
-            sectionDivHtml += "<h4 class='audio-title'>" + hindiName + "</h4>";
+            sectionDivHtml += "<h5 class='audio-title'>" + hindiName + "</h5>";
             sectionDivHtml += "</td>";
-            sectionDivHtml += "<td style='text-align:right;' rowspan=2 >";
+            sectionDivHtml += "<td style='text-align:right;width:50%;' rowspan=5>";
             sectionDivHtml += "<p><span class='glyphicon glyphicon-play-circle'></span>&nbsp;<a href='" + video + "'>Watch Video</a></p>"   
             // sectionDivHtml += "<video width='100%' height='30%' controls preload='none'><source src='" + video + "' type='video/mp4'>Your browser does not support video playing.</video>";
             sectionDivHtml += "</td>";
@@ -42,7 +44,27 @@ var plotSections = function(containerId) {
 
             sectionDivHtml += "<tr>";
             sectionDivHtml += "<td>";
-            sectionDivHtml += "<h4 class='audio-title'>" + englishName + "</h4>";
+            sectionDivHtml += "<h5 class='audio-title'>" + englishName + "</h5>";
+            sectionDivHtml += "</td>";
+            sectionDivHtml += "</tr>";
+
+            sectionDivHtml += "<tr>";
+            sectionDivHtml += "<td>";
+            sectionDivHtml += "&nbsp;";
+            sectionDivHtml += "</td>";
+            sectionDivHtml += "</tr>";
+
+            sectionDivHtml += "<tr>";
+            sectionDivHtml += "<td>";
+            sectionDivHtml += "<h5 class='audio-title'>" + hindiBookName + "</h5>";
+            sectionDivHtml += "</td>";
+            sectionDivHtml += "</tr>";
+
+            
+
+            sectionDivHtml += "<tr>";
+            sectionDivHtml += "<td>";
+            sectionDivHtml += "<h5 class='audio-title'>" + englishBookName + "</h5>";
             sectionDivHtml += "</td>";
             sectionDivHtml += "</tr>";
 
