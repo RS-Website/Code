@@ -1,3 +1,38 @@
+var sectionPlayHandler = function(e) {
+    let audioElements = $($(e.target).closest("section"))[0].querySelectorAll("audio");
+    $("audio").each(function(i,e) { e.pause(); e.currentTime = 0; });
+
+    var currentAudioIndex = 0;
+    var currentAudio;
+
+    function playAllAudiosInSequence() {
+        currentAudioIndex = 0;
+        playNextAudio();
+    }
+
+    function playNextAudio() {
+        if (currentAudioIndex < audioElements.length) {
+            currentAudio = audioElements[currentAudioIndex];
+            currentAudio.play();
+            currentAudio.addEventListener("ended", function() {
+                currentAudioIndex++;
+                playNextAudio();
+            });
+        }
+    }
+
+    function stopAudio() {
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+    }
+
+    
+    playAllAudiosInSequence();
+    
+}
+
 var plotSections = function(containerId) {
     var html = '';
     var sectionCounter = 0;
@@ -9,7 +44,19 @@ var plotSections = function(containerId) {
         // section
         const className = (sectionCounter%2 == 0)? "even-section" : "odd-section";
         var sectionHtml = "<section id='" + key + "' class='" + className + "'>";
+
+        sectionHtml += "<table width='100%'>";
+        sectionHtml += "<tr>";
+        sectionHtml += "<td>";
         sectionHtml += "<h1>" + value.replace(', Niyamawali', '') + " (" + (filteredData.length) + ")" + "</h1>";
+        sectionHtml += "</td>";
+        sectionHtml += "<td style='text-align:right;padding-right:10px;padding-bottom:3px;'>";
+        sectionHtml += "<button  type='button' class='btn btn-primary' onclick='sectionPlayHandler(event)'>Play all</button>";
+        sectionHtml += "</td>";
+        sectionHtml += "</tr>";
+        sectionHtml += "</table>";
+        
+        
         $(filteredData).each(function(i,e){
             // section's elements
             let hindiName = e[0];

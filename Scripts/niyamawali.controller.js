@@ -1,3 +1,35 @@
+var sectionPlayHandler = function(e) {
+    let audioElements = $($(e.target).closest("div"))[0].querySelectorAll("audio");
+    $("audio").each(function(i,e) { e.pause(); e.currentTime = 0; });
+
+    var currentAudioIndex = 0;
+    var currentAudio;
+
+    function playAllAudiosInSequence() {
+        currentAudioIndex = 0;
+        playNextAudio();
+    }
+
+    function playNextAudio() {
+        if (currentAudioIndex < audioElements.length) {
+            currentAudio = audioElements[currentAudioIndex];
+            currentAudio.play();
+            currentAudio.addEventListener("ended", function() {
+                currentAudioIndex++;
+                playNextAudio();
+            });
+        }
+    }
+
+    function stopAudio() {
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+    }
+    playAllAudiosInSequence();
+}
+
 var plotTable = function(idTable, filterFunc) {
     setTimeout(() => {
         var width = $("img.HeaderDiv").width();
