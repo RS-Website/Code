@@ -16,6 +16,14 @@
     :-ms-input-placeholder {  
       font-style: italic; 
     }
+
+    .btn-block {
+      margin-left: 1%;
+      margin-right:1%;
+      width: 98%;
+      height: 50px;
+      font-size: 18px;
+    }
   </style>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
@@ -115,7 +123,7 @@
     <h1 style="margin-left:1%; text-align: center;">Shabds/Hymns by Special Occasions <br />(in Audio and Video format)
     </h1>
     <!-- Search form -->
-    <div style="margin:30px;">
+    <!-- <div style="margin:30px;">
       <table width="100%">
         <tr>
           <td width="80%">
@@ -138,7 +146,7 @@
         </tr>
         
       </table>
-    </div>
+    </div> -->
     <!--#accordionExample-->
     <div class="accordion" id="ShabdsByOccasion">
       <!--morning-->
@@ -166,6 +174,8 @@
         <div id="MorningAccordionBody" class="accordion-collapse collapse" aria-labelledby="MorningAccordionHeading"
           data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Morning" class="display" width="100%"></table>
           </div>
         </div>
@@ -195,6 +205,8 @@
         <div id="SleepAccordionBody" class="accordion-collapse collapse" aria-labelledby="SleepAccordionHeading"
           data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="RetiringToBed" class="display" width="100%"></table>
           </div>
         </div>
@@ -224,6 +236,8 @@
         <div id="BhogAccordionBody" class="accordion-collapse collapse" aria-labelledby="BhogAccordionHeading"
           data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Bhog" class="display" width="100%"></table>
           </div>
         </div>
@@ -254,6 +268,8 @@
         <div id="BhandaraSoamijiMaharajAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraSoamijiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="BhandaraSM" class="display" width="100%"></table>
           </div>
         </div>
@@ -284,6 +300,8 @@
         <div id="BhandaraHuzurMaharajAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraHuzurMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="BhandaraHM" class="display" width="100%"></table>
           </div>
         </div>
@@ -314,6 +332,8 @@
         <div id="BhandaraMaharajSahebAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraMaharajSahebAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="BhandaraMS" class="display" width="100%"></table>
           </div>
         </div>
@@ -344,6 +364,8 @@
         <div id="BhandaraBuajiMaharajAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraBuajiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="BhandaraBuajiM" class="display" width="100%"></table>
           </div>
         </div>
@@ -374,6 +396,8 @@
         <div id="BhandaraBabujiMaharajAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraBabujiMaharajAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="BhandaraBJM" class="display" width="100%"></table>
           </div>
         </div>
@@ -404,6 +428,8 @@
         <div id="BhandaraBasantPanchamiAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraBasantPanchamiAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Basant" class="display" width="100%"></table>
           </div>
         </div>
@@ -434,6 +460,8 @@
         <div id="BhandaraHoliSatsantAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraHoliSatsantAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Holi" class="display" width="100%"></table>
           </div>
         </div>
@@ -464,6 +492,8 @@
         <div id="BhandaraPadiwaSatsangAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraPadiwaSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Padiwa" class="display" width="100%"></table>
           </div>
         </div>
@@ -494,6 +524,8 @@
         <div id="BhandaraGuruPurnimaSatsangAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraGuruPurnimaSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="GuruPurnima" class="display" width="100%"></table>
           </div>
         </div>
@@ -524,6 +556,8 @@
         <div id="BhandaraDiwaliSatsangAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraDiwaliSatsangAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Diwali" class="display" width="100%"></table>
           </div>
         </div>
@@ -554,6 +588,8 @@
         <div id="BhandaraOccasionThanksGivingAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraOccasionThanksGivingAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="ThanksGiving" class="display" width="100%"></table>
           </div>
         </div>
@@ -584,6 +620,8 @@
         <div id="BhandaraOccasionMarriageAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraOccasionMarriageAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Marriage" class="display" width="100%"></table>
           </div>
         </div>
@@ -614,6 +652,8 @@
         <div id="BhandaraOccasionHouseWarmingAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraOccasionHouseWarmingAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="HouseWarming" class="display" width="100%"></table>
           </div>
         </div>
@@ -644,6 +684,8 @@
         <div id="BhandaraLastStageAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraLastStageAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="EndStage" class="display" width="100%"></table>
           </div>
         </div>
@@ -674,6 +716,8 @@
         <div id="BhandaraAdmonitionAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraAdmonitionAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Chetwani" class="display" width="100%"></table>
           </div>
         </div>
@@ -704,6 +748,8 @@
         <div id="BhandaraLoveAndYearningAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraLoveAndYearningAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Prem" class="display" width="100%"></table>
           </div>
         </div>
@@ -734,6 +780,8 @@
         <div id="BhandaraCryForHelpAndPrayerAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraCryForHelpAndPrayerAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Invocation" class="display" width="100%"></table>
           </div>
         </div>
@@ -764,6 +812,8 @@
         <div id="BhandaraGraceAndMercyAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraGraceAndMercyAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="PrayerForGraceAndMercy" class="display" width="100%"></table>
           </div>
         </div>
@@ -794,6 +844,8 @@
         <div id="BhandaraBintiAurPrarthanaAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraBintiAurPrarthanaAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="PrayerInFeetOfRadhasoamiDayal" class="display" width="100%"></table>
           </div>
         </div>
@@ -824,6 +876,8 @@
         <div id="BhandaraAssuranceAndSolaceAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraAssuranceAndSolaceAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="ConsolationAndSolace" class="display" width="100%"></table>
           </div>
         </div>
@@ -854,6 +908,8 @@
         <div id="BhandaraSewaBaniShabdAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraSewaBaniShabdAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="SewaBani" class="display" width="100%"></table>
           </div>
         </div>
@@ -884,6 +940,8 @@
         <div id="BhandaraArtiShabdAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraArtiShabdAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="Artis" class="display" width="100%"></table>
           </div>
         </div>
@@ -914,6 +972,8 @@
         <div id="BhandaraGloryOfRadhasoamiNaamAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraGloryOfRadhasoamiNaamAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="GloryOfRadhasoamiNaam" class="display" width="100%"></table>
           </div>
         </div>
@@ -944,6 +1004,8 @@
         <div id="BhandaraGhazalAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraGhazalAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="GhazalMasnavi" class="display" width="100%"></table>
           </div>
         </div>
@@ -974,6 +1036,8 @@
         <div id="BhandaraSaawanAccordionBody" class="accordion-collapse collapse"
           aria-labelledby="BhandaraSaawanAccordionHeading" data-bs-parent="#ShabdsByOccasion">
           <div class="accordion-body tableContainer">
+            <button type='button' class='btn btn-outline-primary btn-lg btn-block' onclick='sectionPlayHandler(event)'>Play all in
+              sequence</button>
             <table shabdByCategory id="SaawanHindola" class="display" width="100%"></table>
           </div>
         </div>
